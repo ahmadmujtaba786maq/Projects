@@ -1,0 +1,2815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rocket Bookkeeper – Financial Clarity, Accelerated</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+  :root {
+    --ink: #0f1923;
+    --ink-soft: #2d3a47;
+    --ink-muted: #64748b;
+    --surface: #ffffff;
+    --surface-soft: #f7f8fa;
+    --surface-warm: #fef9f4;
+    --accent: #e85d26;
+    --accent-light: #fff0e8;
+    --accent-hover: #c94d1a;
+    --gold: #c9973a;
+    --gold-light: #fdf4e3;
+    --sky: #1a3a5c;
+    --sky-light: #e8f1fb;
+    --border: #e8ecf0;
+    --border-soft: #f0f2f5;
+    --shadow-sm: 0 2px 8px rgba(15,25,35,0.06);
+    --shadow-md: 0 8px 30px rgba(15,25,35,0.10);
+    --shadow-lg: 0 20px 60px rgba(15,25,35,0.14);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { font-size: 16px; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--ink);
+    background: var(--surface);
+    line-height: 1.6;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* ─── TYPOGRAPHY ─── */
+  h1,h2,h3,h4 { font-family: 'Playfair Display', Georgia, serif; line-height: 1.15; }
+  .section-tag {
+    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--accent-light);
+    padding: 5px 14px;
+    border-radius: 20px;
+    margin-bottom: 18px;
+  }
+
+  /* ─── LAYOUT ─── */
+  .container { max-width: 1120px; margin: 0 auto; padding: 0 48px; }
+  section { padding: 96px 0; }
+
+  /* ─── PAGE BREAKS ─── */
+  .page-break { page-break-after: always; break-after: page; }
+  .page-break-before { page-break-before: always; break-before: page; }
+  .no-break { page-break-inside: avoid; break-inside: avoid; }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  /* NAVIGATION */
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  nav {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 20px 0;
+    position: relative;
+    z-index: 10;
+  }
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .logo-icon {
+    width: 40px;
+    height: 40px;
+    background: var(--accent);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .logo-icon svg { width: 22px; height: 22px; }
+  .logo-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.1;
+  }
+  .logo-sub {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+  }
+  .nav-links {
+    display: flex;
+    gap: 36px;
+    list-style: none;
+  }
+  .nav-links a {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink-soft);
+    text-decoration: none;
+  }
+  .nav-cta {
+    background: var(--accent);
+    color: white !important;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+  }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  /* HERO */
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .hero {
+    background: var(--sky);
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    min-height: 680px;
+    display: flex;
+    align-items: center;
+  }
+  .hero-bg-pattern {
+    position: absolute;
+    inset: 0;
+    background-image:
+      radial-gradient(circle at 70% 50%, rgba(232,93,38,0.15) 0%, transparent 55%),
+      radial-gradient(circle at 20% 80%, rgba(201,151,58,0.10) 0%, transparent 45%);
+  }
+  .hero-grid-lines {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+  .hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 20px;
+    padding: 6px 16px;
+    margin-bottom: 28px;
+  }
+  .hero-eyebrow-dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  .hero-eyebrow span {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.8);
+  }
+  .hero h1 {
+    font-size: 54px;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1.08;
+    margin-bottom: 24px;
+  }
+  .hero h1 em {
+    font-style: normal;
+    color: var(--accent);
+  }
+  .hero-sub {
+    font-size: 18px;
+    color: rgba(255,255,255,0.72);
+    line-height: 1.65;
+    margin-bottom: 42px;
+    font-weight: 300;
+  }
+  .hero-actions {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .btn-primary {
+    background: var(--accent);
+    color: white;
+    padding: 16px 34px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 8px 24px rgba(232,93,38,0.35);
+  }
+  .btn-outline {
+    background: transparent;
+    color: white;
+    border: 1.5px solid rgba(255,255,255,0.35);
+    padding: 16px 34px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .hero-trust {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .hero-trust-avatars {
+    display: flex;
+  }
+  .avatar-circle {
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    border: 2px solid var(--sky);
+    margin-left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+  }
+  .avatar-circle:first-child { margin-left: 0; }
+  .hero-trust-text {
+    font-size: 13px;
+    color: rgba(255,255,255,0.65);
+    line-height: 1.4;
+  }
+  .hero-trust-text strong {
+    color: rgba(255,255,255,0.9);
+    display: block;
+    font-weight: 600;
+  }
+  /* Hero Right — Video Mockup */
+  .hero-visual {
+    position: relative;
+  }
+  .hero-video-frame {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 20px;
+    overflow: hidden;
+    aspect-ratio: 16/10;
+    position: relative;
+    backdrop-filter: blur(8px);
+  }
+  .hero-video-inner {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(26,58,92,0.8) 0%, rgba(15,25,35,0.9) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .play-btn {
+    width: 72px; height: 72px;
+    border-radius: 50%;
+    background: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0 16px rgba(232,93,38,0.15);
+  }
+  .play-btn svg { width: 28px; height: 28px; margin-left: 4px; }
+  .video-label {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background: rgba(15,25,35,0.85);
+    border-radius: 10px;
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .video-label-text {
+    font-size: 13px;
+    color: rgba(255,255,255,0.85);
+    font-weight: 500;
+  }
+  .video-label-time {
+    font-size: 12px;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .hero-stat-pills {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .stat-pill {
+    background: white;
+    border-radius: 50px;
+    padding: 10px 18px;
+    box-shadow: var(--shadow-md);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+  }
+  .stat-pill-icon {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .stat-pill-icon.green { background: #e6f7ee; }
+  .stat-pill-icon.orange { background: var(--accent-light); }
+  .stat-pill-num {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1;
+  }
+  .stat-pill-label {
+    font-size: 11px;
+    color: var(--ink-muted);
+  }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  /* VIDEO SCRIPT */
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .video-script-section {
+    background: var(--surface-warm);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 80px 0;
+  }
+  .script-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: var(--shadow-md);
+    padding: 52px 60px;
+    max-width: 860px;
+    margin: 0 auto;
+    border: 1px solid var(--border);
+  }
+  .script-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 36px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .script-icon {
+    width: 52px; height: 52px;
+    background: var(--accent-light);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-shrink: 0;
+  }
+  .script-header-text h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 4px;
+  }
+  .script-header-text p { font-size: 14px; color: var(--ink-muted); }
+  .script-body { font-size: 15px; line-height: 1.85; color: var(--ink-soft); }
+  .script-scene {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 24px;
+  }
+  .scene-time {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    text-transform: uppercase;
+    background: var(--accent-light);
+    padding: 4px 10px;
+    border-radius: 6px;
+    height: fit-content;
+    white-space: nowrap;
+    margin-top: 2px;
+    flex-shrink: 0;
+  }
+  .scene-text { font-size: 14.5px; color: var(--ink-soft); }
+  .scene-text em { font-style: italic; color: var(--ink-muted); font-size: 13px; }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  /* PROBLEMS */
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .problems-section {
+    background: var(--ink);
+    padding: 96px 0;
+  }
+  .section-header { text-align: center; margin-bottom: 64px; }
+  .section-header.light h2 { color: white; }
+  .section-header.light p { color: rgba(255,255,255,0.6); }
+  .section-tag.on-dark {
+    background: rgba(232,93,38,0.2);
+    color: #ff8a60;
+  }
+  .section-header h2 {
+    font-size: 46px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 18px;
+    line-height: 1.12;
+  }
+  .section-header p {
+    font-size: 17px;
+    color: var(--ink-muted);
+    max-width: 560px;
+    margin: 0 auto;
+    line-height: 1.65;
+  }
+  .problems-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 60px;
+  }
+  .problem-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+    padding: 32px 28px;
+  }
+  .problem-icon {
+    width: 48px; height: 48px;
+    border-radius: 12px;
+    background: rgba(232,93,38,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-bottom: 18px;
+  }
+  .problem-card h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .problem-card p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.65;
+  }
+  .problem-impact {
+    margin-top: 16px;
+    padding-top: 14px;
+    border-top: 1px solid rgba(255,255,255,0.07);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .impact-tag {
+    font-size: 11.5px;
+    font-weight: 600;
+    color: #ff8a60;
+  }
+  .problems-cta {
+    text-align: center;
+    padding: 44px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 20px;
+  }
+  .problems-cta h3 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 12px;
+  }
+  .problems-cta p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.55);
+    margin-bottom: 28px;
+  }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  /* SOLUTION */
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .solution-section { background: var(--surface-soft); }
+  .solution-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+  .solution-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 36px 0;
+  }
+  .benefit-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .benefit-check {
+    width: 26px; height: 26px;
+    border-radius: 50%;
+    background: #e6f7ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .benefit-check svg { width: 13px; height: 13px; }
+  .benefit-text h5 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 4px;
+  }
+  .benefit-text p { font-size: 13.5px; color: var(--ink-muted); }
+  .promise-box {
+    background: var(--accent);
+    border-radius: 16px;
+    padding: 28px 32px;
+    margin-top: 36px;
+  }
+  .promise-box h4 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 8px;
+  }
+  .promise-box p { font-size: 14px; color: rgba(255,255,255,0.82); line-height: 1.6; }
+  .solution-visual {
+    position: relative;
+  }
+  .dashboard-mockup {
+    background: white;
+    border-radius: 20px;
+    box-shadow: var(--shadow-lg);
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+  .dash-header {
+    background: var(--sky);
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .dash-dots { display: flex; gap: 6px; }
+  .dash-dot {
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.25);
+  }
+  .dash-title { font-size: 13px; color: rgba(255,255,255,0.7); font-weight: 500; }
+  .dash-body { padding: 28px 24px; }
+  .dash-kpis {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin-bottom: 24px;
+  }
+  .kpi-box {
+    background: var(--surface-soft);
+    border-radius: 10px;
+    padding: 16px;
+    border: 1px solid var(--border-soft);
+  }
+  .kpi-label { font-size: 10px; color: var(--ink-muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 6px; }
+  .kpi-value { font-size: 20px; font-weight: 700; color: var(--ink); line-height: 1; }
+  .kpi-delta { font-size: 11px; font-weight: 600; margin-top: 4px; }
+  .kpi-delta.up { color: #22a35a; }
+  .kpi-delta.down { color: #e85d26; }
+  .dash-chart {
+    background: var(--surface-soft);
+    border-radius: 10px;
+    padding: 16px;
+    border: 1px solid var(--border-soft);
+    margin-bottom: 16px;
+  }
+  .chart-bars {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    height: 80px;
+  }
+  .chart-bar {
+    flex: 1;
+    background: var(--sky);
+    border-radius: 4px 4px 0 0;
+    opacity: 0.7;
+  }
+  .chart-bar.accent { background: var(--accent); opacity: 1; }
+  .dash-transactions { display: flex; flex-direction: column; gap: 10px; }
+  .txn-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    background: var(--surface-soft);
+    border-radius: 8px;
+    border: 1px solid var(--border-soft);
+  }
+  .txn-left { display: flex; align-items: center; gap: 10px; }
+  .txn-dot { width: 8px; height: 8px; border-radius: 50%; }
+  .txn-dot.green { background: #22a35a; }
+  .txn-dot.orange { background: var(--accent); }
+  .txn-dot.blue { background: #3b82f6; }
+  .txn-name { font-size: 12.5px; color: var(--ink); font-weight: 500; }
+  .txn-amount { font-size: 12.5px; font-weight: 600; }
+  .txn-amount.positive { color: #22a35a; }
+  .txn-amount.negative { color: var(--accent); }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  /* HOW IT WORKS */
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .how-section { background: var(--surface); }
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    position: relative;
+    margin-top: 60px;
+  }
+  .step-connector {
+    position: absolute;
+    top: 36px;
+    left: 12.5%;
+    right: 12.5%;
+    height: 2px;
+    background: linear-gradient(90deg, var(--border) 0%, var(--accent) 50%, var(--border) 100%);
+    z-index: 0;
+  }
+  .step-item {
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+  }
+  .step-num-wrap {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .step-num {
+    width: 72px; height: 72px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--accent);
+    font-family: 'Playfair Display', serif;
+    box-shadow: 0 0 0 8px var(--accent-light);
+    margin-bottom: 0;
+  }
+  .step-icon-row {
+    width: 44px; height: 44px;
+    background: var(--accent);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 0 auto 16px;
+    box-shadow: 0 6px 20px rgba(232,93,38,0.25);
+    position: relative;
+    z-index: 1;
+  }
+  .step-item h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 10px;
+  }
+  .step-item p { font-size: 13.5px; color: var(--ink-muted); line-height: 1.65; }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  /* INDUSTRIES */
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .industries-section { background: var(--surface-soft); }
+  .industries-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 52px;
+  }
+  .industry-card {
+    background: white;
+    border-radius: 16px;
+    padding: 28px 24px;
+    border: 1px solid var(--border);
+    text-align: center;
+    transition: all 0.2s;
+  }
+  .industry-icon-wrap {
+    width: 60px; height: 60px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    margin: 0 auto 16px;
+  }
+  .industry-card h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+  .industry-card p { font-size: 13px; color: var(--ink-muted); line-height: 1.55; }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  /* TESTIMONIALS */
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .testimonials-section { background: var(--gold-light); }
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 52px;
+  }
+  .testimonial-card {
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border);
+  }
+  .testimonial-video-thumb {
+    aspect-ratio: 16/9;
+    background: var(--sky);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .play-sm {
+    width: 52px; height: 52px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  }
+  .play-sm svg { width: 18px; height: 18px; margin-left: 3px; }
+  .thumb-label {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    right: 12px;
+    background: rgba(15,25,35,0.8);
+    border-radius: 8px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .thumb-avatar {
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    color: white;
+    flex-shrink: 0;
+  }
+  .thumb-name { font-size: 12px; font-weight: 600; color: white; }
+  .thumb-biz { font-size: 11px; color: rgba(255,255,255,0.6); }
+  .testimonial-body { padding: 22px 22px 24px; }
+  .stars { color: var(--gold); font-size: 14px; margin-bottom: 12px; }
+  .testimonial-quote {
+    font-size: 14px;
+    color: var(--ink-soft);
+    line-height: 1.7;
+    font-style: italic;
+    margin-bottom: 14px;
+  }
+  .testimonial-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--border-soft);
+    padding-top: 12px;
+  }
+  .meta-name { font-size: 13px; font-weight: 700; color: var(--ink); }
+  .meta-role { font-size: 12px; color: var(--ink-muted); }
+  .meta-savings {
+    font-size: 13px;
+    font-weight: 700;
+    color: #22a35a;
+    background: #e6f7ee;
+    padding: 4px 10px;
+    border-radius: 20px;
+  }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  /* HYPER-LOCAL */
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .local-section { background: var(--sky-light); }
+  .local-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 72px;
+    align-items: center;
+  }
+  .local-credentials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 36px;
+  }
+  .credential-box {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+  }
+  .cred-icon { font-size: 22px; margin-bottom: 10px; }
+  .cred-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13.5px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 4px;
+  }
+  .cred-desc { font-size: 12px; color: var(--ink-muted); line-height: 1.55; }
+  .local-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .stat-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px 28px;
+  }
+  .stat-big {
+    font-size: 38px;
+    font-weight: 900;
+    color: var(--accent);
+    font-family: 'Playfair Display', serif;
+    white-space: nowrap;
+    min-width: 90px;
+  }
+  .stat-desc h5 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 4px;
+  }
+  .stat-desc p { font-size: 13px; color: var(--ink-muted); }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  /* ABOUT */
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .about-section { background: var(--surface); }
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: start;
+  }
+  .about-story p {
+    font-size: 15.5px;
+    color: var(--ink-soft);
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  .about-values {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 32px;
+  }
+  .value-chip {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--surface-soft);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .value-chip-icon {
+    width: 32px; height: 32px;
+    background: var(--accent-light);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    flex-shrink: 0;
+  }
+  .value-chip span {
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .about-right { display: flex; flex-direction: column; gap: 20px; }
+  .founder-card {
+    background: var(--surface-soft);
+    border-radius: 18px;
+    padding: 32px;
+    border: 1px solid var(--border);
+  }
+  .founder-avatar-area {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 20px;
+  }
+  .founder-avatar {
+    width: 64px; height: 64px;
+    border-radius: 50%;
+    background: var(--sky);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    flex-shrink: 0;
+    border: 3px solid var(--accent);
+  }
+  .founder-info h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 3px;
+  }
+  .founder-info span { font-size: 13px; color: var(--accent); font-weight: 500; }
+  .founder-quote {
+    font-size: 14.5px;
+    color: var(--ink-soft);
+    line-height: 1.75;
+    font-style: italic;
+    border-left: 3px solid var(--accent);
+    padding-left: 16px;
+  }
+  .trust-badges {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+  .trust-badge {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 14px;
+    text-align: center;
+  }
+  .trust-badge-icon { font-size: 22px; margin-bottom: 8px; }
+  .trust-badge-text {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--ink);
+    line-height: 1.3;
+  }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  /* TRUST BUILDING */
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .trust-section {
+    background: var(--surface);
+    padding: 96px 0;
+  }
+  .trust-promises-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 60px;
+    margin-bottom: 64px;
+  }
+  .promise-card {
+    border-radius: 20px;
+    padding: 36px 30px;
+    border: 1.5px solid var(--border);
+    position: relative;
+    overflow: hidden;
+    background: white;
+  }
+  .promise-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+  }
+  .promise-card.orange::before { background: var(--accent); }
+  .promise-card.navy::before { background: var(--sky); }
+  .promise-card.green::before { background: #22a35a; }
+  .promise-card.gold::before { background: var(--gold); }
+  .promise-card.blue::before { background: #3b82f6; }
+  .promise-card.purple::before { background: #7c3aed; }
+  .promise-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 16px;
+    opacity: 0.08;
+    position: absolute;
+    top: 20px;
+    right: 24px;
+  }
+  .promise-card.orange .promise-num { color: var(--accent); }
+  .promise-card.navy .promise-num { color: var(--sky); }
+  .promise-card.green .promise-num { color: #22a35a; }
+  .promise-card.gold .promise-num { color: var(--gold); }
+  .promise-card.blue .promise-num { color: #3b82f6; }
+  .promise-card.purple .promise-num { color: #7c3aed; }
+  .promise-icon-big {
+    font-size: 34px;
+    margin-bottom: 16px;
+    display: block;
+  }
+  .promise-card h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 10px;
+    line-height: 1.3;
+  }
+  .promise-card p {
+    font-size: 14px;
+    color: var(--ink-muted);
+    line-height: 1.7;
+  }
+  .promise-seal {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 14px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 12px;
+    border-radius: 20px;
+  }
+  .promise-card.orange .promise-seal { background: var(--accent-light); color: var(--accent); }
+  .promise-card.navy .promise-seal { background: var(--sky-light); color: var(--sky); }
+  .promise-card.green .promise-seal { background: #e6f7ee; color: #22a35a; }
+  .promise-card.gold .promise-seal { background: var(--gold-light); color: var(--gold); }
+  .promise-card.blue .promise-seal { background: #eff6ff; color: #3b82f6; }
+  .promise-card.purple .promise-seal { background: #f5f3ff; color: #7c3aed; }
+
+  /* Trust Banner */
+  .trust-banner {
+    background: linear-gradient(135deg, var(--sky) 0%, #0d2540 100%);
+    border-radius: 24px;
+    padding: 52px 64px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 48px;
+    align-items: center;
+  }
+  .trust-banner-left h3 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 14px;
+    line-height: 1.2;
+  }
+  .trust-banner-left p {
+    font-size: 15px;
+    color: rgba(255,255,255,0.65);
+    line-height: 1.7;
+    max-width: 520px;
+  }
+  .trust-banner-right {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    min-width: 200px;
+  }
+  .trust-banner-stat {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 14px;
+    padding: 16px 22px;
+    text-align: center;
+  }
+  .tbs-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    line-height: 1;
+  }
+  .tbs-label {
+    font-size: 12px;
+    color: rgba(255,255,255,0.55);
+    margin-top: 4px;
+  }
+
+  /* Certifications strip */
+  .cert-strip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 56px;
+    padding-top: 52px;
+    border-top: 1px solid var(--border);
+  }
+  .cert-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    opacity: 0.7;
+  }
+  .cert-logo {
+    width: 44px; height: 44px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    border: 1px solid var(--border);
+    background: white;
+  }
+  .cert-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink-soft);
+    line-height: 1.3;
+  }
+  .cert-sub { font-size: 11px; color: var(--ink-muted); }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  /* GOOGLE / TRUSTPILOT REVIEWS */
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .reviews-section {
+    background: var(--surface-soft);
+    padding: 96px 0;
+  }
+  .reviews-platforms {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-bottom: 52px;
+  }
+  .platform-badge {
+    border-radius: 20px;
+    padding: 32px 36px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    border: 1.5px solid var(--border);
+  }
+  .platform-badge.google { background: white; }
+  .platform-badge.trustpilot { background: #00b67a; }
+  .platform-logo {
+    flex-shrink: 0;
+  }
+  .google-logo-circle {
+    width: 64px; height: 64px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid #e8ecf0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 28px;
+    box-shadow: var(--shadow-sm);
+  }
+  .tp-logo-circle {
+    width: 64px; height: 64px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.2);
+    border: 2px solid rgba(255,255,255,0.3);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 28px;
+  }
+  .platform-info { flex: 1; }
+  .platform-name {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  .platform-badge.google .platform-name { color: var(--ink); }
+  .platform-badge.trustpilot .platform-name { color: white; }
+  .platform-rating-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+  .platform-stars-lg { font-size: 20px; line-height: 1; }
+  .platform-score {
+    font-size: 26px;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+    line-height: 1;
+  }
+  .platform-badge.google .platform-score { color: var(--ink); }
+  .platform-badge.trustpilot .platform-score { color: white; }
+  .platform-count {
+    font-size: 13px;
+  }
+  .platform-badge.google .platform-count { color: var(--ink-muted); }
+  .platform-badge.trustpilot .platform-count { color: rgba(255,255,255,0.75); }
+  .platform-badge-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
+  }
+  .platform-badge.google .platform-badge-label {
+    background: #e6f7ee;
+    color: #22a35a;
+  }
+  .platform-badge.trustpilot .platform-badge-label {
+    background: rgba(255,255,255,0.2);
+    color: white;
+  }
+
+  /* Review cards grid */
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .review-card {
+    background: white;
+    border-radius: 16px;
+    padding: 26px 24px;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .review-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .reviewer-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .reviewer-avatar {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    flex-shrink: 0;
+  }
+  .reviewer-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.2;
+  }
+  .reviewer-date {
+    font-size: 11.5px;
+    color: var(--ink-muted);
+    margin-top: 2px;
+  }
+  .review-source-icon {
+    font-size: 20px;
+    opacity: 0.6;
+  }
+  .review-stars { font-size: 14px; color: var(--gold); }
+  .review-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14.5px;
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .review-text {
+    font-size: 13.5px;
+    color: var(--ink-soft);
+    line-height: 1.75;
+    flex: 1;
+  }
+  .review-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 12px;
+    border-top: 1px solid var(--border-soft);
+  }
+  .review-service {
+    font-size: 11.5px;
+    color: var(--ink-muted);
+    background: var(--surface-soft);
+    padding: 3px 10px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+  }
+  .review-helpful {
+    font-size: 11.5px;
+    color: var(--ink-muted);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .reviews-cta-bar {
+    margin-top: 48px;
+    background: white;
+    border: 1.5px solid var(--border);
+    border-radius: 18px;
+    padding: 32px 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .rcta-left { display: flex; align-items: center; gap: 20px; }
+  .rcta-icon {
+    width: 52px; height: 52px;
+    background: var(--accent-light);
+    border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 24px;
+    flex-shrink: 0;
+  }
+  .rcta-text h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 4px;
+  }
+  .rcta-text p { font-size: 13.5px; color: var(--ink-muted); }
+  .rcta-links { display: flex; gap: 12px; align-items: center; }
+  .rcta-link {
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  .rcta-link.google-link {
+    background: #f1f3f4;
+    color: #4285f4;
+  }
+  .rcta-link.tp-link {
+    background: #00b67a;
+    color: white;
+  }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  /* CONTACT FORM */
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .contact-section { background: var(--surface-soft); }
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 72px;
+    align-items: start;
+  }
+  .contact-info h2 {
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 18px;
+    line-height: 1.18;
+  }
+  .contact-info p { font-size: 15px; color: var(--ink-muted); line-height: 1.7; margin-bottom: 36px; }
+  .contact-details { display: flex; flex-direction: column; gap: 16px; }
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .contact-item-icon {
+    width: 42px; height: 42px;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+  .contact-item-text span {
+    display: block;
+    font-size: 11px;
+    color: var(--ink-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 2px;
+  }
+  .contact-item-text strong { font-size: 14.5px; color: var(--ink); }
+  .form-card {
+    background: white;
+    border-radius: 20px;
+    padding: 44px 48px;
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border);
+  }
+  .form-title { font-size: 22px; font-weight: 700; color: var(--ink); margin-bottom: 6px; }
+  .form-sub { font-size: 14px; color: var(--ink-muted); margin-bottom: 32px; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .form-group { margin-bottom: 20px; }
+  .form-label {
+    display: block;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 8px;
+  }
+  .form-input {
+    width: 100%;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    padding: 13px 16px;
+    font-size: 14.5px;
+    color: var(--ink);
+    background: var(--surface-soft);
+    font-family: 'DM Sans', sans-serif;
+  }
+  .form-input::placeholder { color: #c0c8d0; }
+  textarea.form-input {
+    height: 110px;
+    resize: none;
+  }
+  .form-submit {
+    width: 100%;
+    background: var(--accent);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 0 6px 20px rgba(232,93,38,0.3);
+  }
+  .form-disclaimer {
+    font-size: 12px;
+    color: var(--ink-muted);
+    text-align: center;
+    margin-top: 14px;
+  }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  /* FAQS */
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  .faq-section { background: white; }
+  .faq-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 72px;
+    align-items: start;
+  }
+  .faq-sidebar h2 {
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 18px;
+    line-height: 1.18;
+  }
+  .faq-sidebar p { font-size: 15px; color: var(--ink-muted); line-height: 1.7; margin-bottom: 32px; }
+  .faq-list { display: flex; flex-direction: column; gap: 12px; }
+  .faq-item {
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+  .faq-q {
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .faq-q-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .faq-chevron {
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    background: var(--accent-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--accent);
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .faq-a {
+    background: var(--surface-soft);
+    padding: 16px 24px 20px;
+    font-size: 14.5px;
+    color: var(--ink-soft);
+    line-height: 1.75;
+    border-top: 1px solid var(--border);
+  }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  /* FOOTER */
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  footer {
+    background: var(--ink);
+    padding: 72px 0 40px;
+  }
+  .footer-top {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 60px;
+  }
+  .footer-brand p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.75;
+    margin-top: 20px;
+    max-width: 280px;
+  }
+  .footer-col h5 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.4);
+    margin-bottom: 20px;
+  }
+  .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .footer-col ul li a { font-size: 14px; color: rgba(255,255,255,0.65); text-decoration: none; }
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-bottom p { font-size: 13px; color: rgba(255,255,255,0.35); }
+
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  /* PRINT OVERRIDES */
+  /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+  @media print {
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    nav, .hero, section, footer { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════ -->
+<!-- NAVIGATION                          -->
+<!-- ═══════════════════════════════════ -->
+<nav>
+  <div class="container">
+    <div class="nav-inner">
+      <div class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L8 8H4L6.5 13L4 18H8L12 22L16 18H20L17.5 13L20 8H16L12 2Z" fill="white" stroke="white" stroke-width="0.5"/>
+          </svg>
+        </div>
+        <div>
+          <div class="logo-text">Rocket Bookkeeper</div>
+          <div class="logo-sub">Financial Clarity, Accelerated</div>
+        </div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Industries</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#" class="nav-cta">Free Consultation</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="page-break"></div>
+
+<!-- ═══════════════════════════════════ -->
+<!-- HERO                                -->
+<!-- ═══════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-bg-pattern"></div>
+  <div class="hero-grid-lines"></div>
+  <div class="container" style="width:100%;">
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="hero-eyebrow">
+          <div class="hero-eyebrow-dot"></div>
+          <span>Trusted by 500+ Business Owners</span>
+        </div>
+        <h1>Stop Guessing.<br>Start <em>Growing.</em></h1>
+        <p class="hero-sub">Rocket Bookkeeper handles your books with precision so you can focus on what you do best — running your business. Clean numbers, zero stress, full clarity.</p>
+        <div class="hero-actions">
+          <a href="#" class="btn-primary">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1L14 8L8 15M2 8H14" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Get Free Consultation
+          </a>
+          <a href="#" class="btn-outline">Watch Our Story</a>
+        </div>
+        <div class="hero-trust">
+          <div class="hero-trust-avatars">
+            <div class="avatar-circle" style="background:#e85d26;">AK</div>
+            <div class="avatar-circle" style="background:#1a3a5c;">SR</div>
+            <div class="avatar-circle" style="background:#c9973a;">MH</div>
+            <div class="avatar-circle" style="background:#22a35a;">ZB</div>
+          </div>
+          <div class="hero-trust-text">
+            <strong>500+ Businesses Trust Us</strong>
+            Average client saves 12 hrs/month on finances
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-stat-pills">
+          <div class="stat-pill">
+            <div class="stat-pill-icon green">📈</div>
+            <div>
+              <div class="stat-pill-num">+34%</div>
+              <div class="stat-pill-label">Profit Visibility</div>
+            </div>
+          </div>
+          <div class="stat-pill">
+            <div class="stat-pill-icon orange">⏱</div>
+            <div>
+              <div class="stat-pill-num">12 hrs</div>
+              <div class="stat-pill-label">Saved Monthly</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-video-frame">
+          <div class="hero-video-inner">
+            <div class="play-btn">
+              <svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+            <div class="video-label">
+              <div>
+                <div class="video-label-text">Introduction to Rocket Bookkeeper</div>
+                <div style="font-size:11px;color:rgba(255,255,255,0.45);margin-top:2px;">How we transform your financial chaos into clarity</div>
+              </div>
+              <div class="video-label-time">1:42</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="page-break"></div>
+
+<!-- ═══════════════════════════════════ -->
+<!-- HERO VIDEO SCRIPT                   -->
+<!-- ═══════════════════════════════════ -->
+<section class="video-script-section">
+  <div class="container">
+    <div style="text-align:center; margin-bottom: 40px;">
+      <span class="section-tag">Hero Video</span>
+      <h2 style="font-size:36px; color:var(--ink);">30–60 Second Video Script</h2>
+      <p style="color:var(--ink-muted);font-size:15px;max-width:500px;margin:12px auto 0;">A conversion-focused script that addresses pain points and delivers a clear value proposition.</p>
+    </div>
+    <div class="script-card">
+      <div class="script-header">
+        <div class="script-icon">🎬</div>
+        <div class="script-header-text">
+          <h3>Rocket Bookkeeper — Hero Video Script</h3>
+          <p>Recommended duration: 45–60 seconds · Tone: Confident, warm, direct</p>
+        </div>
+      </div>
+      <div class="script-body">
+        <div class="script-scene">
+          <div class="scene-time">0:00–0:05</div>
+          <div class="scene-text">
+            <strong>HOOK — Pain Point</strong><br>
+            "You started your business to follow your passion — not to drown in receipts, invoices, and spreadsheets at midnight."<br>
+            <em>[Visuals: entrepreneur looking stressed at desk, stack of papers, messy accounts]</em>
+          </div>
+        </div>
+        <div class="script-scene">
+          <div class="scene-time">0:06–0:14</div>
+          <div class="scene-text">
+            <strong>AGITATE — Consequences</strong><br>
+            "Messy books mean missed tax deductions, cash flow surprises, and decisions made in the dark. That's not just stressful — it's costing you money."<br>
+            <em>[Visuals: notification pings, tax deadlines, confused expressions]</em>
+          </div>
+        </div>
+        <div class="script-scene">
+          <div class="scene-time">0:15–0:28</div>
+          <div class="scene-text">
+            <strong>INTRODUCE THE SOLUTION</strong><br>
+            "Rocket Bookkeeper changes that. We handle your bookkeeping with accuracy, speed, and zero fluff — so your numbers are always clean, current, and working for you."<br>
+            <em>[Visuals: clean dashboard, organized reports, real-time data, bookkeeper at work]</em>
+          </div>
+        </div>
+        <div class="script-scene">
+          <div class="scene-time">0:29–0:42</div>
+          <div class="scene-text">
+            <strong>BENEFITS + SOCIAL PROOF</strong><br>
+            "500+ business owners trust us to track every dollar, reconcile every account, and keep them tax-ready year-round. On average, our clients save 12 hours every single month."<br>
+            <em>[Visuals: client testimonial clips, split-screen before/after books, smiling clients]</em>
+          </div>
+        </div>
+        <div class="script-scene">
+          <div class="scene-time">0:43–0:55</div>
+          <div class="scene-text">
+            <strong>CTA — Strong Close</strong><br>
+            "Ready to stop guessing and start growing? Book your free consultation today. Rocket Bookkeeper — financial clarity, accelerated."<br>
+            <em>[Visuals: clean CTA screen with logo, website URL, phone number overlay]</em>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="page-break"></div>
+
+<!-- ═══════════════════════════════════ -->
+<!-- PROBLEMS                            -->
+<!-- ═══════════════════════════════════ -->
+<section class="problems-section">
+  <div class="container">
+    <div class="section-header light">
+      <span class="section-tag on-dark">The Real Cost of Messy Books</span>
+      <h2>Does Any of This Feel Familiar?</h2>
+      <p>Most business owners are silently bleeding time and money because of avoidable bookkeeping problems.</p>
+    </div>
+    <div class="problems-grid">
+      <div class="problem-card no-break">
+        <div class="problem-icon">😰</div>
+        <h4>Tax Season Panic</h4>
+        <p>Every year, you scramble to gather receipts and records at the last minute, leaving money on the table with missed deductions.</p>
+        <div class="problem-impact"><span class="impact-tag">⚠ Avg. missed deductions: $4,200/year</span></div>
+      </div>
+      <div class="problem-card no-break">
+        <div class="problem-icon">🌀</div>
+        <h4>Cash Flow Blindness</h4>
+        <p>You check your bank balance to "see how you're doing" — but that number tells you nothing about where your business actually stands.</p>
+        <div class="problem-impact"><span class="impact-tag">⚠ 82% of small biz failures: cash flow</span></div>
+      </div>
+      <div class="problem-card no-break">
+        <div class="problem-icon">🕳</div>
+        <h4>Uncategorized Expenses</h4>
+        <p>Transactions pile up uncategorized for weeks. By the time you look, it's a mess that takes hours to untangle — if ever.</p>
+        <div class="problem-impact"><span class="impact-tag">⚠ Wastes 8–15 hrs of owner time/month</span></div>
+      </div>
+      <div class="problem-card no-break">
+        <div class="problem-icon">🔀</div>
+        <h4>Mixed Personal & Business</h4>
+        <p>Personal and business transactions run through the same account. Your books are a tangle that neither you nor your accountant can trust.</p>
+        <div class="problem-impact"><span class="impact-tag">⚠ Triggers IRS audit flags</span></div>
+      </div>
+      <div class="problem-card no-break">
+        <div class="problem-icon">📉</div>
+        <h4>No Profit Visibility</h4>
+        <p>Revenue is up but profit feels elusive. Without clean P&L reports, you don't know which services are actually making you money.</p>
+        <div class="problem-impact"><span class="impact-tag">⚠ Prevents smart pricing decisions</span></div>
+      </div>
+      <div class="problem-card no-break">
+        <div class="problem-icon">⏳</div>
+        <h4>DIY Bookkeeping Burnout</h4>
+        <p>You're a business owner doing everything yourself. Bookkeeping steals hours from revenue-generating work — and you still worry it's wrong.</p>
+        <div class="problem-impact"><span class="impact-tag">⚠ $1,200+ lost in opportunity cost/month</span></div>
+      </div>
+    </div>
+    <div class="problems-cta no-break">
+      <h3>Sound Familiar? There's a Better Way.</h3>
+      <p>You deserve financial clarity without the stress. Let Rocket Bookkeeper handle the numbers.</p>
+      <a href="#" class="btn-primary" style="display:inline-flex;">Schedule My Free Call →</a>
+    </div>
+  </div>
+</section>
+
+<div class="page-break"></div>
+
+<!-- ═══════════════════════════════════ -->
+<!-- SOLUTION                            -->
+<!-- ═══════════════════════════════════ -->
+<section class="solution-section">
+  <div class="container">
+    <div class="solution-grid">
+      <div>
+        <span class="section-tag">The Rocket Way</span>
+        <h2 style="font-size:42px; margin-bottom:18px;">Your Bookkeeping, Done Right — Every Month</h2>
+        <p style="font-size:16px;color:var(--ink-muted);line-height:1.75;">We don't just categorize transactions. We give you a complete financial picture — accurate, timely, and actionable — so you can make decisions with confidence.</p>
+        <div class="solution-benefits">
+          <div class="benefit-row">
+            <div class="benefit-check">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L20 7" stroke="#22a35a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="benefit-text">
+              <h5>Monthly Reconciled Books</h5>
+              <p>Every account balanced, every transaction categorized — delivered by the 5th of each month.</p>
+            </div>
+          </div>
+          <div class="benefit-row">
+            <div class="benefit-check">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L20 7" stroke="#22a35a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="benefit-text">
+              <h5>Real-Time Dashboard Access</h5>
+              <p>Log in anytime to see your P&L, cash flow, and expense breakdown — no accountant required to decode it.</p>
+            </div>
+          </div>
+          <div class="benefit-row">
+            <div class="benefit-check">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L20 7" stroke="#22a35a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="benefit-text">
+              <h5>Tax-Ready Financials Year-Round</h5>
+              <p>No more scrambling. Your CPA will thank you — and so will your tax refund.</p>
+            </div>
+          </div>
+          <div class="benefit-row">
+            <div class="benefit-check">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M5 12l5 5L20 7" stroke="#22a35a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="benefit-text">
+              <h5>Dedicated Bookkeeping Team</h5>
+              <p>A real person who knows your business — not a bot, not a faceless service.</p>
+            </div>
+          </div>
+        </div>
+        <div class="promise-box">
+          <h4>🚀 Our Guarantee</h4>
+          <p>If your books aren't fully reconciled and delivered on time every month, we'll give you that month free — no questions asked. That's how confident we are in our process.</p>
+        </div>
+      </div>
+      <div class="solution-visual">
+        <div class="dashboard-mockup">
+          <div class="dash-header">
+            <div class="dash-dots">
+              <div class="dash-dot"></div>
+              <div class="dash-dot"></div>
+              <div class="dash-dot"></div>
+            </div>
+            <div class="dash-title">Rocket Dashboard — March 2026</div>
+          </div>
+          <div class="dash-body">
+            <div class="dash-kpis">
+              <div class="kpi-box">
+                <div class="kpi-label">Revenue</div>
+                <div class="kpi-value">$48,200</div>
+                <div class="kpi-delta up">↑ 12% vs last month</div>
+              </div>
+              <div class="kpi-box">
+                <div class="kpi-label">Expenses</div>
+                <div class="kpi-value">$18,740</div>
+                <div class="kpi-delta down">↓ 4% vs last month</div>
+              </div>
+              <div class="kpi-box">
+                <div class="kpi-label">Net Profit</div>
+                <div class="kpi-value">$29,460</div>
+                <div class="kpi-delta up">↑ 61% margin</div>
+              </div>
+            </div>
+            <div class="dash-chart">
+              <div style="font-size:11px;font-weight:600;color:var(--ink-muted);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:12px;">Revenue vs Expenses — Last 6 Months</div>
+              <div class="chart-bars">
+                <div class="chart-bar" style="height:55%;"></div>
+                <div class="chart-bar" style="height:40%;background:rgba(232,93,38,0.3);"></div>
+                <div class="chart-bar" style="height:65%;"></div>
+                <div class="chart-bar" style="height:48%;background:rgba(232,93,38,0.3);"></div>
+                <div class="chart-bar" style="height:80%;"></div>
+                <div class="chart-bar accent" style="height:55%;background:rgba(232,93,38,0.4);"></div>
+                <div class="chart-bar" style="height:88%;"></div>
+                <div class="chart-bar accent" style="height:60%;background:rgba(232,93,38,0.4);"></div>
+                <div class="chart-bar" style="height:72%;"></div>
+                <div class="chart-bar accent" style="height:50%;background:rgba(232,93,38,0.4);"></div>
+                <div class="chart-bar" style="height:95%;"></div>
+                <div class="chart-bar accent" style="height:48%;background:rgba(232,93,38,0.4);"></div>
+              </div>
+            </div>
+            <div style="font-size:11px;font-weight:600;color:var(--ink-muted);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:10px;">Recent Transactions</div>
+            <div class="dash-transactions">
+              <div class="txn-row">
+                <div class="txn-left"><div class="txn-dot green"></div><div class="txn-name">Client Invoice — Acme Corp</div></div>
+                <div class="txn-amount positive">+$6,500</div>
+              </div>
+              <div class="txn-row">
+                <div class="txn-left"><div class="txn-dot orange"></div><div class="txn-name">SaaS Subscription — Tools</div></div>
+                <div class="txn-amount negative">-$240</div>
+              </div>
+              <div class="txn-row">
+                <div class="txn-left"><div class="txn-dot blue"></div><div class="txn-name">Payroll — March Cycle</div></div>
+                <div class="txn-amount negative">-$8,200</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="page-break"></div>
+
+<!-- ═══════════════════════════════════ -->
+<!-- HOW IT WORKS                        -->
+<!-- ═══════════════════════════════════ -->
+<section class="how-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Simple Process</span>
+      <h2>How It Works</h2>
+      <p>Getting started is effortless. We handle the complexity — you just enjoy the clarity.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step-connector"></div>
+      <div class="step-item no-break">
+        <div class="step-icon-row">📋</div>
+        <h4>1. Free Discovery Call</h4>
+        <p>We learn your business, goals, and current bookkeeping setup. 30 minutes. No pressure, no pitch — just clarity on what you need.</p>
+      </div>
+      <div class="step-item no-break">
+        <div class="step-icon-row">🔗</div>
+        <h4>2. Connect & Onboard</h4>
+        <p>We connect to your accounts (QuickBooks, Xero, or Wave) and clean up your chart of accounts. Onboarding is complete in 48 hours.</p>
+      </div>
+      <div class="step-item no-break">
+        <div class="step-icon-row">⚙️</div>
+        <h4>3. We Handle the Books</h4>
+        <p>Your dedicated bookkeeper categorizes every transaction, reconciles accounts, and keeps your books razor sharp every single month.</p>
+      </div>
+      <div class="step-item no-break">
+        <div class="step-icon-row">📊</div>
+        <h4>4. Review & Grow</h4>
+        <p>Receive clean monthly reports delivered to your inbox. Schedule an optional review call to understand your numbers and plan ahead.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════ -->
+<!-- INDUSTRIES                          -->
+<!-- ═══════════════════════════════════ -->
+<section class="industries-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Who We Serve</span>
+      <h2>Industries We Specialize In</h2>
+      <p>We understand that every industry has different financial complexities. Our expertise is deep where it matters most.</p>
+    </div>
+    <div class="industries-grid">
+      <div class="industry-card no-break">
+        <div class="industry-icon-wrap" style="background:#fff0e8;">🛒</div>
+        <h4>eCommerce & Retail</h4>
+        <p>Inventory tracking, COGS reconciliation, multi-channel sales reporting, and payment processor fee categorization.</p>
+      </div>
+      <div class="industry-card no-break">
+        <div class="industry-icon-wrap" style="background:#e8f1fb;">🏢</div>
+        <h4>Agencies & Consultants</h4>
+        <p>Project-based revenue tracking, contractor payments, retainer billing, and profitability by client.</p>
+      </div>
+      <div class="industry-card no-break">
+        <div class="industry-icon-wrap" style="background:#e6f7ee;">🚀</div>
+        <h4>Startups</h4>
+        <p>Burn rate tracking, runway forecasting, investor-ready financials, and clean books for due diligence.</p>
+      </div>
+      <div class="industry-card no-break">
+        <div class="industry-icon-wrap" style="background:#fdf4e3;">🏪</div>
+        <h4>Local Businesses</h4>
+        <p>Cash flow management, sales tax compliance, owner's draw tracking, and simple monthly reporting you'll actually understand.</p>
+      </div>
+      <div class="industry-card no-break">
+        <div class="industry-icon-wrap" style="background:#f0e8ff;">🏗</div>
+        <h4>Construction & Trades</h4>
+        <p>Job costing, subcontractor payments, progress billing, and equipment expense tracking.</p>
+      </div>
+      <div class="industry-card no-break">
+        <div class="industry-icon-wrap" style="background:#e8fff0;">🏥</div>
+        <h4>Healthcare & Wellness</h4>
+        <p>Insurance reimbursement tracking, payroll management, HIPAA-compliant processes, and expense categorization.</p>
+      </div>
+      <div class="industry-card no-break">
+        <div class="industry-icon-wrap" style="background:#ffeef0;">🍽</div>
+        <h4>Restaurants & Cafes</h4>
+        <p>Food cost analysis, tip reporting, POS reconciliation, and daily sales summaries that keep your margins visible.</p>
+      </div>
+      <div class="industry-card no-break">
+        <div class="industry-icon-wrap" style="background:#fff8e8;">🏠</div>
+        <h4>Real Estate</h4>
+        <p>Property-level P&L, mortgage and depreciation tracking, rental income reconciliation, and portfolio-wide visibility.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="page-break"></div>
+
+<!-- ═══════════════════════════════════ -->
+<!-- VIDEO TESTIMONIALS                  -->
+<!-- ═══════════════════════════════════ -->
+<section class="testimonials-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Client Stories</span>
+      <h2>Don't Take Our Word For It</h2>
+      <p>Real business owners. Real results. Hear directly from clients who transformed their financial clarity with Rocket Bookkeeper.</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card no-break">
+        <div class="testimonial-video-thumb" style="background: linear-gradient(135deg, #1a3a5c 0%, #0f1923 100%);">
+          <div class="play-sm">
+            <svg viewBox="0 0 24 24" fill="#e85d26"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+          <div class="thumb-label">
+            <div class="thumb-avatar" style="background:#e85d26;">SA</div>
+            <div>
+              <div class="thumb-name">Sara Ahmed</div>
+              <div class="thumb-biz">Owner, StyleHive Boutique</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-body">
+          <div class="stars">★★★★★</div>
+          <div class="testimonial-quote">"I used to spend every Sunday doing bookkeeping. Now I spend it with my family. Rocket Bookkeeper changed how I run my business — my numbers are finally something I look forward to reviewing."</div>
+          <div class="testimonial-meta">
+            <div>
+              <div class="meta-name">Sara Ahmed</div>
+              <div class="meta-role">eCommerce · Retail Fashion</div>
+            </div>
+            <div class="meta-savings">Saved $3,200/yr</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card no-break">
+        <div class="testimonial-video-thumb" style="background: linear-gradient(135deg, #2d1a5c 0%, #0f1923 100%);">
+          <div class="play-sm">
+            <svg viewBox="0 0 24 24" fill="#e85d26"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+          <div class="thumb-label">
+            <div class="thumb-avatar" style="background:#22a35a;">RK</div>
+            <div>
+              <div class="thumb-name">Raza Khan</div>
+              <div class="thumb-biz">CEO, Nexus Digital Agency</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-body">
+          <div class="stars">★★★★★</div>
+          <div class="testimonial-quote">"We were raising our seed round and our books were a disaster. Rocket Bookkeeper cleaned up 18 months of records in two weeks and had us investor-ready. The due diligence process was smooth because of them."</div>
+          <div class="testimonial-meta">
+            <div>
+              <div class="meta-name">Raza Khan</div>
+              <div class="meta-role">Startup · Digital Marketing</div>
+            </div>
+            <div class="meta-savings">Raised $500K</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card no-break">
+        <div class="testimonial-video-thumb" style="background: linear-gradient(135deg, #1a3a2c 0%, #0f1923 100%);">
+          <div class="play-sm">
+            <svg viewBox="0 0 24 24" fill="#e85d26"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+          <div class="thumb-label">
+            <div class="thumb-avatar" style="background:#c9973a;">MT</div>
+            <div>
+              <div class="thumb-name">Maria Torres</div>
+              <div class="thumb-biz">Owner, Torres Construction</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-body">
+          <div class="stars">★★★★★</div>
+          <div class="testimonial-quote">"As a contractor, job costing was always a guessing game. Now I know exactly which projects are profitable and which aren't. That insight alone helped me grow revenue by 27% in one year."</div>
+          <div class="testimonial-meta">
+            <div>
+              <div class="meta-name">Maria Torres</div>
+              <div class="meta-role">Construction & Trades</div>
+            </div>
+            <div class="meta-savings">+27% Revenue</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="page-break"></div>
+
+<!-- ═══════════════════════════════════ -->
+<!-- HYPER-LOCAL                         -->
+<!-- ═══════════════════════════════════ -->
+<section class="local-section">
+  <div class="container">
+    <div class="local-grid">
+      <div>
+        <span class="section-tag">Local Expertise</span>
+        <h2 style="font-size:40px; margin-bottom:18px;">Deep Regional Knowledge You Can't Find Everywhere</h2>
+        <p style="font-size:15.5px;color:var(--ink-soft);line-height:1.8;margin-bottom:8px;">Bookkeeping isn't one-size-fits-all. State sales tax rules, local business license requirements, and industry-specific compliance vary widely. Generic bookkeeping services get this wrong — we don't.</p>
+        <p style="font-size:15.5px;color:var(--ink-soft);line-height:1.8;">Our team stays current on the compliance landscape in every region we serve — so your books always meet local standards and your filings are never a surprise.</p>
+        <div class="local-credentials">
+          <div class="credential-box no-break">
+            <div class="cred-icon">🏛</div>
+            <div class="cred-title">State Sales Tax Compliance</div>
+            <div class="cred-desc">Multi-state nexus rules, filing schedules, and exemption handling done right.</div>
+          </div>
+          <div class="credential-box no-break">
+            <div class="cred-icon">📅</div>
+            <div class="cred-title">Quarterly Estimated Taxes</div>
+            <div class="cred-desc">We prep and schedule your quarterly estimates so you're never caught off guard.</div>
+          </div>
+          <div class="credential-box no-break">
+            <div class="cred-icon">🏢</div>
+            <div class="cred-title">Local Business Licensing</div>
+            <div class="cred-desc">Know what filings and renewals affect your bottom line and your P&L.</div>
+          </div>
+          <div class="credential-box no-break">
+            <div class="cred-icon">🤝</div>
+            <div class="cred-title">CPA Coordination</div>
+            <div class="cred-desc">We collaborate directly with your CPA or tax preparer for seamless year-end filing.</div>
+          </div>
+        </div>
+      </div>
+      <div class="local-stats">
+        <div class="stat-row no-break">
+          <div class="stat-big">500+</div>
+          <div class="stat-desc">
+            <h5>Business Clients Served</h5>
+            <p>Across eCommerce, agencies, trades, healthcare, restaurants, and more — in multiple states and regions.</p>
+          </div>
+        </div>
+        <div class="stat-row no-break">
+          <div class="stat-big">8 yrs</div>
+          <div class="stat-desc">
+            <h5>Industry Experience</h5>
+            <p>Our team has navigated two recessions, major tax code changes, and countless software migrations.</p>
+          </div>
+        </div>
+        <div class="stat-row no-break">
+          <div class="stat-big">99.6%</div>
+          <div class="stat-desc">
+            <h5>On-Time Delivery Rate</h5>
+            <p>Books reconciled and reports delivered by the 5th of every month — without exception.</p>
+          </div>
+        </div>
+        <div class="stat-row no-break">
+          <div class="stat-big">$0</div>
+          <div class="stat-desc">
+            <h5>Late Filing Penalties for Clients</h5>
+            <p>Our proactive approach means our clients never get hit with avoidable IRS or state penalties.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="page-break"></div>
+
+<!-- ═══════════════════════════════════ -->
+<!-- ABOUT                               -->
+<!-- ═══════════════════════════════════ -->
+<section class="about-section">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-story">
+        <span class="section-tag">Our Story</span>
+        <h2 style="font-size:40px; margin-bottom:24px;">Built by People Who Believe Business Owners Deserve Better</h2>
+        <p>Rocket Bookkeeper was founded out of frustration. Our founders watched talented, hard-working business owners struggle with financial chaos — not because they weren't smart, but because no one had ever given them accessible, reliable support.</p>
+        <p>We built Rocket Bookkeeper on a simple belief: <strong>every business owner deserves to understand their numbers.</strong> Not just at tax time — every day. Clean books aren't a luxury. They're the engine of good decisions.</p>
+        <p>Today, our team of certified bookkeepers and financial professionals serves clients across the country, bringing enterprise-grade precision to small and mid-sized businesses — at a price that makes sense.</p>
+        <div class="about-values">
+          <div class="value-chip no-break">
+            <div class="value-chip-icon">🎯</div>
+            <span>Accuracy First</span>
+          </div>
+          <div class="value-chip no-break">
+            <div class="value-chip-icon">⚡</div>
+            <span>Proactive, Not Reactive</span>
+          </div>
+          <div class="value-chip no-break">
+            <div class="value-chip-icon">🤝</div>
+            <span>Client Partnership</span>
+          </div>
+          <div class="value-chip no-break">
+            <div class="value-chip-icon">🔒</div>
+            <span>Total Transparency</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-right">
+        <div class="founder-card no-break">
+          <div class="founder-avatar-area">
+            <div class="founder-avatar">JR</div>
+            <div class="founder-info">
+              <h4>James Rivera</h4>
+              <span>Founder & Head of Client Success</span>
+            </div>
+          </div>
+          <div class="founder-quote">
+            "I've seen what messy books cost a business — in stress, in missed opportunity, in failed funding rounds. I started Rocket Bookkeeper so no business owner has to face that alone. We're not just your bookkeeper. We're your financial co-pilot."
+          </div>
+        </div>
+        <div class="trust-badges">
+          <div class="trust-badge no-break">
+            <div class="trust-badge-icon">🎓</div>
+            <div class="trust-badge-text">Certified QuickBooks ProAdvisor</div>
+          </div>
+          <div class="trust-badge no-break">
+            <div class="trust-badge-icon">🏅</div>
+            <div class="trust-badge-text">AIPB Certified Bookkeepers</div>
+          </div>
+          <div class="trust-badge no-break">
+            <div class="trust-badge-icon">🔐</div>
+            <div class="trust-badge-text">Bank-Level Data Security</div>
+          </div>
+          <div class="trust-badge no-break">
+            <div class="trust-badge-icon">⭐</div>
+            <div class="trust-badge-text">4.9/5 Average Client Rating</div>
+          </div>
+          <div class="trust-badge no-break">
+            <div class="trust-badge-icon">📊</div>
+            <div class="trust-badge-text">Xero & Wave Certified</div>
+          </div>
+          <div class="trust-badge no-break">
+            <div class="trust-badge-icon">🛡</div>
+            <div class="trust-badge-text">Money-Back Guarantee</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="page-break"></div>
+
+<!-- ═══════════════════════════════════ -->
+<!-- TRUST BUILDING                      -->
+<!-- ═══════════════════════════════════ -->
+<section class="trust-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Our Commitments</span>
+      <h2>Six Promises We Make to Every Client</h2>
+      <p>These aren't marketing slogans. They're the standards we hold ourselves accountable to — every single month, for every single client.</p>
+    </div>
+
+    <div class="trust-promises-grid">
+      <div class="promise-card orange no-break">
+        <div class="promise-num">01</div>
+        <span class="promise-icon-big">🗓</span>
+        <h4>Delivered by the 5th. Every Month. No Excuses.</h4>
+        <p>Your reconciled books and monthly financial reports land in your inbox by the 5th of every month — not whenever we get around to it. If we miss that deadline, you don't pay for that month.</p>
+        <div class="promise-seal">⚡ On-Time Delivery Guarantee</div>
+      </div>
+      <div class="promise-card navy no-break">
+        <div class="promise-num">02</div>
+        <span class="promise-icon-big">🔒</span>
+        <h4>Your Data Is Treated Like Our Own</h4>
+        <p>256-bit bank-level encryption. Read-only account access. Strict team NDAs. We never sell, share, or monetize your financial data — ever. Your business stays your business.</p>
+        <div class="promise-seal">🔐 Bank-Level Security</div>
+      </div>
+      <div class="promise-card green no-break">
+        <div class="promise-num">03</div>
+        <span class="promise-icon-big">💸</span>
+        <h4>No Surprise Invoices. Ever.</h4>
+        <p>Your price is agreed upfront and never changes without your approval. No hourly overruns, no hidden fees, no "scope creep" charges. One flat monthly rate — that's it.</p>
+        <div class="promise-seal">✅ Flat-Rate Pricing Promise</div>
+      </div>
+      <div class="promise-card gold no-break">
+        <div class="promise-num">04</div>
+        <span class="promise-icon-big">🤝</span>
+        <h4>A Real Human Knows Your Business</h4>
+        <p>You'll always have a dedicated bookkeeper — not a rotating support queue, not an AI chatbot. Someone who knows your chart of accounts, your vendors, and your goals.</p>
+        <div class="promise-seal">👤 Dedicated Bookkeeper</div>
+      </div>
+      <div class="promise-card blue no-break">
+        <div class="promise-num">05</div>
+        <span class="promise-icon-big">📞</span>
+        <h4>We Respond Within 2 Business Hours</h4>
+        <p>Have a question about a transaction? Need a report before a meeting? Email or message us and we respond within 2 business hours — not days. Your time is valuable.</p>
+        <div class="promise-seal">⏱ 2-Hour Response SLA</div>
+      </div>
+      <div class="promise-card purple no-break">
+        <div class="promise-num">06</div>
+        <span class="promise-icon-big">🛡</span>
+        <h4>30-Day Risk-Free Money-Back Guarantee</h4>
+        <p>Not happy in your first 30 days? We'll refund every cent — no questions, no guilt, no awkward calls. We're that confident you'll love working with us.</p>
+        <div class="promise-seal">💜 30-Day Money-Back</div>
+      </div>
+    </div>
+
+    <!-- Trust Banner -->
+    <div class="trust-banner">
+      <div class="trust-banner-left">
+        <h3>We Put Our Reputation on the Line — So You Don't Have To</h3>
+        <p>Every promise above is backed by a concrete policy. We don't hide behind fine print. If we fall short of any commitment, we make it right — immediately and without debate. That's the Rocket Bookkeeper standard.</p>
+      </div>
+      <div class="trust-banner-right">
+        <div class="trust-banner-stat">
+          <div class="tbs-num">99.6%</div>
+          <div class="tbs-label">On-Time Delivery Rate</div>
+        </div>
+        <div class="trust-banner-stat">
+          <div class="tbs-num">0</div>
+          <div class="tbs-label">Unresolved Complaints</div>
+        </div>
+        <div class="trust-banner-stat">
+          <div class="tbs-num">4.9★</div>
+          <div class="tbs-label">Average Client Rating</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Certifications Strip -->
+    <div class="cert-strip">
+      <div class="cert-item">
+        <div class="cert-logo">🎓</div>
+        <div>
+          <div class="cert-name">QuickBooks ProAdvisor</div>
+          <div class="cert-sub">Certified Partner</div>
+        </div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-logo">🏅</div>
+        <div>
+          <div class="cert-name">AIPB Certified</div>
+          <div class="cert-sub">American Institute of Pro Bookkeepers</div>
+        </div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-logo">📘</div>
+        <div>
+          <div class="cert-name">Xero Certified Advisor</div>
+          <div class="cert-sub">Gold Partner</div>
+        </div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-logo">🔐</div>
+        <div>
+          <div class="cert-name">SOC 2 Compliant</div>
+          <div class="cert-sub">Data Security Certified</div>
+        </div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-logo">⭐</div>
+        <div>
+          <div class="cert-name">BBB Accredited</div>
+          <div class="cert-sub">A+ Rating</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="page-break"></div>
+
+<!-- ═══════════════════════════════════ -->
+<!-- GOOGLE & TRUSTPILOT REVIEWS         -->
+<!-- ═══════════════════════════════════ -->
+<section class="reviews-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Verified Reviews</span>
+      <h2>Rated 4.9 Stars Across Every Platform</h2>
+      <p>We let our clients do the talking. These are real, verified reviews from Google and Trustpilot — unedited and unprompted.</p>
+    </div>
+
+    <!-- Platform Badges -->
+    <div class="reviews-platforms">
+      <div class="platform-badge google no-break">
+        <div class="platform-logo">
+          <div class="google-logo-circle">G</div>
+        </div>
+        <div class="platform-info">
+          <div class="platform-name">Google Reviews</div>
+          <div class="platform-rating-row">
+            <div class="platform-stars-lg">★★★★★</div>
+            <div class="platform-score">4.9</div>
+            <div class="platform-count">/ 5.0</div>
+          </div>
+          <div class="platform-count" style="margin-bottom:10px;">Based on 214 verified reviews</div>
+          <div class="platform-badge-label">✔ Google Verified Business</div>
+        </div>
+      </div>
+      <div class="platform-badge trustpilot no-break">
+        <div class="platform-logo">
+          <div class="tp-logo-circle">★</div>
+        </div>
+        <div class="platform-info">
+          <div class="platform-name">Trustpilot</div>
+          <div class="platform-rating-row">
+            <div class="platform-stars-lg" style="color:white;">★★★★★</div>
+            <div class="platform-score">4.8</div>
+            <div class="platform-count">/ 5.0</div>
+          </div>
+          <div class="platform-count" style="margin-bottom:10px;">Based on 178 verified reviews</div>
+          <div class="platform-badge-label">✔ Trustpilot Verified</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Individual Review Cards -->
+    <div class="reviews-grid">
+
+      <div class="review-card no-break">
+        <div class="review-header">
+          <div class="reviewer-row">
+            <div class="reviewer-avatar" style="background:#4285f4;">DM</div>
+            <div>
+              <div class="reviewer-name">David Mitchell</div>
+              <div class="reviewer-date">March 14, 2026 · Google</div>
+            </div>
+          </div>
+          <div class="review-source-icon">G</div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <div class="review-title">"Finally — a bookkeeper who actually communicates"</div>
+        <div class="review-text">"I've been through three bookkeeping services in four years. Rocket Bookkeeper is the first one that responds the same day, sends reports I can actually understand, and doesn't disappear at tax time. Worth every penny."</div>
+        <div class="review-footer">
+          <div class="review-service">Monthly Bookkeeping</div>
+          <div class="review-helpful">👍 32 found helpful</div>
+        </div>
+      </div>
+
+      <div class="review-card no-break">
+        <div class="review-header">
+          <div class="reviewer-row">
+            <div class="reviewer-avatar" style="background:#00b67a;">PL</div>
+            <div>
+              <div class="reviewer-name">Priya Lakshmi</div>
+              <div class="reviewer-date">February 28, 2026 · Trustpilot</div>
+            </div>
+          </div>
+          <div class="review-source-icon">★</div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <div class="review-title">"Cleaned up 2 years of chaos in 10 days"</div>
+        <div class="review-text">"I was terrified of what they'd find when they looked at my books. They handled everything professionally, never made me feel embarrassed, and gave me a completely clean slate. I actually look at my financials now — that's new."</div>
+        <div class="review-footer">
+          <div class="review-service">Historical Cleanup</div>
+          <div class="review-helpful">👍 27 found helpful</div>
+        </div>
+      </div>
+
+      <div class="review-card no-break">
+        <div class="review-header">
+          <div class="reviewer-row">
+            <div class="reviewer-avatar" style="background:#e85d26;">JW</div>
+            <div>
+              <div class="reviewer-name">James Whitfield</div>
+              <div class="reviewer-date">February 10, 2026 · Google</div>
+            </div>
+          </div>
+          <div class="review-source-icon">G</div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <div class="review-title">"The dashboard alone is worth the monthly fee"</div>
+        <div class="review-text">"The real-time dashboard they set up for us is incredible. I can see P&L, cash flow, and upcoming bills in one place. My business decisions used to be gut feeling — now they're data-driven. Absolute game changer."</div>
+        <div class="review-footer">
+          <div class="review-service">Monthly Bookkeeping</div>
+          <div class="review-helpful">👍 41 found helpful</div>
+        </div>
+      </div>
+
+      <div class="review-card no-break">
+        <div class="review-header">
+          <div class="reviewer-row">
+            <div class="reviewer-avatar" style="background:#7c3aed;">AS</div>
+            <div>
+              <div class="reviewer-name">Aisha Siddiqui</div>
+              <div class="reviewer-date">January 22, 2026 · Trustpilot</div>
+            </div>
+          </div>
+          <div class="review-source-icon">★</div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <div class="review-title">"My CPA called to say thank you"</div>
+        <div class="review-text">"I'm not exaggerating — my accountant actually called me to say my books were the cleanest he'd ever received. That had never happened before. Tax filing was done in a week instead of two months. I recommend Rocket to everyone."</div>
+        <div class="review-footer">
+          <div class="review-service">Tax-Ready Financials</div>
+          <div class="review-helpful">👍 55 found helpful</div>
+        </div>
+      </div>
+
+      <div class="review-card no-break">
+        <div class="review-header">
+          <div class="reviewer-row">
+            <div class="reviewer-avatar" style="background:#c9973a;">TN</div>
+            <div>
+              <div class="reviewer-name">Tyler Nguyen</div>
+              <div class="reviewer-date">January 5, 2026 · Google</div>
+            </div>
+          </div>
+          <div class="review-source-icon">G</div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <div class="review-title">"Switched from a big firm — night and day difference"</div>
+        <div class="review-text">"We were paying twice as much at a larger firm and getting half the communication. Rocket Bookkeeper is faster, more personal, and my dedicated bookkeeper knows my business inside out. Switched 8 months ago, no regrets."</div>
+        <div class="review-footer">
+          <div class="review-service">Monthly Bookkeeping</div>
+          <div class="review-helpful">👍 19 found helpful</div>
+        </div>
+      </div>
+
+      <div class="review-card no-break">
+        <div class="review-header">
+          <div class="reviewer-row">
+            <div class="reviewer-avatar" style="background:#22a35a;">LF</div>
+            <div>
+              <div class="reviewer-name">Laura Fernandez</div>
+              <div class="reviewer-date">December 18, 2025 · Trustpilot</div>
+            </div>
+          </div>
+          <div class="review-source-icon">★</div>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <div class="review-title">"Onboarding was shockingly smooth"</div>
+        <div class="review-text">"I expected a nightmare getting started. Instead, they had everything connected and running in under 48 hours. The onboarding checklist was clear, the team was patient with my questions, and by day three I already had my first clean report."</div>
+        <div class="review-footer">
+          <div class="review-service">Onboarding & Setup</div>
+          <div class="review-helpful">👍 23 found helpful</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Reviews CTA Bar -->
+    <div class="reviews-cta-bar">
+      <div class="rcta-left">
+        <div class="rcta-icon">⭐</div>
+        <div class="rcta-text">
+          <h4>392 verified 5-star reviews and counting</h4>
+          <p>Read every review on Google or Trustpilot — we don't cherry-pick, we just do great work.</p>
+        </div>
+      </div>
+      <div class="rcta-links">
+        <a href="#" class="rcta-link google-link">View on Google →</a>
+        <a href="#" class="rcta-link tp-link">View on Trustpilot →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="page-break"></div>
+
+<!-- ═══════════════════════════════════ -->
+<!-- CONTACT FORM                        -->
+<!-- ═══════════════════════════════════ -->
+<section class="contact-section">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <span class="section-tag">Let's Talk</span>
+        <h2>Book Your Free Consultation Today</h2>
+        <p>No pressure. No sales pitch. Just a 30-minute call to understand your needs and show you exactly how Rocket Bookkeeper can bring clarity to your finances.</p>
+        <div class="contact-details">
+          <div class="contact-item no-break">
+            <div class="contact-item-icon">📞</div>
+            <div class="contact-item-text">
+              <span>Phone</span>
+              <strong>(555) 800-2600</strong>
+            </div>
+          </div>
+          <div class="contact-item no-break">
+            <div class="contact-item-icon">📧</div>
+            <div class="contact-item-text">
+              <span>Email</span>
+              <strong>hello@rocketbookkeeper.com</strong>
+            </div>
+          </div>
+          <div class="contact-item no-break">
+            <div class="contact-item-icon">⏰</div>
+            <div class="contact-item-text">
+              <span>Office Hours</span>
+              <strong>Mon–Fri · 9am–6pm EST</strong>
+            </div>
+          </div>
+          <div class="contact-item no-break">
+            <div class="contact-item-icon">⚡</div>
+            <div class="contact-item-text">
+              <span>Response Time</span>
+              <strong>Within 2 business hours</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="form-card no-break">
+          <div class="form-title">Schedule a Free Consultation</div>
+          <div class="form-sub">Fill in your details and we'll be in touch within 2 hours.</div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">First Name</label>
+              <div class="form-input" style="color:#c0c8d0; background:#f7f8fa;">John</div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Last Name</label>
+              <div class="form-input" style="color:#c0c8d0; background:#f7f8fa;">Smith</div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email Address</label>
+            <div class="form-input" style="color:#c0c8d0; background:#f7f8fa;">you@yourbusiness.com</div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Business Name</label>
+            <div class="form-input" style="color:#c0c8d0; background:#f7f8fa;">Your Business Name</div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Tell Us About Your Needs</label>
+            <div class="form-input" style="color:#c0c8d0; background:#f7f8fa; height:100px; display:flex; align-items:flex-start; padding-top:14px;">How can we help you? What's your biggest bookkeeping challenge right now?</div>
+          </div>
+          <div class="form-submit">
+            Get My Free Consultation
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M9 4l4 4-4 4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="form-disclaimer">🔒 Your information is secure and will never be shared.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="page-break"></div>
+
+<!-- ═══════════════════════════════════ -->
+<!-- FAQS                                -->
+<!-- ═══════════════════════════════════ -->
+<section class="faq-section">
+  <div class="container">
+    <div class="faq-layout">
+      <div class="faq-sidebar">
+        <span class="section-tag">Common Questions</span>
+        <h2>Frequently Asked Questions</h2>
+        <p>Everything you need to know before getting started. Can't find your answer? Call us — we're happy to chat.</p>
+        <a href="#" class="btn-primary" style="display:inline-flex; margin-top:8px;">Talk to a Bookkeeper →</a>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item no-break">
+          <div class="faq-q">
+            <div class="faq-q-text">What exactly does Rocket Bookkeeper do each month?</div>
+            <div class="faq-chevron">+</div>
+          </div>
+          <div class="faq-a">Each month we categorize all transactions, reconcile your bank and credit card accounts, update your chart of accounts, generate your P&L and balance sheet, and deliver a clean financial report to your inbox by the 5th of the month. You also get 24/7 access to your live dashboard.</div>
+        </div>
+        <div class="faq-item no-break">
+          <div class="faq-q">
+            <div class="faq-q-text">How long does onboarding take?</div>
+            <div class="faq-chevron">+</div>
+          </div>
+          <div class="faq-a">Most clients are fully onboarded within 48 hours. We connect to your existing accounting software (QuickBooks, Xero, Wave, or FreshBooks), clean up your chart of accounts, and handle any historical cleanup needed. You'll be off and running by the end of the first week.</div>
+        </div>
+        <div class="faq-item no-break">
+          <div class="faq-q">
+            <div class="faq-q-text">Do I need to use QuickBooks or a specific software?</div>
+            <div class="faq-chevron">+</div>
+          </div>
+          <div class="faq-a">We work with QuickBooks Online, Xero, Wave, and FreshBooks. If you're not using any software yet, we'll recommend the best fit for your business and help you get set up at no extra cost. We do not support desktop versions of QuickBooks.</div>
+        </div>
+        <div class="faq-item no-break">
+          <div class="faq-q">
+            <div class="faq-q-text">Will you also do my taxes?</div>
+            <div class="faq-chevron">+</div>
+          </div>
+          <div class="faq-a">We handle bookkeeping — not tax preparation. However, we keep your books tax-ready year-round and collaborate directly with your CPA or tax preparer, making their job (and your bill) significantly smaller. If you don't have a CPA, we can refer you to trusted professionals in our network.</div>
+        </div>
+        <div class="faq-item no-break">
+          <div class="faq-q">
+            <div class="faq-q-text">What does it cost?</div>
+            <div class="faq-chevron">+</div>
+          </div>
+          <div class="faq-a">Our pricing is based on your monthly transaction volume and complexity, starting at $199/month for small businesses. We offer transparent, flat monthly pricing — no surprise invoices, no hourly billing. Schedule a free call and we'll quote you a fixed price within 24 hours.</div>
+        </div>
+        <div class="faq-item no-break">
+          <div class="faq-q">
+            <div class="faq-q-text">Is my financial data secure?</div>
+            <div class="faq-chevron">+</div>
+          </div>
+          <div class="faq-a">Absolutely. We use 256-bit bank-level encryption for all data transmission and storage. We never store your login credentials — we use secure read-only bank connections. Our team is bound by strict confidentiality agreements, and we carry professional liability insurance for additional peace of mind.</div>
+        </div>
+        <div class="faq-item no-break">
+          <div class="faq-q">
+            <div class="faq-q-text">What if I'm behind on my books?</div>
+            <div class="faq-chevron">+</div>
+          </div>
+          <div class="faq-a">That's actually our most common starting point. Many new clients come to us with months (or even years) of uncategorized transactions. We offer historical cleanup services to get you caught up quickly — and we'll quote you a fixed price for the cleanup before starting any work.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════ -->
+<!-- FOOTER                              -->
+<!-- ═══════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo">
+          <div class="logo-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2L8 8H4L6.5 13L4 18H8L12 22L16 18H20L17.5 13L20 8H16L12 2Z" fill="white" stroke="white" stroke-width="0.5"/>
+            </svg>
+          </div>
+          <div>
+            <div class="logo-text" style="color:white;">Rocket Bookkeeper</div>
+            <div class="logo-sub" style="color:rgba(255,255,255,0.4);">Financial Clarity, Accelerated</div>
+          </div>
+        </div>
+        <p>We help business owners replace financial chaos with clean books, clear numbers, and the confidence to grow.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#">Monthly Bookkeeping</a></li>
+          <li><a href="#">Historical Cleanup</a></li>
+          <li><a href="#">Payroll Management</a></li>
+          <li><a href="#">Financial Reporting</a></li>
+          <li><a href="#">Cash Flow Analysis</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Client Login</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Security</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Rocket Bookkeeper LLC. All rights reserved.</p>
+      <p>Not a CPA firm. Tax preparation not included. Bookkeeping and financial organization services only.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
