@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Filter</title>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Filter">
+            <rect id="Rectangle" fill-opacity="0" fill="#D8D8D8" x="0" y="0" width="16" height="16"></rect>
+            <path d="M6.22222222,13.6666667 L9.77777778,13.6666667 L9.77777778,11.8888889 L6.22222222,11.8888889 L6.22222222,13.6666667 L6.22222222,13.6666667 Z M0,3 L0,4.77777778 L16,4.77777778 L16,3 L0,3 L0,3 Z M2.66666667,9.22222222 L13.3333333,9.22222222 L13.3333333,7.44444444 L2.66666667,7.44444444 L2.66666667,9.22222222 L2.66666667,9.22222222 Z"
+                  id="Shape" fill="#7F8FA4" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

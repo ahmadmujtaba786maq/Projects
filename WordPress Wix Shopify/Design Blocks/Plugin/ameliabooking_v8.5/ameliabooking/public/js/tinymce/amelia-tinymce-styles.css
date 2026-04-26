@@ -1,0 +1,52 @@
+.mce-am-booking-shortcode {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.mce-am-booking-shortcode:hover {
+    background-color: #2271b1 !important;
+}
+
+.mce-am-booking-shortcode.mce-active {
+    background-color: #2271b1 !important;
+}
+
+.mce-am-booking-shortcode span {
+    display: flex !important;
+    align-items: center !important;
+}
+
+/* Beta */
+.mce-am-beta-booking-shortcode {
+    background-color: rgba(38, 92, 242, 0.1) !important;
+}
+
+.mce-am-beta-booking-shortcode span:after {
+    content: "" !important;
+    background-image: url(../../img/beta.svg) !important;
+    display: inline-block !important;
+    background-size: contain !important;
+    width: 40px !important;
+    height: 20px !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: -39px;
+}
+
+/* Outdated */
+.mce-am-outdated-booking-shortcode {
+    background-color: rgba(242, 38, 38, 0.1) !important;
+}
+
+.mce-am-outdated-booking-shortcode span:after {
+    content: "" !important;
+    background-image: url(../../img/outdated.svg) !important;
+    display: inline-block !important;
+    background-size: contain !important;
+    width: 65px !important;
+    height: 20px !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 0 0 8px;
+}
+

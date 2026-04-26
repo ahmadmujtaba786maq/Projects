@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <defs></defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[MODAL]-Select-Custom-fields" transform="translate(-483.000000, -101.000000)">
+            <g id="text-content" transform="translate(483.000000, 101.000000)">
+                <g id="Group-3">
+                    <rect id="Rectangle-3" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="80" height="80"></rect>
+                    <g id="content" transform="translate(4.000000, 27.000000)" stroke-linecap="round"
+                       stroke-linejoin="round">
+                        <path d="M1.69659101,0.0119127273 L71.2978738,0.0119127273 C72.0754023,0.0119127273 72.7057137,0.642224128 72.7057137,1.41975264 L72.7057137,24.5763513 C72.7057137,25.3538798 72.0754023,25.9841912 71.2978738,25.9841912 L1.69659101,25.9841912 C0.919062499,25.9841912 0.288751099,25.3538798 0.288751099,24.5763513 L0.288751099,1.41975264 C0.288751099,0.642224128 0.919062499,0.0119127273 1.69659101,0.0119127273 Z"
+                              id="Rectangle-path" stroke="#76B5F5" stroke-width="0.799999952"
+                              stroke-dasharray="3.999999761581421"></path>
+                        <path d="M8.33945984,9.84127576 L44.8951645,9.84127576" id="Shape" stroke="#1A84EE"
+                              stroke-width="1.19999993"></path>
+                        <path d="M8.33945984,15.8251442 L64.655005,15.9893562" id="Shape" stroke="#1A84EE"
+                              stroke-width="1.19999993"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

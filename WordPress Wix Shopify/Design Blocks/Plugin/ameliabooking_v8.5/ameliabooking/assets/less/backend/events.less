@@ -1,0 +1,441 @@
+@import "../common/_variables";
+
+#am-events {
+  .am-events-filter {
+    .el-row {
+      .el-col {
+        .el-input,
+        .el-select,
+        .el-date-editor {
+          width: 100%;
+          display: inline-block;
+          vertical-align: top;
+          margin-bottom: 0;
+          @media @less-then-medium {
+            margin-bottom: @margin-medium;
+          }
+        }
+        &:last-child {
+          .el-input,
+          .el-select,
+          .el-date-editor {
+            margin-bottom: 0;
+          }
+        }
+
+        .am-filter-buttons {
+          display: flex;
+        }
+
+        @media (max-width: 1020px) {
+          .am-filter-buttons button:nth-child(2) {
+            margin-left: 4px;
+          }
+        }
+
+        @media (max-width: 960px) {
+          .am-filter-buttons button:nth-child(2) {
+            margin-left: 10px;
+          }
+        }
+
+        @media (max-width: 1549px) {
+          &.am-tag-filter {
+            width: 15%;
+          }
+
+          &.am-grid-view-filter {
+            width: 10%;
+          }
+        }
+
+        @media (max-width: 1330px) {
+          &.am-tag-filter {
+            width: 13%;
+          }
+
+          &.am-grid-view-filter {
+            width: 12%;
+          }
+        }
+
+        @media (max-width: 1150px) {
+          &.am-tag-filter {
+            width: 11%;
+          }
+
+          &.am-grid-view-filter {
+            width: 14%;
+          }
+        }
+
+        @media (max-width: 991px) {
+          &.am-tag-filter {
+            width: 100%;
+          }
+
+          &.am-grid-view-filter {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .v-calendar-column {
+      .el-form-item {
+        margin-bottom: 0;
+        @media @less-then-medium {
+          margin-bottom: @margin-medium;
+        }
+      }
+
+      .popover-container {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .am-events-list-head {
+    padding: @padding-medium @padding-big;
+    @media @less-then-large {
+      display: none;
+    }
+
+    p {
+      margin: 0;
+      color: @color-text-second;
+      text-transform: uppercase;
+      font-size: @mini-fs;
+    }
+  }
+
+  .am-events-list-day-title {
+    padding: @padding-small/2 @padding-big @padding-small/2 @padding-big;
+    background-color: @color-light-gray;
+
+    .el-checkbox {
+      margin-right: @margin-small/2;
+      vertical-align: initial;
+    }
+
+    .el-checkbox__label {
+      display: none;
+    }
+
+    h2 {
+      line-height: 2;
+      font-size: 16px;
+      color: @color-text-second;
+    }
+  }
+
+  .am-events {
+    padding: 0;
+    .am-events-list {
+      .am-event {
+        padding: @padding-medium @padding-big;
+        border-bottom: 1px solid @color-divider-gray;
+        &.is-active {
+          .am-event-data {
+            h3.grouped:after {
+              background-color: inherit;
+            }
+          }
+        }
+
+        .am-event-data {
+          >.el-row {
+            display: flex;
+            align-items: center;
+            @media @less-then-large {
+              display: block;
+            }
+          }
+          .el-checkbox {
+            margin-right: @margin-small/2;
+          }
+
+          .el-checkbox__label {
+            padding-left: @padding-small - 2px;
+          }
+
+          h4 {
+            margin: 0;
+          }
+
+          h3 {
+            margin-bottom: 0;
+            overflow: hidden;
+            max-width: 100%;
+            height: 24px;
+
+            &.grouped {
+              padding-right: @padding-medium;
+              white-space: nowrap;
+              overflow: hidden !important;
+              text-overflow: ellipsis;
+
+              svg {
+                width: 16px;
+              }
+            }
+          }
+
+          p {
+            margin: 0;
+            font-size: @small-fs;
+          }
+          .am-event-closed {
+            cursor: pointer;
+            display: inline-block;
+            padding: 0 @padding-medium /4;
+            color: @color-red;
+            background: fade(@color-red, 5%);
+            border-radius: 4px;
+
+            &:before {
+              display: inline-block;
+              width: 7px;
+              height: 7px;
+              background: @color-red;
+              border-radius: 50%;
+              content: "";
+              vertical-align: middle;
+              margin-right: 4px;
+            }
+          }
+
+          .am-event-open {
+            cursor: pointer;
+            display: inline-block;
+            padding:0 @padding-medium /4;
+            color: @color-green;
+            background: fade(@color-green, 5%);
+            border-radius: 4px;
+            &:before {
+              display: inline-block;
+              width: 7px;
+              height: 7px;
+              background: @color-green;
+              border-radius: 50%;
+              content: "";
+              vertical-align: middle;
+              margin-right: 4px;
+            }
+          }
+          .am-recurring-label {
+            color: @color-orange;
+            img, svg {
+              vertical-align: middle;
+              margin-right: 2px;
+              width: 14px;
+            }
+          }
+
+          .el-button {
+            margin-top: 0;
+            @media @less-then-medium {
+              padding-left: @padding-medium - 4px;
+              padding-right: @padding-medium - 4px;
+            }
+          }
+
+          .el-select {
+            display: block;
+
+            .el-input {
+              margin-bottom: 0;
+            }
+          }
+
+          .am-event-checkbox {
+            @media only screen and ( max-width: 1367px) {
+              display: block;
+              margin-bottom: 2px;
+            }
+          }
+          .am-align-right {
+            @media @less-then-small {
+              text-align: left;
+              margin-bottom: 0;
+            }
+          }
+
+          .am-event-time {
+            line-height: 1.6;
+            display: inline-block;
+            padding: 0 @padding-small/4;
+            border-radius: @border-radius/2;
+
+            &.approved {
+              background-color: fade(@color-green, 10%);
+              color: @color-green;
+            }
+
+            &.pending {
+              background-color: fade(@color-orange, 10%);
+              color: @color-orange;
+            }
+
+            &.canceled {
+              background-color: fade(@color-red, 10%);
+              color: @color-red;
+            }
+
+            &.rejected {
+              background-color: fade(@color-text-prime, 10%);
+              color: @color-text-prime;
+            }
+
+            &.paid {
+              background-color: fade(@color-green, 10%);
+              color: @color-green;
+            }
+
+            &.partiallyPaid {
+              background-color: fade(@color-blue, 10%);
+              color: @color-blue;
+            }
+
+            @media @less-then-medium {
+              font-size: @mini-fs;
+            }
+          }
+
+          .am-events-flex-row-middle-align {
+            min-height: 44px;
+
+            @media @less-then-small {
+              margin-bottom: 0;
+            }
+
+            .am-event-data-id {
+              color: @color-text-second;
+              font-size: 14px;
+              font-weight: 400;
+            }
+          }
+
+          .am-edit-btn {
+            text-align: right;
+            margin-right: @margin-medium*2;
+            @media @less-then-large {
+              margin-right: 0;
+            }
+          }
+
+          .am-customer-status {
+            margin-right: @margin-medium;
+            color: @color-green;
+            text-transform: capitalize;
+            font-size: 12px;
+            line-height: 1.8;
+            display: inline-block;
+            padding: 0 @padding-small/2;
+            border-radius: @border-radius/2;
+            text-align: center;
+
+            &.pending {
+              background-color: fade(@color-orange, 10%);
+              color: @color-orange;
+            }
+
+            &.approved {
+              background-color: fade(@color-green, 10%);
+              color: @color-green;
+            }
+
+            &.canceled {
+              background-color: fade(@color-red, 10%);
+              color: @color-red;
+            }
+
+            &.rejected {
+              background-color: fade(@color-text-prime, 10%);
+              color: @color-text-prime;
+            }
+
+            &.closed {
+              background-color: fade(@color-text-second, 10%);
+              color: @color-text-second;
+            }
+
+            &.full {
+              background-color: fade(@color-blue, 10%);
+              color: @color-blue;
+            }
+
+            &.upcoming {
+              background-color: fade(@color-orange, 10%);
+              color: @color-orange;
+            }
+
+            &.opened {
+              background-color: fade(@color-green, 10%);
+              color: @color-green;
+            }
+
+            &.waiting-list {
+              background-color: #FDF9E8;
+              color: #CCA20C;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #pane-details {
+    .ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options {
+      max-height: 110px;
+      overflow-x: hidden;
+    }
+
+    @media only screen and (max-width: 782px) {
+      .ql-toolbar.ql-snow {
+        min-height: 90px;
+      }
+    }
+  }
+}
+
+@media @less-then-large {
+  .el-col:first-child {
+    .am-events-flex-row-middle-align {
+      margin-bottom: @margin-medium;
+    }
+  }
+}
+
+.am-events-flex-row-middle-align {
+  display: flex;
+  align-items: center;
+  min-height: 20px;
+  @media @less-then-large {
+    align-items: inherit;
+  }
+  @media @less-then-small {
+    display: block;
+    &:first-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  .el-col {
+    @media @less-then-small {
+      margin-bottom: @margin-medium;
+    }
+  }
+
+  .am-event-spots {
+    @media @more-then-small {
+      text-align: center;
+    }
+  }
+
+  .am-event-location {
+    display: none;
+  }
+}
+
+

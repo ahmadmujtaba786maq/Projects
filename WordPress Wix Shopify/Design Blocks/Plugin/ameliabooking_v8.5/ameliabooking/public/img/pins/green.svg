@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>green@svg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="green" fill-rule="nonzero" fill="#26CC2B">
+            <g id="map-location-pin-geolocation-3" transform="translate(8.000000, 4.000000)">
+                <path d="M8,0 C5.18987261,0.0139920905 2.59314575,1.50139242 1.1593956,3.91828553 C-0.274354543,6.33517863 -0.334861893,9.32711596 1,11.8 L7.6,23.74 C7.68728267,23.9017116 7.85623682,24.0025132 8.04,24.0025132 C8.22376318,24.0025132 8.39271733,23.9017116 8.48,23.74 L15,11.8 C16.3348619,9.32711596 16.2743545,6.33517863 14.8406044,3.91828553 C13.4068543,1.50139242 10.8101274,0.0139920905 8,0 Z M8,12 C5.790861,12 4,10.209139 4,8 C4,5.790861 5.790861,4 8,4 C10.209139,4 12,5.790861 12,8 C12,9.06086596 11.5785726,10.0782816 10.8284271,10.8284271 C10.0782816,11.5785726 9.06086596,12 8,12 Z"
+                      id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

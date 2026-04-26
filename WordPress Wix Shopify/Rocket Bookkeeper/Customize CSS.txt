@@ -1,0 +1,107 @@
+/*CSS started*/
+.ekit-accordion-title{
+	padding-right: 29px !important;
+}
+
+.premium-blog-post-container{
+	margin-bottom: -50px !important;
+}
+
+.ekit-main-swiper{
+	border-radius: 25px;
+}
+
+.type-page, .page-header {
+  position: relative;
+  z-index: 0;
+}
+
+.page-header{
+	margin: 50px 14.5px !important;
+	max-width: 98% !important;
+	border-radius: 50px !important;
+	background: #191970 !important;
+}
+
+.post-entry{
+	margin: -100px 0px !important;
+	padding: 20px !important;
+	border-radius: 50px !important;
+}
+
+.page-header::before {
+	display: none !important;
+}
+
+.text-anime{
+	color: white !important;
+}
+
+.image-anime{
+	margin: -100px 0px 150px 0px !important;
+}
+
+.post-tag-links{
+	margin: 150px 0px -100px 0px !important;
+}
+
+.trail-items {
+	color: #191970 !important;
+	background: white !important;
+}
+
+.trail-item {
+	color: #191970 !important;
+}
+
+.trail-items li a{
+	color: #0080FB
+ !important;
+}
+
+.post-single-meta ul {
+	background: white !important;
+}
+
+.post-single-meta ul li {
+	color: #191970 !important;
+}
+
+.post-single-meta ul li i {
+	color: #191970 !important;
+}
+
+.timeline-item:hover {
+  background-color: #1458bf !important;
+}
+
+.watermark-icon , .timeline-icon{
+	display:none !important;
+}
+
+/*for mobile view only*/
+@media screen and (max-width: 768px) {
+
+.page-header{
+	margin: 20px 14.3px !important;
+  max-width: 92% !important;
+	border-radius: 25px !important;
+}
+	
+.post-entry{
+	padding: 5px !important;
+	margin-top: -50px !important;
+	margin-bottom: 0px !important;
+	border-radius: 25px !important;
+}
+	
+.image-anime{
+	margin: -50px 0px 120px 0px !important;
+}
+	
+.post-tag-links{
+	margin: 150px 0px -50px 0px !important;
+}
+	
+}
+

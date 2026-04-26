@@ -1,0 +1,528 @@
+@import "../common/_variables";
+@import "../backend/recurring.less";
+
+#am-appointments {
+  @media @less-then-small {
+    .am-dialog-scrollable {
+      padding: @padding-small;
+    }
+  }
+
+  .am-appointment-customer {
+    .el-select__input {
+      margin-left: -2px;
+    }
+  }
+
+  .am-appointment-id {
+    display: none;
+    &-details {
+      @media @less-then-small {
+        display: none !important;
+      }
+    }
+  }
+
+  .am-appointments-filter {
+    .el-row {
+      .el-col {
+        .el-input,
+        .el-select,
+        .el-date-editor {
+          width: 100%;
+          display: inline-block;
+          vertical-align: top;
+
+          &.calc-width {
+            width: calc(~'100% - 63px');
+            @media @less-then-medium {
+              width: calc(~'100% - 123px');
+            }
+          }
+        }
+
+        .el-button {
+          margin-left: @margin-small + 4px;
+        }
+
+        .el-button {
+          &.button-filter-toggle {
+            line-height: 0.9;
+            display: none;
+            @media @less-then-medium {
+              display: inline-block;
+            }
+          }
+        }
+      }
+    }
+
+    .v-calendar-column {
+      .el-form-item {
+        margin-bottom: @margin-medium;
+      }
+
+      .popover-container {
+        margin-bottom: 0;
+      }
+    }
+
+    .am-filter-fields {
+      .el-input,
+      .el-date-editor {
+        margin-bottom: 0;
+        @media @less-then-small {
+          margin-bottom: @margin-medium;
+        }
+      }
+
+      .el-date-editor {
+        @media @less-then-large {
+          margin-bottom: @margin-medium;
+        }
+      }
+
+      .am-package-appointment-filters {
+        .el-col {
+          .el-form-item {
+            @media @less-then-large {
+              margin-bottom: @margin-medium;
+            }
+            @media @less-then-small {
+              margin-bottom: 0;
+            }
+          }
+        }
+        .v-calendar-column {
+          .el-form-item {
+            @media @less-then-medium {
+              margin-bottom: @margin-medium;
+            }
+          }
+        }
+      }
+    }
+
+    .el-input-group__append {
+      .el-button {
+        display: inline-block;
+
+        &:hover {
+          color: @color-blue;
+        }
+      }
+    }
+  }
+
+  .am-appointments-list-head {
+    padding: @padding-medium @padding-big;
+    @media @less-then-large {
+      display: none;
+    }
+
+    p {
+      margin: 0;
+      color: @color-text-second;
+      text-transform: uppercase;
+      font-size: @mini-fs;
+    }
+  }
+
+  .am-appointments-list-day-title {
+    padding: @padding-small/2 @padding-big @padding-small/2 @padding-big;
+    background-color: @color-light-gray;
+
+    .el-checkbox {
+      margin-right: @margin-small/2;
+      vertical-align: initial;
+    }
+
+    .el-checkbox__label {
+      display: none;
+    }
+
+    h2 {
+      line-height: 2;
+      font-size: 16px;
+      color: @color-text-second;
+    }
+  }
+
+  .am-appointments {
+    padding: 0;
+    .am-appointments-list {
+      .am-appointment {
+        position: relative;
+        padding-left: 32px;
+
+        &::before {
+          content: '';
+          display: block;
+          width: 24px;
+          height: ~"calc(100% - 8px)";
+          position: absolute;
+          top: 4px;
+          left: 4px;
+          border-radius: 4px;
+          background: blue;
+        }
+
+        &.am-mixed-appointment {
+          &::before {
+            background: linear-gradient(to right bottom, #E1F0FF 50%, #CFF5B7 50%);
+          }
+        }
+
+        &.am-front-appointment {
+          &::before {
+            background: #CFF5B7;
+          }
+        }
+
+        &.am-back-appointment {
+          &::before {
+            background: #E1F0FF;
+          }
+        }
+
+        &.is-active {
+          .am-appointment-data {
+            h3.grouped:after {
+              background-color: inherit;
+            }
+          }
+        }
+
+        .am-appointment-data {
+          .am-appointment-data-phone {
+            display: none;
+          }
+
+          .el-checkbox {
+            margin-right: @margin-small/2;
+          }
+
+          .el-checkbox__label {
+            display: none;
+          }
+
+          h3 {
+            margin-bottom: 0;
+            overflow: hidden;
+            max-width: 100%;
+            height: 24px;
+
+            &.grouped {
+              padding-right: @padding-medium;
+              white-space: nowrap;
+              overflow: hidden !important;
+              text-overflow: ellipsis;
+
+              svg {
+                width: 16px;
+              }
+            }
+          }
+
+          p {
+            margin-bottom: 0;
+          }
+
+          .el-button {
+            margin-top: 0;
+            @media @less-then-medium {
+              padding-left: @padding-medium - 4px;
+              padding-right: @padding-medium - 4px;
+            }
+          }
+
+          .el-select {
+            display: block;
+
+            .el-input {
+              margin-bottom: 0;
+            }
+          }
+
+          .am-appointment-checkbox {
+            @media only screen and ( max-width: 1367px) {
+              display: block;
+              margin-bottom: 2px;
+            }
+          }
+
+          .am-appointment-time {
+            line-height: 1.6;
+            display: inline-block;
+            padding: 0 @padding-small/2;
+            border-radius: @border-radius/2;
+
+            &.approved {
+              background-color: fade(@color-green, 10%);
+              color: @color-green;
+            }
+
+            &.pending {
+              background-color: fade(@color-orange, 10%);
+              color: @color-orange;
+            }
+
+            &.canceled {
+              background-color: fade(@color-red, 10%);
+              color: @color-red;
+            }
+
+            &.rejected {
+              background-color: fade(@color-text-prime, 10%);
+              color: @color-text-prime;
+            }
+
+            &.no-show {
+              background-color: fade(@color-gray, 10%);
+              color: @color-dark-gray;
+            }
+
+            &.paid {
+              background-color: fade(@color-green, 10%);
+              color: @color-green;
+            }
+
+            &.partiallyPaid {
+              background-color: fade(@color-blue, 10%);
+              color: @color-blue;
+            }
+
+            @media @less-then-medium {
+              font-size: @mini-fs;
+            }
+          }
+
+          .am-assigned {
+            display: flex;
+            align-items: center;
+
+            img {
+              margin-right: @margin-small;
+            }
+
+            .am-employee-card-badge {
+              width: fit-content;
+              display: inherit;
+              padding: 0px 4px;
+              border-radius: 5px;
+              color: #FFF;
+              text-align: center;
+              font-family: @roboto;
+              font-size: 13px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 19px;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              max-width: 95%;
+            }
+          }
+
+          .am-appointments-flex-row-middle-align {
+            min-height: 44px;
+            @media @less-then-small {
+              margin-bottom: 0;
+            }
+          }
+
+          .am-edit-btn {
+            text-align: right;
+            margin-right: @margin-medium*2;
+            @media @less-then-large {
+              margin-right: @margin-small;
+            }
+          }
+
+          .am-customer-status {
+            margin-right: @margin-medium;
+            color: @color-green;
+            text-transform: capitalize;
+            line-height: 1.8;
+            display: inline-block;
+            padding: 0 @padding-small/4;
+            border-radius: @border-radius/2;
+            min-width: 60px;
+            text-align: center;
+
+            &.pending {
+              background-color: fade(@color-orange, 10%);
+              color: @color-orange;
+            }
+
+            &.approved {
+              background-color: fade(@color-green, 10%);
+              color: @color-green;
+            }
+
+            &.canceled {
+              background-color: fade(@color-red, 10%);
+              color: @color-red;
+            }
+
+            &.rejected {
+              background-color: fade(@color-text-prime, 10%);
+              color: @color-text-prime;
+            }
+
+            &.no-show {
+              background-color: fade(@color-gray, 10%);
+              color: @color-dark-gray;
+            }
+          }
+
+          .am-appointment-payment,
+          .am-appointment-package {
+            .am-appointment-package-wrap{
+              display: flex;
+              align-items: center;
+            }
+            .am-appointment-package-wrap {
+              h4 {
+                width: auto;
+              }
+              img {
+                margin-left: 5px;
+              }
+            }
+            .am-appointment-payment-wrap {
+              display: flex;
+              align-items: end;
+              img {
+                &.am-appointment-payment-icons {
+                  width: 20px;
+                  height: 20px;
+                  margin-left: 0;
+                }
+              }
+              &-price {
+                overflow: hidden;
+                text-overflow: ellipsis;
+              }
+            }
+            img {
+              display: inline-block;
+              vertical-align: middle;
+              margin-right: @margin-small/2;
+              width: 16px;
+              height: 16px;
+            }
+          }
+        }
+
+        &-package-purchased-status {
+          width: fit-content;
+          max-width: 80%;
+          line-height: 22px;
+          border-radius: 4px;
+          padding: 0 4px;
+          margin-top: 2px;
+
+          &-unlimited {
+            background-color: fade(@color-green, 10%);
+            color: @color-green;
+          }
+
+          &-active {
+            background-color: fade(@color-orange, 10%);
+            color: @color-orange;
+          }
+
+          &-expired {
+            background-color: fade(@color-red, 10%);
+            color: @color-red;
+          }
+        }
+      }
+    }
+  }
+
+  h3 span.am-customer-name, h3.am-customer-name {
+    position: relative;
+    padding: 0px 4px 0 24px;
+    height: 22px;
+    width: fit-content;
+    max-width: 80%;
+    border-radius: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    line-height: 24px;
+
+    &.am-customer-blocked {
+      padding: 0px 4px 0 20px;
+      &::before {
+        content: url("../../img/block.svg");
+      }
+    }
+
+    &.am-no-show {
+
+      &-gray {
+        border: 1px solid #D1D5D7;
+        background: #FBFBFB;
+        &::before {
+          content: url("../../img/am-user-single-no-show.svg");
+        }
+      }
+      &-yellow {
+        border: 1px solid #F7E4A2;
+        background: #FDF9E8;
+        &::before {
+          content: url("../../img/am-user-double-no-show.svg");
+        }
+      }
+      &-red {
+        border: 1px solid #F1A29D;
+        background: #FCE8E7;
+        &::before {
+          content: url("../../img/am-user-multiple-no-show.svg");
+        }
+      }
+    }
+
+    &::before {
+      height: 24px;
+      position: absolute;
+      left: 0;
+      display: block;
+    }
+  }
+}
+
+@media @less-then-large {
+  .el-col:first-child {
+    .am-appointments-flex-row-middle-align {
+      margin-bottom: @margin-medium;
+    }
+  }
+}
+
+.am-appointments-flex-row-middle-align {
+  display: flex;
+  align-items: center;
+  min-height: 20px;
+  @media @less-then-large {
+    align-items: inherit;
+  }
+  @media @less-then-small {
+    display: block;
+    &:first-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  .el-col {
+    @media @less-then-small {
+      margin-bottom: @margin-medium;
+    }
+  }
+}
+
+

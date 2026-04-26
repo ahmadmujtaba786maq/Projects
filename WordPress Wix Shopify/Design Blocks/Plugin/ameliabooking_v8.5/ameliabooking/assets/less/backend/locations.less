@@ -1,0 +1,186 @@
+@import "../common/_variables";
+
+#am-locations {
+  .am-locations-filter {
+    .el-button {
+      &.button-filter-toggle {
+        line-height: 0.9;
+        display: none;
+        @media @less-then-small {
+          display: inline-block;
+          vertical-align: top;
+        }
+      }
+    }
+
+    .el-row {
+      .el-col {
+        @media @less-then-small {
+          margin-bottom: @margin-medium;
+        }
+
+        .el-input,
+        .el-select {
+          width: 100%;
+          margin-bottom: 0;
+        }
+
+        .am-search {
+          .el-input {
+            width: 100%;
+            margin-bottom: 0;
+
+            &.calc-width {
+              @media @less-then-small {
+                margin-right: @margin-medium;
+                width: calc(~'100% - 66px');
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .am-locations {
+    .am-location-card {
+      margin-bottom: @margin-big;
+      border-radius: 8px;
+      border: 1px solid @color-divider-gray;
+      position: relative;
+      overflow: hidden;
+      @media @less-then-xsmall {
+        display: block;
+      }
+
+      &.am-hidden-entity {
+        opacity: 0.6;
+
+        &:after {
+          display: block;
+          width: 18px;
+          height: 18px;
+          position: absolute;
+          bottom: 22px;
+          left: 70px;
+          background: #fff;
+          border-radius: 50%;
+          padding: @padding-small/2 + 2px;
+          content: url('../../img/hide.svg');
+          @media @less-then-xsmall {
+            bottom: 16px;
+            left: 16px;
+          }
+        }
+      }
+
+      .am-map-preview {
+        position: relative;
+
+        &:before {
+          content: " ";
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          z-index: 0;
+          background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .am-location-info {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: @padding-big @padding-medium;
+        position: relative;
+        @media @less-then-xsmall {
+          display: block;
+          text-align: center;
+        }
+
+        img.location-photo {
+          margin: 0 @margin-small;
+          border-radius: 50%;
+          width: 64px;
+          height: 64px;
+          min-width: 64px;
+          max-width: 64px;
+        }
+
+        h4 {
+          margin: 0 @margin-small 0 @margin-small;
+        }
+
+        .location-data {
+          h4 {
+            display: inline-block;
+            white-space: nowrap;
+          }
+
+          padding-right: 60px;
+          @media @less-then-xsmall {
+            padding-right: 0;
+          }
+
+          p.address {
+            overflow: hidden;
+            max-height: 20px;
+            @media @less-then-xsmall {
+              overflow: visible;
+              max-height: none;
+            }
+          }
+
+          .am-location-data-id {
+            color: #7F8FA4;
+            font-size: 14px;
+            font-weight: 400;
+          }
+        }
+
+        p {
+          overflow: hidden;
+          max-height: 20px;
+
+          span.svg-icon {
+            width: 16px;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+
+            &.location {
+
+            }
+
+            img {
+              margin: 0;
+            }
+          }
+
+          margin: 0 @margin-small 0 @margin-small;
+          color: @color-text-second;
+          font-size: @small-fs;
+        }
+
+        .el-button {
+          position: absolute;
+          right: 16px;
+          @media @less-then-xsmall {
+            position: inherit;
+            display: inline-block;
+            margin-top: @margin-small;
+            right: 0;
+          }
+        }
+      }
+    }
+  }
+}

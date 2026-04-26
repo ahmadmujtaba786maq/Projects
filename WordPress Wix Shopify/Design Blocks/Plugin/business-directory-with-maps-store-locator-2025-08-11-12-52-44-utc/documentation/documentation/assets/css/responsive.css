@@ -1,0 +1,43 @@
+
+@media screen and (max-width:991px){
+
+    .wrapper {
+        width: 85%;
+    }
+
+}/*max-width:991px*/
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .header {
+        grid-template-columns: 1fr 150px 45% 1fr;
+    }
+    nav {
+      grid-template-columns: 70px auto;
+    }
+  
+    .menu__item{
+      display: none;
+    }
+  
+    .menu__item.toggle {
+      display: inline-block;
+    }
+  
+    .menu {
+      text-align: right;
+      padding: 0.5rem 1rem;
+    }
+  
+    .toggle {
+      display: block;
+    }
+  
+    .menu.responsive .menu__item:not(:first-child) {
+      display: block;
+      padding: 0 0 0.5rem 0;
+    }
+  }

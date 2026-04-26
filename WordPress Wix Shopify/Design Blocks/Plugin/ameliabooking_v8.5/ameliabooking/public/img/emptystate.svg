@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="188px" height="160px" viewBox="0 0 188 160" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Custom Preset</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom-Preset">
+            <g id="Customers-emptystate">
+                <rect id="Base" fill="#D3DDEA" fill-rule="nonzero" opacity="0.196218297" x="28" y="0" width="160"
+                      height="160" rx="80"></rect>
+                <g id="Group-2" transform="translate(0.000000, 40.000000)">
+                    <g id="Rectangle-5" transform="translate(14.000000, 49.000000)">
+                        <g id="path-1-link" fill="#FFFFFF">
+                            <rect id="path-1" x="0" y="0" width="163" height="41" rx="8"></rect>
+                        </g>
+                        <rect id="Rectangle-path" stroke="#E2E6EC" x="0.5" y="0.5" width="162" height="40"
+                              rx="8"></rect>
+                    </g>
+                    <rect id="Rectangle-6" fill="#E2E6EC" fill-rule="nonzero" x="23" y="59" width="97" height="8"
+                          rx="4"></rect>
+                    <rect id="Rectangle-6-Copy-2" fill="#E2E6EC" fill-rule="nonzero" x="126" y="59" width="33"
+                          height="8" rx="4"></rect>
+                    <rect id="Rectangle-6-Copy" fill="#E2E6EC" fill-rule="nonzero" x="23" y="72" width="97" height="8"
+                          rx="4"></rect>
+                    <g id="Rectangle-5-Copy">
+                        <g id="path-2-link" fill="#FFFFFF">
+                            <rect id="path-2" x="0" y="0" width="163" height="41" rx="8"></rect>
+                        </g>
+                        <rect id="Rectangle-path" stroke="#E2E6EC" x="0.5" y="0.5" width="162" height="40"
+                              rx="8"></rect>
+                    </g>
+                    <rect id="Rectangle-6-Copy-5" fill="#E2E6EC" fill-rule="nonzero" x="10" y="10" width="97" height="8"
+                          rx="4"></rect>
+                    <rect id="Rectangle-6-Copy-4" fill="#E2E6EC" fill-rule="nonzero" x="112" y="10" width="33"
+                          height="8" rx="4"></rect>
+                    <rect id="Rectangle-6-Copy-3" fill="#E2E6EC" fill-rule="nonzero" x="10" y="23" width="97" height="8"
+                          rx="4"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

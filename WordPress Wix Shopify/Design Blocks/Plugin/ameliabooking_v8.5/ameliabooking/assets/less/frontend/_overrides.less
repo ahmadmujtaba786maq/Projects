@@ -1,0 +1,254 @@
+@import "_variables";
+
+.amelia-app-booking #amelia-booking-wrap, #am-modal.am-modal.am-in-body {
+  *:focus:not(.is-focus):not(:active) {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+  }
+
+  .el-select__tags {
+    left: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+
+    .el-select__tags-text {
+      max-width: 80px;
+      overflow: hidden;
+      display: inline-flex;
+    }
+
+    .el-select__input {
+      border: none;
+      background: transparent;
+    }
+  }
+
+  .el-input-group__prepend {
+    background-color: @color-light-gray;
+    border-color: #dddddd;
+
+    .el-input {
+      margin-bottom: 0;
+      min-width: 75px;
+    }
+  }
+
+  .el-input-group--prepend .el-input__inner, .el-input-group__append {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    vertical-align: middle;
+    display: table-cell;
+  }
+
+  .el-input-group__prepend div.el-select .el-input__inner, .el-input-group__prepend div.el-select:hover .el-input__inner {
+    border-color: transparent;
+    background-color: transparent;
+    color: inherit;
+    border-top: 0;
+    border-bottom: 0;
+  }
+
+  .el-form-item.is-success .el-input__inner, .el-form-item.is-success .el-input__inner:focus, .el-form-item.is-success .el-textarea__inner, .el-form-item.is-success .el-textarea__inner:focus {
+    border-color: @color-divider-gray;
+  }
+
+  // TODO - Move from overrides
+  .payment-dialog-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    div.paypal-button {
+      position: relative;
+
+      #am-paypal-button-container {
+        opacity: 0.01;
+        position: absolute;
+        top: 6px;
+        left: 8px;
+        z-index: 2;
+      }
+
+      span {
+        position: relative;
+      }
+    }
+
+    & .el-button {
+      margin: 0 @margin-small @margin-small;
+    }
+  }
+
+  // TODO - Move from overrides
+  .calendar-link {
+    span {
+      font-size: @regular-fs;
+    }
+    a:hover, a:visited, a:link, a:active {
+      color: @color-white;
+      text-decoration: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    &.is-disabled {
+      color: @color-gray;
+    }
+  }
+
+  // TODO - Move from overrides
+  .redirect-link {
+    span {
+      font-size: @regular-fs;
+    }
+    a {
+      color: @color-white;
+      text-decoration: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+
+  .el-form-item__content {
+    line-height: 1;
+  }
+}
+
+.el-popper {
+  max-width: 97%;
+  font-family: @font;
+
+  .el-select-dropdown__item {
+    white-space: normal;
+    min-height: 40px;
+    line-height: 40px;
+    height: auto;
+  }
+}
+
+.el-select-dropdown__empty {
+  padding: 10px;
+}
+
+.el-select-dropdown {
+  .el-select-dropdown__item {
+    background-color: transparent;
+    color: @color-text-second;
+
+    &.hover {
+      background-color: transparent;
+    }
+
+    &:hover {
+      background-color: @color-highlight;
+    }
+
+    &.selected {
+      background-color: transparent;
+      color: inherit;
+
+      &.hover {
+        background-color: transparent;
+      }
+
+      &:hover {
+        background-color: @color-highlight;
+      }
+    }
+
+    &.is-disabled {
+      color: @color-gray;
+    }
+
+    @media @less-then-medium {
+      &.am-drop-child {
+        padding: 0 12px;
+      }
+    }
+  }
+}
+
+.el-button {
+  margin: 0 @margin-small @margin-small;
+  letter-spacing: 0;
+  outline: none;
+
+  &:hover, &:focus {
+    outline: none;
+  }
+}
+
+.el-button {
+  &.am-delete {
+    background-color: @color-red;
+    border-color: @color-red;
+  }
+}
+
+.el-message-box {
+  font-family: @font;
+}
+
+.el-message--success {
+  z-index: 999999 !important;
+}
+
+.el-message--error {
+  z-index: 999999 !important;
+}
+
+.el-tooltip__popper {
+  text-align: center;
+}
+
+.el-notification {
+  h2 {
+    &:before {
+      display: none;
+    }
+  }
+
+  &__title {
+    line-height: 18px;
+  }
+
+  &__content {
+    line-height: 21px;
+  }
+}
+
+.el-dialog {
+  border-radius: 4px;
+}
+
+.el-input__prefix, .el-input__suffix {
+  color: #C0C4CC !important;
+}
+
+.el-dialog__headerbtn {
+  background-color: #ffffff !important;
+}
+
+.el-dialog__wrapper {
+  z-index: 1000001 !important;
+}
+
+.el-select-dropdown, .el-picker-panel, .el-tooltip__popper {
+  z-index: 1100000 !important;
+}
+
+.el-tooltip__popper {
+  z-index: 2111111112 !important;
+}
+
+.v-modal {
+  z-index: 1000000 !important;
+}
+
+.el-scrollbar {
+  & > .el-scrollbar__bar {
+    opacity: 1 !important;
+  }
+}

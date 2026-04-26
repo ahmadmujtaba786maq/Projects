@@ -1,0 +1,89 @@
+.am-licence {
+  border: 1px dashed @color-blue !important;
+  padding: 10px !important;
+  background-color: fade(@color-blue, 5%) !important;
+  border-radius: 4px !important;
+  margin-bottom: 24px !important;
+  margin-top: 5px;
+
+  div {
+    span {
+      color: @color-text-prime !important;
+    }
+  }
+
+  &-block {
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  i.el-icon-lock {
+    color: @color-blue !important;
+    display: inline-block !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    line-height: 1 !important;
+  }
+
+  a.el-button {
+    &:focus {
+      text-shadow: none;
+      box-shadow: none;
+    }
+  }
+}
+
+.am-licence-page {
+  a {
+    background-color: @color-blue !important;
+    color: white !important;
+  }
+
+  i {
+    font-size: 200px !important;
+    color: @color-blue !important;
+  }
+}
+
+.am-licence-hidden {
+  display: none !important;
+}
+
+.am-licence-container-disabled {
+  opacity: 0.4 !important;
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+}
+
+.am-licence-calendar {
+  .fc-day-button, .fc-month-button, .fc-timelineDay-button, .fc-listWeek-button {
+    opacity: 0.4 !important;
+    pointer-events: none;
+  }
+}
+
+.am-licence-block {
+  a.am-licence-button.am-licence-button__upgrade {
+    background-color: @color-blue;
+    border: 1px solid @color-blue;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    transition: .1s;
+    font-weight: 500;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+
+    &:hover {
+      background-color:  #1077de;
+    }
+  }
+}

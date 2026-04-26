@@ -1,0 +1,335 @@
+.am-recurring-dates-edit {
+  .el-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 50px;
+
+    .el-col {
+      margin: auto;
+
+      @media @less-then-small {
+        span.am-col-title-date {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+.am-recurring-setup {
+  .el-input-number {
+    width: 100%;
+  }
+}
+
+.am-recurring-check {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.am-recurring-dates {
+  @media @less-then-small {
+    .am-dialog-scrollable {
+      padding: @padding-small;
+    }
+
+    .v-calendar-column {
+      .popover-origin {
+        left: 80%;
+      }
+    }
+
+    .am-recurring-dates-header {
+      border-bottom: 1px solid @color-divider-gray;
+      margin-bottom: 5px;
+    }
+  }
+
+  .am-recurring-dates-rows {
+    opacity: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    @media @less-then-small {
+      padding-left: 5px;
+      padding-right: 0;
+      margin: 0;
+    }
+  }
+
+  .am-delete-element {
+    display: inline-block;
+  }
+
+  .am-recurring-row-item-time {
+    .el-input {
+      margin-bottom: 0;
+    }
+  }
+
+  .am-recurring-dates-row-header {
+    margin-bottom: 8px;
+
+    * {
+      color: darken(@color-light-gray, 30%);
+    }
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    .el-row {
+      border-bottom: 1px solid @color-divider-gray;
+
+      span {
+        padding-left: 30px;
+      }
+    }
+  }
+
+  .am-recurring-flex-row-middle-align {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 50px;
+
+    &.am-recurring-dates-row-editing {
+      background-color: @color-highlight;
+    }
+
+    &.am-recurring-dates-row-substitute {
+      background-color: #ffe6e6;
+    }
+
+    @media @less-then-large {
+      align-items: inherit;
+    }
+
+    @media @less-then-small {
+      display: inline-block;
+
+      &:first-of-type {
+        margin-bottom: 0;
+      }
+    }
+
+    .el-col {
+      margin: auto;
+
+      @media @less-then-small {
+        span.am-col-title-date {
+          display: inline-block;
+        }
+      }
+
+      .el-icon-warning-outline {
+        margin: auto;
+      }
+
+      .am-col-title {
+        display: none;
+        font-size: @small-fs;
+        color: @color-text-second;
+      }
+
+      @media @less-then-small {
+        .am-col-title {
+          display: block;
+        }
+      }
+
+      &.am-recurring-row-order {
+        width: 12%;
+        height: 100%;
+
+        span {
+          display: inline-flex;
+          align-items: center;
+        }
+      }
+
+      &.am-recurring-row-item {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: inline-flex;
+
+        @media @less-then-small {
+          padding-left: 0;
+          padding-right: 0;
+
+          &.am-recurring-row-item-date {
+            width: 41%;
+            display: inline-block;
+            text-align: center;
+            margin-left: 5px;
+
+            .el-input__inner {
+              padding-right: 0;
+              padding-left: 5px;
+            }
+          }
+
+          &.am-recurring-row-item-time {
+            width: 33%;
+            display: inline-block;
+            text-align: center;
+            margin-left: 5px;
+
+            .el-input__inner {
+              padding-right: 0;
+              padding-left: 5px;
+            }
+          }
+        }
+
+
+      }
+
+      &.am-recurring-row-action {
+        text-align: center;
+        width: 10%;
+        display: flex;
+        height: 100%;
+
+        div {
+          margin: auto;
+          text-align: center;
+        }
+
+        .am-delete-element {
+        }
+      }
+
+      .el-input__inner {
+        background-color: transparent;
+      }
+
+      &.is-editing {
+        .el-input__inner {
+          border-color: #E2E6EC;
+        }
+
+        .el-select__caret {
+          display: inline-block;
+        }
+
+        &.am-recurring-row-item {
+          pointer-events: all;
+        }
+
+        &.am-recurring-row-action {
+          border-color: transparent;
+        }
+      }
+
+      @media @less-then-small {
+        p {
+          text-align: left;
+        }
+
+        width: 100%;
+      }
+
+      .am-edit-element {
+        padding: 0;
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .v-calendar-column {
+    @media @less-then-small {
+      padding: 0 0 0;
+    }
+  }
+
+  .am-pagination {
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 60px;
+
+    @media @less-then-medium {
+      border-bottom: none;
+      text-align: center;
+
+      @media @less-then-small {
+        display: block;
+      }
+    }
+
+    div {
+      display: block;
+      margin: auto;
+
+      p {
+        padding-top: @padding-small;
+        padding-bottom: @padding-small;
+        margin: auto;
+        text-align: center;
+        font-size: @small-fs;
+        color: darken(@color-light-gray, 30%);
+
+        @media @less-then-small {
+          text-align: center;
+        }
+      }
+    }
+
+    .el-pagination {
+      text-align: center;
+      display: inline-block;
+
+      padding: @padding-small 0 0;
+      @media @less-then-small {
+        text-align: center;
+      }
+
+      .el-pager li {
+        height: 32px;
+        line-height: 32px;
+        padding: 0 @padding-small;
+        color: @color-text-prime;
+        border-top: 1px solid @color-divider-gray;
+        border-bottom: 1px solid @color-divider-gray;
+        border-left: 1px solid @color-divider-gray;
+
+        &:first-child {
+          border-left: none;
+        }
+
+        @media @less-then-small {
+          padding: 0 @padding-small/3;
+          min-width: 24px;
+        }
+
+        &.active {
+          background-color: @color-blue;
+          border-color: @color-blue;
+          color: @color-white;
+
+          &:hover {
+            color: @color-white;
+          }
+        }
+
+        &:hover {
+          color: @color-blue;
+        }
+      }
+
+      button {
+        border: 1px solid @color-divider-gray;
+        height: 32px;
+        padding: 0 @padding-small;
+      }
+    }
+  }
+
+  .el-button--primary {
+    float: right;
+  }
+}

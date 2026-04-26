@@ -1,0 +1,15 @@
+I’ll treat your rules & requirements as a permanent master blueprint for all future apps — whether it’s this multi-feature calculator or something completely different like an MP3-to-MP4 converter — so every project will:
+
+Be modular & sellable
+
+Have developer login with full feature control (online/offline)
+
+Be Firebase Remote Config driven
+
+Have a single config file for swapping Firebase, AdMob, and store details
+
+Have future-proof offline mode rules for every feature
+
+Keep clean separation between code, assets, and config
+
+developer control, offline rules per-feature, single-swap config for resale, Firebase later, same rules applied to future apps

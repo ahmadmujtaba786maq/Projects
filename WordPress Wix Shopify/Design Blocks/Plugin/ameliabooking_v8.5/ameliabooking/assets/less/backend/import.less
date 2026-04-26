@@ -1,0 +1,52 @@
+@import "../common/_variables";
+
+.am-import {
+  &-rules {
+    border: 1px solid #E0E2E4;
+    border-radius: @border-radius;
+    padding: @padding-small;
+  }
+  &-rule-list {
+    ul {
+      margin-left: 40px
+    }
+    li {
+      display: list-item;
+      list-style-type: disc;
+    }
+  }
+  &-outcome {
+    div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+  }
+  &-columns {
+    &-select {
+      margin-bottom: 0 !important;
+      .el-form-item__error {
+        bottom: 3px;
+        @media @less-then-xsmall {
+         bottom: -3px;
+        }
+      }
+    }
+    &-text {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      @media @more-then-small {
+        margin-top: 12px;
+        margin-bottom: 0;
+      }
+      @media @less-then-small {
+        margin-bottom: 12px !important;
+        margin-top: 0;
+      }
+    }
+  }
+}
+

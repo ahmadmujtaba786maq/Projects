@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape-svg</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Notifications-:-SMS-:-History" transform="translate(-1177.000000, -702.000000)" fill="#1A84EE"
+           fill-rule="nonzero">
+            <g id="Group-15-Copy-2" transform="translate(402.000000, 684.000000)">
+                <g id="Group-13" transform="translate(775.000000, 17.000000)">
+                    <path d="M11.0882353,11.7058824 C12.1427647,11.7058824 13,10.8478824 13,9.79411765 L13,2.91176471 C13,1.858 12.1427647,1 11.0882353,1 L1.91176471,1 C0.857235294,1 0,1.858 0,2.91176471 L0,9.79411765 C0,10.8478824 0.857235294,11.7058824 1.91176471,11.7058824 L3.05882353,11.7058824 L3.05882353,13.6176471 C3.05882353,13.7621765 3.14064706,13.8944706 3.26988235,13.9594706 C3.32341176,13.9862353 3.38229412,14 3.44117647,14 C3.52223529,14 3.60329412,13.974 3.67058824,13.9235294 L6.62770588,11.7058824 L11.0882353,11.7058824 Z"
+                          id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

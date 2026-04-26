@@ -1,0 +1,64 @@
+// Breakpoints
+//using on down mixins
+$am-xsmall-max: 374px;
+$am-small-max: 767px;
+$am-medium-max: 991px;
+$am-large-max: 1199px;
+$am-xlarge-max: 1919px;
+
+//using on up mixins
+$am-xsmall-min: 375px;
+$am-small-min: 768px;
+$am-medium-min: 992px;
+$am-large-min: 1200px;
+$am-xlarge-min: 1920px;
+
+$tablet: 1024px;
+$phone: 768px;
+
+// Media Mixins
+@mixin media-breakpoint-down($breakpoint) {
+  @if $breakpoint {
+    @media only screen and (max-width: $breakpoint) {
+      @content;
+    }
+  }
+}
+
+@mixin media-breakpoint-up($breakpoint) {
+  @if $breakpoint {
+    @media only screen and (min-width: $breakpoint) {
+      @content;
+    }
+  }
+}
+
+@mixin tablet-up {
+  @media only screen and (min-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin tablet-down {
+  @media only screen and (max-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin tablet-only {
+  @media only screen and (max-width: $tablet) and (min-width: $phone + 1) {
+    @content;
+  }
+}
+
+@mixin phone-up {
+  @media only screen and (min-width: $phone + 1) {
+    @content;
+  }
+}
+
+@mixin phone-down {
+  @media only screen and (max-width: $phone) {
+    @content;
+  }
+}

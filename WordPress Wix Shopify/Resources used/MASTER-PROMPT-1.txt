@@ -1,0 +1,197 @@
+describe a step by step pathway for a beginner game developer so he develop the app described below and point to be noted that developer login should work in real time and use firebase for database, storage etc
+provide code and everything and developer just following the steps
+thanks
+
+Master Prompt for Calculator App with Ads, Subscription, and Developer Controls
+App Modes
+AdMob Model (Default on first install)
+
+Shows banner ads.
+
+Shows interstitial ads every X minutes (developer can set time frequency in both Unity editor and developer login inside the app).
+
+Basic calculator only.
+
+Scientific calculator button is locked.
+
+Scientific calculator can be temporarily unlocked for X minutes (default 30 min) by watching a rewarded ad — developer can toggle ON/OFF this feature in both Unity and developer login.
+
+Notes & History:
+
+Locked by default.
+
+Cannot be unlocked by watching ads unless developer allows.
+
+Dark/Light mode:
+
+Locked by default.
+
+Can be enabled by developer toggle in basic mode.
+
+All feature unlock durations after watching ads are developer-controlled in both Unity and developer login.
+
+Subscription Model (Upgrade Option)
+
+No ads at all.
+
+All features unlocked by default (Scientific calculator, Notes, History, Dark/Light mode).
+
+Multiple subscription tiers allowed (developer can create and manage tiers in both Unity and developer login).
+
+Subscription durations are developer-controlled for new subscribers (existing users keep their original duration).
+
+Dark/Light mode toggle available in settings.
+
+Apple-style button click sounds (can be turned ON/OFF in settings).
+
+Notes & History always available (unless developer hides them via toggle).
+
+Subscription button visible in:
+
+Top of the calculator screen
+
+Settings menu
+
+Requires user account login so subscription is not lost after reinstall.
+
+Developer Controls
+Available in:
+
+Unity Editor
+
+Developer Login inside the app (secured with developer credentials)
+
+Controls Include:
+
+Enable/disable AdMob model.
+
+Enable/disable subscription model.
+
+Set ad frequency (in minutes).
+
+Enable/disable watching ads to unlock scientific calculator.
+
+Set unlock duration for scientific calculator after ad watch.
+
+Enable/disable Notes & History for both AdMob and Subscription models.
+
+Enable/disable Dark/Light mode for AdMob model.
+
+Show/hide Notes & History buttons in UI.
+
+Show/hide Dark/Light mode option in settings.
+
+Control which features are available in which mode.
+
+Manage multiple subscription tiers (create, edit, remove).
+
+Set subscription duration for new users.
+
+Toggle whether certain features can be unlocked via rewarded ads.
+
+Model-wise control panel with all feature toggles organized per mode.
+
+UI & Features
+Calculator UI matches Apple Calculator or Windows 11 Calculator design.
+
+Button click sound like Apple (toggleable in settings).
+
+Modes:
+
+Basic
+
+Scientific
+
+Notes feature:
+
+Save text notes.
+
+View, edit, and delete notes.
+
+History feature:
+
+Stores past calculations.
+
+Can be cleared by user.
+
+Light/Dark mode toggle in subscription model (developer decides for basic model).
+
+Settings Menu Includes:
+
+Profile
+
+Edit Profile
+
+Change Password
+
+Notifications
+
+Privacy & Security
+
+Appearance / Theme
+
+Language & Region
+
+Account
+
+Linked Accounts
+
+Data & Storage
+
+Permissions
+
+Backup & Restore
+
+About App
+
+Help & Support
+
+Feedback
+
+Terms & Conditions
+
+Privacy Policy
+
+Logout
+
+Delete Account
+
+Subscription & Payment Integration
+Uses Google Play Billing Library.
+
+Subscription purchase flow:
+
+User clicks “Subscribe” button.
+
+Google Play handles payment securely.
+
+App verifies active subscription status via Google Play Billing API.
+
+Subscription tiers configured in Google Play Console (example: monthly, yearly, premium).
+
+Subscription duration controlled by developer for future subscribers only.
+
+Payment:
+
+Google collects payment from user.
+
+Deducts commission (15% for first $1M/year, 30% after).
+
+Pays remaining amount to developer’s linked bank account via monthly payout.
+
+Merchant account setup required in Google Play Console with bank verification.
+
+Special Rules
+Notes & History cannot be unlocked temporarily via ads unless explicitly enabled by developer.
+
+Scientific calculator temporary unlock duration via ads is configurable.
+
+Every feature has:
+
+Mode-based toggle (AdMob or Subscription)
+
+Ad unlock eligibility toggle
+
+Visibility toggle
+
+All developer settings are mirrored in Unity Editor and Developer Login panel inside the app.

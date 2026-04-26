@@ -1,0 +1,522 @@
+[dir=rtl] {
+  .am-wrap {
+    margin: 20px 2px 20px 20px;
+  }
+  .am-page-header .am-logo {
+    padding-right: 0;
+    padding-left: @padding-big;
+  }
+  .am-button-new {
+    right: auto;
+    left: 32px;
+  }
+  .el-dialog__wrapper {
+    overflow-x: hidden;
+  }
+  .am-side-dialog .el-dialog {
+    right: auto;
+    left: 0;
+  }
+  // Slide Horizontal
+
+  .slide-enter-active, .slide-leave-active {
+    transition: all .6s ease-out;
+  }
+
+  .slide-enter, .slide-leave-to {
+    transform: translateX(0);
+  }
+
+  .am-page-header {
+    .align-right {
+      text-align: left;
+    }
+  }
+
+  .am-page-header h1.am-page-title {
+    padding-left: 0;
+    padding-right: @padding-big;
+    border-right: 1px solid #E2E6EC;
+    border-left: none;
+  }
+  .align-right, .am-align-right {
+    text-align: left;
+  }
+  .am-body a.am-help-button {
+
+  }
+  #am-dashboard .am-big-stats .am-grid-content .am-title .am-change {
+    right: auto;
+    left: 0;
+  }
+  .am-filter-fields, .am-customers-filter,  #am-finance .am-finance-filter {
+    .el-select.calc-width {
+      //float: left;
+      margin-right: 0 !important;
+    }
+  }
+  #am-employees .am-employee-row .am-employee-col.am-edit-btn {
+    justify-content: flex-start;
+  }
+  #am-employees .am-employee-card .am-employee-status-label {
+    right: auto;
+    left: 16px;
+  }
+  #am-locations .am-locations .am-location-card .am-location-info .location-data {
+    padding-right: 0 ;
+    padding-left: 60px;
+  }
+  #am-locations .am-locations .am-location-card .am-location-info .el-button {
+    right: auto;
+    left: 16px;
+  }
+  #am-appointments .am-appointments-filter .el-row .el-col .el-button {
+    margin-left: 0;
+    float: left;
+  }
+
+  #am-locations .am-locations .am-location-card.am-hidden-entity:after {
+    right: 70px;
+    left: auto;
+  }
+  #am-employees .am-employees-filter .el-row .el-button {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+
+  .am-appointments .am-appointments-list .el-collapse-item__header__arrow, .am-customers .am-appointments-list .el-collapse-item__header__arrow, .am-finances .am-appointments-list .el-collapse-item__header__arrow, .am-appointments .am-customers-list .el-collapse-item__header__arrow, .am-customers .am-customers-list .el-collapse-item__header__arrow, .am-finances .am-customers-list .el-collapse-item__header__arrow, .am-appointments .am-finance-list .el-collapse-item__header__arrow, .am-customers .am-finance-list .el-collapse-item__header__arrow, .am-finances .am-finance-list .el-collapse-item__header__arrow, .am-appointments .am-appointments-list .el-collapse-item__arrow, .am-customers .am-appointments-list .el-collapse-item__arrow, .am-finances .am-appointments-list .el-collapse-item__arrow, .am-appointments .am-customers-list .el-collapse-item__arrow, .am-customers .am-customers-list .el-collapse-item__arrow, .am-finances .am-customers-list .el-collapse-item__arrow, .am-appointments .am-finance-list .el-collapse-item__arrow, .am-customers .am-finance-list .el-collapse-item__arrow, .am-finances .am-finance-list .el-collapse-item__arrow {
+    left: -16px;
+    right: auto;
+  }
+  .am-pagination  {
+    p {
+      //text-align: left;
+    }
+  }
+
+  .am-pagination .el-pagination {
+    text-align: left;
+  }
+
+  #am-employees .am-employee-row .am-employee-col img {
+    margin-right: 0;
+    margin-left: @margin-small;
+  }
+
+  .el-tabs__active-bar {
+    display: none;
+  }
+
+  .el-tabs--bottom .el-tabs__item.is-bottom:last-child, .el-tabs--bottom .el-tabs__item.is-top:last-child, .el-tabs--top .el-tabs__item.is-bottom:last-child, .el-tabs--top .el-tabs__item.is-top:last-child {
+    padding-right: 20px;
+    //padding-left: 0;
+  }
+
+  #am-appointments .am-appointments .am-appointments-list .am-appointment .am-appointment-data .am-edit-btn {
+    text-align: right;
+    margin-right: 0;
+  }
+
+  #am-appointments .am-appointments .am-appointments-list .am-appointment .am-appointment-data .am-appointment-payment img {
+    margin-right: 0;
+    margin-left: 4px;
+  }
+
+  .el-pagination--small .arrow.disabled, .el-table .hidden-columns, .el-table td.is-hidden>*, .el-table th.is-hidden>*, .el-table--hidden {
+    visibility: visible;
+  }
+
+  #am-dashboard .am-employee-table-stats .el-table .cell img, #am-dashboard .am-employee-table-stats .el-table .cell svg {
+    margin-right: 0;
+    margin-left: 8px;
+  }
+  .el-popover.am-button-popover .am-button-new-items {
+    left: 32px;
+    right: auto;
+    text-align: left;
+    .el-button+.el-button {
+      margin-right: 0;
+    }
+  }
+  .el-checkbox__label {
+    padding-right: 10px;
+  }
+  [class*=el-col-] {
+    float: right;
+  }
+
+  #am-finance .am-coupon-row button {
+    float: left;
+  }
+
+  #am-finance .am-finance-filter .el-button.button-export {
+    right: auto;
+    left: 0;
+  }
+
+  #am-employees .am-employees-filter .am-filter-buttons {
+    right: auto;
+    left: 0;
+  }
+  .el-tabs__nav {
+    float: right;
+  }
+
+  .am-border-right {
+    border-right: none;
+    border-left: 1px solid @color-divider-gray;
+  }
+  .el-color-hue-slider.is-vertical {
+    float: left !important;
+  }
+
+  .el-icon-arrow-right:before {
+    content: "\E600";
+  }
+
+  .el-icon-arrow-left:before {
+    content: "\E604";
+  }
+  .am-side-dialog .el-dialog .am-delete-element {
+    margin-right: 4px;
+  }
+
+
+  #am-notifications #am-email-notifications .am-email-form-settings p.am-blue-link, #am-notifications #am-sms-notifications .am-email-form-settings p.am-blue-link {
+    text-align: left;
+  }
+
+  .el-tabs--bottom .el-tabs__item.is-bottom:nth-child(2), .el-tabs--bottom .el-tabs__item.is-top:nth-child(2), .el-tabs--top .el-tabs__item.is-bottom:nth-child(2), .el-tabs--top .el-tabs__item.is-top:nth-child(2), .el-tabs__nav .el-tabs__item:nth-child(2) {
+    padding-right: 0;
+    padding-left: 20px;
+  }
+
+  .ql-editor{
+    text-align: right;
+  }
+
+  .el-form-item__label {
+    //float: right;
+    padding: 0;
+  }
+
+  .am-sms-dashboard .el-form-item__label {
+    float: right
+  }
+
+  #am-notifications #am-sms-notifications .am-sms-dashboard .am-sms-dashboard-body .am-sms-dashboard-content {
+    border-left: none;
+    border-right: 1px solid @color-divider-gray;
+  }
+
+  #am-notifications #am-sms-notifications .am-sms-dashboard .am-sms-dashboard-header .am-sms-loggedin-user > *, #am-notifications #am-sms-notifications .am-sms-dashboard .am-sms-dashboard-header .am-sms-balance > * {
+    margin-right: 0;
+    margin-left: @margin-big;
+  }
+  #am-notifications #am-sms-notifications .am-sms-dashboard .am-sms-dashboard-header .am-sms-logo img {
+    margin-right: 0;
+    margin-left: @margin-small;
+  }
+  .ql-snow .ql-picker:not(.ql-color-picker):not(.ql-icon-picker) svg {
+    right: auto;
+    left: 0;
+  }
+
+  #am-settings .am-settings-cards .el-row .el-col:nth-child(3) {
+    border-right: 1px solid @color-divider-gray;
+  }
+
+  #am-settings .am-settings-cards .el-row .el-col:nth-child(1) {
+    border-right: none;
+  }
+  .am-dialog-footer .align-left {
+    text-align: right;
+  }
+
+  .el-picker-panel {
+    margin-right: 20px;
+  }
+  .am-side-dialog .el-dialog .am-dialog-header .am-dialog-close {
+    margin-left: 0;
+    margin-right: @margin-small;
+  }
+  .am-dialog-table .el-row.am-dialog-table-head.hours .el-col:first-child span, .am-dialog-table .el-row.am-dialog-table-head.days .el-col:first-child span {
+    margin-left: 0;
+    margin-right: @margin-small;
+  }
+
+  #am-customers .am-customers .am-customers-list .am-customer .am-customer-data .el-button {
+    margin-right: 0;
+    margin-left: @margin-big;
+  }
+  #am-customers .am-customers-filter .el-button.button-export {
+    left: 4px;
+    right: auto;
+  }
+
+  #am-customers .am-customers .am-customers-list .am-customer .am-customer-data .am-assigned img {
+    margin-right: 0;
+    margin-left: @margin-small;
+  }
+
+
+  .am-side-dialog .el-dialog .am-add-element {
+    margin-right: 0;
+    margin-left: @margin-small/2;
+  }
+  .el-button+.el-button {
+    margin-left: 0;
+    margin-right: @margin-small;
+  }
+  .c-header .c-arrow-layout {
+    transform: rotate(180deg);
+  }
+  .am-button-new-items-custom-fields {
+    right: auto;
+    left: 32px;
+    .el-button+.el-button {
+      margin-right: 0;
+    }
+  }
+  .el-select .el-tag__close.el-icon-close {
+    right: auto;
+    left: 0;
+  }
+  .el-select-dropdown__wrap, .el-scrollbar__wrap {
+    margin-right: 0 !important;
+    margin-left: -17px;
+  }
+  .el-select-dropdown.is-multiple .el-select-dropdown__item.selected::after {
+    right: auto;
+    left: 20px;
+  }
+  #am-customize .am-custom-field .am-flexed2 div:first-child {
+    margin-right: 0;
+    margin-left: @margin-small;
+  }
+  #am-customize .am-custom-field h3 .am-custom-field-actions {
+    float: left;
+  }
+  #am-customize .am-custom-field .am-drag-handle {
+    margin-right: 0;
+    margin-left: @margin-small;
+  }
+  .el-select__tags {
+    left: -4px;
+  }
+  .el-notification.right {
+    right: auto;
+    left: 32px;
+  }
+
+  .el-notification__closeBtn {
+    right: auto;
+    left: 16px;
+  }
+
+  .am-side-dialog .el-dialog .am-add-elements {
+    text-align: right;
+  }
+
+  .am-selected-dropdown-items .am-selected-dropdown-item i.remove {
+    right: auto;
+    left: 0;
+  }
+
+  .am-selected-dropdown-items .am-selected-dropdown-item .am-appointment-persons.small svg, .am-selected-dropdown-items .am-selected-dropdown-item .am-appointment-persons.small .am-appointment-duration.small img {
+    left: 30px;
+  }
+  .c-day-layer .c-day-background {
+    border-radius: 0 !important;
+  }
+
+  .am-page-header .am-calendar-header-filters .el-form-item__label {
+    padding-right: 0;
+    padding-left: @padding-small;
+  }
+
+  .el-scrollbar__bar {
+    right: auto;
+    left: 2px;
+  }
+
+  #am-notifications #am-sms-notifications .am-sms-auth .am-forgot-pass {
+    left: 0;
+    right: auto;
+  }
+  .el-input-group__prepend {
+    border-right: 1px solid #DCDFE6 ;
+  }
+
+  .el-input-group--append .el-input__inner, .el-input-group__prepend {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  .am-side-dialog .el-dialog .am-setting-box .el-collapse-item__header i.el-icon-circle-check {
+    right: auto;
+    left: 40px;
+  }
+  .am-side-dialog .el-dialog .am-setting-box .el-collapse-item__header i {
+    right: auto;
+    left: 8px;
+  }
+  #am-finance .am-finance-list .am-finance .am-finance-data .am-assigned img {
+    margin-right: 0;
+    margin-left: @margin-small;
+  }
+  #am-finance .am-finance-list .am-finance .am-finance-data .el-button {
+    margin: 0 0 0 @margin-medium;
+  }
+  .amelia-booking .v-calendar-column .el-form-item__content:after {
+    left: 8px;
+    right: unset;
+  }
+  .el-dialog{
+    .popover-origin.direction-bottom.align-left, .popover-origin.direction-top.align-left {
+      right: 0;
+      left: unset;
+    }
+
+    .popover-origin .popover-content-wrapper .popover-content.align-left:after {
+      right: 20px;
+      left: unset;
+    }
+  }
+
+  .am-customize {
+    &-page {
+      .am-customize-step {
+        .el-tabs__nav .el-tabs__item:nth-child(2) {
+          padding: 0 20px;
+        }
+      }
+
+      .am-recurring-dates {
+        left: auto;
+        right: 24px;
+      }
+
+      .am-recurring-setup.next-step {
+        left: auto;
+        right: ~"calc(-50% + 24px)";
+      }
+
+      .am-select-date.next-step {
+        left: auto;
+        right: -97%;
+      }
+
+      .am-confirm-booking {
+        left: auto;
+        right: 3%;
+
+        .el-form-item {
+          direction: rtl;
+
+          .el-radio-group {
+            .el-radio {
+              margin-left: 20px !important;
+              margin-right: 0 !important;
+            }
+          }
+        }
+
+        p {
+          text-align: right;
+
+          &.am-align-right {
+            text-align: left;
+          }
+        }
+      }
+
+      .am-select-package, .am-package-info {
+        right: 5%;
+      }
+
+      .am-step-booking.am-active-picker .am-package-info {
+        right: 0;
+      }
+
+      .am-package-list {
+        left: auto;
+        right: 3%;
+      }
+
+      .am-package-setup.next-step {
+        left: auto;
+        right: -97%;
+      }
+
+      .am-event-list {
+        .am-confirm-booking, .am-congratulations {
+          right: 0;
+          padding: 16px 0 0;
+
+          &.editable {
+            padding: 16px 20px 0;
+          }
+        }
+      }
+
+      .am-event-calendar-page {
+        .am-event-modal {
+          direction: rtl;
+
+          &__header {
+            direction: rtl;
+            text-align: unset !important;
+
+            &-booking-btn {
+              &-price {
+                padding-right: 24px;
+                padding-left: 0;
+
+                &:before {
+                  left: auto;
+                  right: 11px;
+                }
+              }
+            }
+          }
+        }
+
+        .am-confirm-booking {
+          right: 0;
+        }
+      }
+
+      .am-reset-button {
+        span {
+          img {
+            margin-right: 0;
+            margin-left: 8px;
+          }
+        }
+      }
+    }
+
+    &__edit {
+      z-index: 10000 !important;
+
+      &-body {
+        padding-right: 0;
+        padding-left: 16px;
+      }
+
+      .popper__arrow::after {
+        display: none;
+      }
+    }
+
+    &__color-settings {
+      span {
+        img {
+          margin-right: 0;
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+}

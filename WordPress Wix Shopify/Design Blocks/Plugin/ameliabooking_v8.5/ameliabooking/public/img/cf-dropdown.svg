@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <defs></defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[MODAL]-Select-Custom-fields" transform="translate(-483.000000, -278.000000)">
+            <g id="Group-11-Copy-5" transform="translate(443.000000, 254.000000)">
+                <g id="dropdown" transform="translate(40.000000, 24.000000)">
+                    <g id="Group-3">
+                        <rect id="Rectangle-3" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="80"
+                              height="80"></rect>
+                        <g id="dropdown" transform="translate(1.000000, 11.000000)" stroke-linecap="round"
+                           stroke-linejoin="round">
+                            <path d="M76.21532,58.760025 L1.77778,58.760025 C1.31105248,58.760025 0.863440979,58.5746179 0.533415254,58.2445912 C0.203389529,57.9145645 0.0179836739,57.4669525 0.017985,57.000225 L0.017985,13.985025 L77.97512,13.985025 L77.97512,57.000225 C77.97512,57.9721357 77.1872307,58.760025 76.21532,58.760025 Z"
+                                  id="Shape" stroke="#1A84EE"></path>
+                            <path d="M77.97512,14.010025 L0.018,14.010025 L0.018,1.994825 C0.0179986739,1.52809748 0.203404529,1.08048545 0.533430254,0.75045879 C0.863455979,0.420432127 1.31106748,0.235025 1.777795,0.235025 L76.21532,0.235025 C77.1872307,0.235025 77.97512,1.0229143 77.97512,1.994825 L77.97512,14.010025 Z"
+                                  id="Shape" stroke="#1A84EE"></path>
+                            <polyline id="Shape" stroke="#1A84EE"
+                                      points="71.276 6.099 68.2215 8.9355 65.276 6.099"></polyline>
+                            <path d="M4.734535,20.288085 L42.984535,20.288085" id="Shape" stroke="#76B5F5"></path>
+                            <path d="M4.734535,7.122525 L47.984535,7.122525" id="Shape" stroke="#1A84EE"></path>
+                            <path d="M4.734535,30.288085 L52.984535,30.288085" id="Shape" stroke="#76B5F5"></path>
+                            <path d="M4.734535,40.288085 L42.984535,40.288085" id="Shape" stroke="#76B5F5"></path>
+                            <path d="M4.734535,50.288085 L52.984535,50.288085" id="Shape" stroke="#76B5F5"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

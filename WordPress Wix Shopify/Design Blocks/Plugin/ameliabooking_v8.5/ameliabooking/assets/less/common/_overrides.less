@@ -1,0 +1,483 @@
+@import "_variables";
+
+
+.el-radio:focus:not(.is-focus):not(:active):not(.is-disabled) .el-radio__inner {
+  box-shadow: none;
+}
+
+.el-col {
+  overflow: hidden;
+}
+
+.el-collapse-item__header {
+  height: auto;
+  line-height: inherit;
+  padding-left: 0;
+  background-color: transparent;
+  color: @color-text-prime;
+  cursor: pointer;
+  border-bottom: none;
+  font-size: inherit;
+}
+
+.el-collapse-item__wrap {
+  border-bottom: none;
+  background-color: transparent;
+}
+
+.el-collapse {
+  border: none;
+}
+
+.el-collapse-item__header__arrow {
+  position: absolute;
+}
+
+.el-collapse-item__content {
+  padding: 0;
+}
+
+.el-input, .el-date-editor, .el-form-item .popover-container {
+  margin-bottom: @margin-medium;
+}
+
+.el-form-item .c-weeks .popover-container, .el-form .c-title-popover.popover-container {
+  margin-bottom: 0;
+}
+
+.el-input-number {
+  width: 100%;
+}
+
+.el-button.el-button--primary {
+  color: @color-white;
+  background-color: @color-blue;
+  border-color: @color-blue;
+
+  &:hover {
+    color: @color-white;
+    background-color: darken(@color-blue, 5%);
+  }
+}
+
+.el-button.el-button--danger {
+  color: @color-white;
+  background-color: @color-red;
+  border-color: @color-red;
+
+  &:hover {
+    color: @color-white;
+    background-color: darken(@color-red, 5%);
+    border-color: darken(@color-red, 5%);
+  }
+}
+
+.el-button {
+  color: @color-text-second;
+
+  &:hover {
+    color: @color-blue;
+    border-color: @color-blue;
+  }
+
+  &.am-button-block {
+    span {
+      color: @color-text-prime;
+    }
+  }
+}
+
+.el-date-editor.el-input, .el-date-editor.el-input__inner, .el-date-editor--daterange.el-input, .el-date-editor--daterange.el-input__inner, .el-date-editor--timerange.el-input, .el-date-editor--timerange.el-input__inner, .el-date-editor.el-input, .el-date-editor.el-input__inner, .el-input__inner {
+  width: 100%;
+}
+
+.el-form--label-top .el-form-item__label {
+  color: @color-text-prime;
+  padding: 0;
+  line-height: 2;
+}
+
+.el-form-item__label {
+
+}
+
+.el-picker-panel, .el-popover, .el-select-dropdown, .el-tooltip__popper, .el-notification {
+  font-family: @roboto;
+  max-width: 100%;
+}
+
+.am-tooltip-waiting-list {
+  max-width: 203px;
+}
+
+.el-tabs__content {
+  padding-right: 1px;
+}
+
+.el-tabs__item.is-active {
+  color: @color-blue;
+}
+
+.el-tabs__active-bar {
+  background-color: @color-blue;
+}
+
+.v-modal {
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+}
+
+.el-time-panel__btn.confirm {
+  color: @color-blue;
+}
+
+input[type=text].el-select__input {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: transparent;
+  padding-left: 2px;
+}
+
+.el-tag--primary {
+  background-color: rgba(32, 160, 255, .1);
+  border-color: rgba(32, 160, 255, .2);
+  color: @color-blue;
+  font-size: 10px;
+}
+
+.el-tag .el-icon-close {
+  font-size: 9px;
+  top: 1px;
+}
+
+.el-select-dropdown.is-multiple .el-select-dropdown__item.selected.hover, .el-select-dropdown__item.hover, .el-select-dropdown__item:hover {
+  background-color: @color-highlight;
+}
+
+.el-select-dropdown__empty {
+  padding: 10px;
+}
+
+.el-select-dropdown {
+  .el-select-dropdown__item {
+    background-color: transparent;
+    color: inherit;
+
+    &.hover {
+      background-color: transparent;
+    }
+
+    &:hover {
+      background-color: @color-highlight;
+    }
+
+    &.selected {
+      background-color: transparent;
+      color: inherit;
+
+      &.hover {
+        background-color: transparent;
+      }
+
+      &:hover {
+        background-color: @color-highlight;
+      }
+    }
+
+    &.is-disabled {
+      color: @color-gray;
+    }
+
+    &.am-employee-badge-option {
+      padding: 0 8px;
+      max-width: 400px;
+      position: relative;
+      display: flex;
+      min-height: 34px;
+      align-items: center;
+
+      span {
+        max-width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+        padding: 0 4px;
+        color: #FFF;
+        text-align: center;
+        font-family: @roboto;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 19px;
+        border-radius: 5px;
+      }
+    }
+
+    .am-employee-badge {
+      padding: 0 4px;
+      align-items: center;
+      border-radius: 5px;
+      font-size: 13px;
+      line-height: 19px;
+      font-weight: 600;
+      color: #FFF;
+    }
+  }
+
+  .am-manage-employee-badges {
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    //color: #1A2C37;
+    padding: 0 8px;
+    box-sizing: border-box;
+    border-top: 1px solid #D1D5D7;
+    color: #1A2C37;
+    font-family: @roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    &-icon {
+      margin-right: 4px;
+    }
+
+    &.am-manage-badges-option {
+      height: 40px;
+      font-size: 14px;
+    }
+  }
+}
+
+.el-form-item {
+  margin-bottom: @margin-small/2;
+}
+
+.el-input-group__prepend {
+  background-color: @color-light-gray;
+  border-color: #dddddd;
+
+  .el-input {
+    margin-bottom: 0;
+    min-width: 75px;
+  }
+}
+
+.el-input-group__append {
+  background-color: @color-highlight;
+
+  button.el-button {
+    border-radius: 0;
+    border-right: 1px solid @color-divider-gray;
+    padding: 12px @padding-medium;
+
+    i {
+      vertical-align: middle;
+    }
+
+    &:last-child {
+      border: none;
+    }
+
+    &.active {
+      color: @color-blue;
+    }
+  }
+}
+
+.el-switch.is-checked .el-switch__core {
+  background-color: @color-blue;
+  border-color: @color-blue;
+}
+
+button.el-button {
+  &.active {
+    color: @color-blue;
+    border-color: @color-blue;
+  }
+}
+
+.pac-container {
+  z-index: 9999999991 !important;
+}
+
+.el-collapse-item:last-child {
+  margin-bottom: 0;
+}
+
+.el-icon-plus {
+  font-weight: 600;
+}
+
+.el-tabs__nav-wrap::after {
+  height: 1px;
+  background-color: @color-divider-gray;
+}
+
+.el-select-dropdown__item span {
+
+}
+
+.el-dialog {
+  input[type=number] {
+    height: 40px;
+    line-height: 1;
+    padding: 0 10px;
+  }
+}
+
+.el-date-editor .el-range__close-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.el-form-item__content {
+  line-height: 1;
+
+  .am-v-date-picker-suffix {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    color: #E2E6EC;
+    cursor: pointer;
+
+    &:hover {
+      color: #354052;
+    }
+  }
+}
+
+.el-select--mini {
+  .el-select__tags {
+    top: 14px;
+  }
+}
+
+.el-select__tags {
+  top: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  left: 4px;
+
+  .el-select__tags-text {
+    max-width: 150px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    @media @less-then-xlarge {
+      max-width: 80px;
+    }
+  }
+
+  .el-select__input {
+    margin-left: @margin-small/2;
+    max-width: 32px;
+  }
+}
+
+.el-message-box {
+  @media @less-then-small {
+    width: 100%;
+  }
+}
+
+// WP Overrides
+input.readonly, input[readonly], textarea.readonly, textarea[readonly] {
+  background-color: transparent;
+}
+
+.amelia-booking input, .amelia-booking textarea {
+  box-shadow: none;
+}
+
+input[type=text], input[type=search], input[type=radio], input[type=tel], input[type=time], input[type=url], input[type=week], input[type=password], input[type=checkbox], input[type=color], input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], select, textarea {
+  border-color: @color-divider-gray;
+  box-shadow: none;
+  color: @color-text-prime;
+}
+
+input[type=text]:focus, input[type=search]:focus, input[type=radio]:focus, input[type=tel]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, input[type=password]:focus, input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, select:focus, textarea:focus {
+  border-color: @color-blue;
+  box-shadow: none;
+}
+
+.amelia-booking input[type=radio], .amelia-booking input[type=checkbox] {
+  display: none;
+}
+
+input, select {
+  margin: 0;
+}
+
+dd, li {
+  margin-bottom: 0;
+}
+
+.el-scrollbar {
+  & > .el-scrollbar__bar {
+    opacity: 1 !important;
+  }
+}
+
+@media screen and (max-width: 782px) {
+  input[type=number] {
+    height: auto;
+  }
+
+  .auto-fold #wpcontent {
+    padding-left: 0;
+  }
+
+  #wpadminbar {
+    z-index: 2000;
+  }
+}
+
+
+/*!* Fix Input Zoom on devices older than iPhone 5: *!
+@media screen and (device-aspect-ratio: 2/3) {
+  select, textarea, input[type="text"], input[type="password"],
+  input[type="datetime"], input[type="datetime-local"],
+  input[type="date"], input[type="month"], input[type="time"],
+  input[type="week"], input[type="number"], input[type="email"],
+  input[type="url"]{ font-size: 16px; }
+}
+
+!* Fix Input Zoom on iPhone 5, 5C, 5S, iPod Touch 5g *!
+@media screen and (device-aspect-ratio: 40/71) {
+  select, textarea, input[type="text"], input[type="password"],
+  input[type="datetime"], input[type="datetime-local"],
+  input[type="date"], input[type="month"], input[type="time"],
+  input[type="week"], input[type="number"], input[type="email"],
+  input[type="url"]{ font-size: 16px; }
+}
+
+!* Fix Input Zoom on iPhone 6, iPhone 6s, iPhone 7  *!
+@media screen and (device-aspect-ratio: 375/667) {
+  select, textarea, input[type="text"], input[type="password"],
+  input[type="datetime"], input[type="datetime-local"],
+  input[type="date"], input[type="month"], input[type="time"],
+  input[type="week"], input[type="number"], input[type="email"],
+  input[type="url"]{ font-size: 16px; }
+}*/
+
+@media screen and (max-width: 667px) {
+  select, textarea, input[type="text"], input[type="password"],
+  input[type="datetime"], input[type="datetime-local"],
+  input[type="date"], input[type="month"], input[type="time"],
+  input[type="week"], input[type="number"], input[type="email"],
+  input[type="url"], textarea {
+    font-size: 16px !important;
+/*    transform: scale(0.875);
+    transform-origin: top left;
+    width: 114.5% !important;*/
+  }
+}
+
+

@@ -1,0 +1,39 @@
+.components-button.block-editor-block-types-list__item.editor-block-list-item-amelia-booking-gutenberg-block .block-editor-block-icon{
+    width: 59px !important;
+}
+
+.components-button.block-editor-block-types-list__item.editor-block-list-item-amelia-booking-gutenberg-block svg{
+    max-width: 59px !important;
+    width: 59px;
+}
+
+.components-button.block-editor-block-types-list__item.editor-block-list-item-amelia-booking-gutenberg-block .block-editor-block-types-list__item-icon {
+    padding-right: 5px;
+}
+
+.block-editor-block-card span {
+    position: relative
+}
+
+.amelia-booking-gutenberg {
+    position: absolute;
+    max-width: 59px !important;
+}
+
+.components-panel .block-editor-block-card .block-editor-block-icon:has(> svg.amelia-booking-gutenberg-outdated) {
+    width: 59px;
+}
+
+.components-panel .block-editor-block-card .block-editor-block-icon svg.amelia-booking-gutenberg-outdated {
+    max-width: 59px;
+    width: 59px;
+}
+
+.block-editor-block-card__description .amelia-gutenberg-desc {
+    font-size: 13px;
+}
+
+.block-editor-block-card__description .amelia-gutenberg-outdated {
+    font-size: 13px;
+    color: #E3463C;
+}

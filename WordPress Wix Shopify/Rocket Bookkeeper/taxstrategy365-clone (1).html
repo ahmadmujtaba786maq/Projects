@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Learn How To Use The Real Estate Portfolio Lifecycle to Save $10k-$50k Per Year On Taxes</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    color: #222;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /* ── NAV LOGO BAR ─────────────────────────────── */
+  .nav-bar {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 14px 20px;
+    text-align: center;
+  }
+  .nav-bar img { height: 54px; }
+
+  /* ── HERO ─────────────────────────────────────── */
+  .hero {
+    background: linear-gradient(135deg, #0d1b2a 0%, #1a3a5c 100%);
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px 50px;
+  }
+  .hero .tag {
+    display: inline-block;
+    background: #e8a020;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 6px 18px;
+    border-radius: 3px;
+    margin-bottom: 22px;
+  }
+  .hero h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(26px, 4.5vw, 50px);
+    font-weight: 900;
+    line-height: 1.18;
+    max-width: 820px;
+    margin: 0 auto 18px;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+  }
+  .hero h1 .strikethrough {
+    text-decoration: line-through;
+    color: #e8a020;
+  }
+  .hero .money-icon { color: #e8a020; }
+  .hero .sub-tag {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #a8c8e8;
+    margin-bottom: 28px;
+  }
+
+  /* video placeholder */
+  .video-wrap {
+    max-width: 680px;
+    margin: 0 auto 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    position: relative;
+    background: #000;
+    aspect-ratio: 16/9;
+  }
+  .video-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .play-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+  }
+  .play-btn {
+    width: 72px;
+    height: 72px;
+    background: rgba(232,160,32,0.92);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+  }
+  .play-btn::after {
+    content: '';
+    border-style: solid;
+    border-width: 14px 0 14px 26px;
+    border-color: transparent transparent transparent #fff;
+    margin-left: 5px;
+  }
+
+  .cta-btn {
+    display: inline-block;
+    background: #e8a020;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 18px 44px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 6px 24px rgba(232,160,32,0.4);
+    transition: transform .15s, box-shadow .15s;
+    margin: 10px 0;
+  }
+  .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 32px rgba(232,160,32,0.5); }
+  .cta-btn.green {
+    background: #27ae60;
+    box-shadow: 0 6px 24px rgba(39,174,96,0.35);
+  }
+  .cta-btn.green:hover { box-shadow: 0 10px 32px rgba(39,174,96,0.5); }
+
+  .trust-badge {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #a8c8e8;
+  }
+  .trust-badge span { color: #e8a020; }
+
+  /* ── SECTION WRAPPER ───────────────────────────── */
+  .section { padding: 70px 20px; }
+  .section.dark { background: #0d1b2a; color: #fff; }
+  .section.gray { background: #f4f6f9; }
+  .section.white { background: #fff; }
+  .container { max-width: 900px; margin: 0 auto; }
+  .container-wide { max-width: 1100px; margin: 0 auto; }
+
+  .section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: clamp(22px, 3.5vw, 36px);
+    text-align: center;
+    margin-bottom: 14px;
+    line-height: 1.25;
+    text-transform: uppercase;
+    letter-spacing: -0.3px;
+  }
+  .section-title .gold { color: #e8a020; }
+  .section-sub {
+    text-align: center;
+    font-size: 17px;
+    max-width: 700px;
+    margin: 0 auto 48px;
+    line-height: 1.7;
+    color: #555;
+  }
+  .section.dark .section-sub { color: #a8c8e8; }
+
+  /* ── TESTIMONIALS ─────────────────────────────── */
+  .testi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+    margin-top: 40px;
+  }
+  .testi-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 28px 26px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.09);
+    border-top: 4px solid #e8a020;
+  }
+  .section.dark .testi-card { background: #1a3a5c; border-color: #e8a020; }
+  .testi-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 13px;
+    color: #e8a020;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+  }
+  .testi-quote {
+    font-size: 14.5px;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 16px;
+    font-style: italic;
+  }
+  .section.dark .testi-quote { color: #c8dce8; }
+  .testi-author {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #222;
+  }
+  .section.dark .testi-author { color: #e8f0f8; }
+  .stars { color: #e8a020; font-size: 14px; margin-bottom: 8px; }
+
+  /* ── WHAT IS TS365 ─────────────────────────────── */
+  .split-wrap {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .split-wrap .img-col { flex: 1 1 320px; }
+  .split-wrap .img-col img { width: 100%; border-radius: 8px; box-shadow: 0 12px 40px rgba(0,0,0,0.15); }
+  .split-wrap .text-col { flex: 1 1 320px; }
+  .split-wrap .text-col p { font-size: 15.5px; line-height: 1.8; margin-bottom: 16px; color: #333; }
+  .split-wrap .text-col strong { color: #0d1b2a; }
+
+  /* ── CHECKLIST ─────────────────────────────────── */
+  .checklist {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 40px;
+    margin-top: 30px;
+  }
+  @media (max-width: 640px) { .checklist { grid-template-columns: 1fr; } }
+  .checklist li {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .checklist li .check {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    background: #27ae60;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  .checklist li strong { color: #0d1b2a; }
+
+  /* ── WHAT'S INCLUDED ───────────────────────────── */
+  .included-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 28px;
+    margin-top: 40px;
+  }
+  .included-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    background: #fff;
+    transition: transform .2s;
+  }
+  .included-card:hover { transform: translateY(-4px); }
+  .included-card img { width: 100%; height: 180px; object-fit: cover; display: block; }
+  .included-card .card-body { padding: 20px 20px 22px; }
+  .included-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    color: #0d1b2a;
+    margin-bottom: 8px;
+    line-height: 1.35;
+  }
+  .included-card p { font-size: 13.5px; color: #555; line-height: 1.65; }
+
+  /* ── TEAM ──────────────────────────────────────── */
+  .team-grid {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .team-card { text-align: center; max-width: 220px; }
+  .team-card img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #e8a020;
+    margin-bottom: 14px;
+  }
+  .team-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #0d1b2a;
+    margin-bottom: 4px;
+  }
+  .team-card span {
+    font-size: 13px;
+    color: #888;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+
+  /* ── CTA BAND ──────────────────────────────────── */
+  .cta-band {
+    background: linear-gradient(135deg, #e8a020 0%, #c47f10 100%);
+    text-align: center;
+    padding: 60px 20px;
+    color: #fff;
+  }
+  .cta-band h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: clamp(22px, 3.5vw, 36px);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: -0.3px;
+    line-height: 1.25;
+  }
+  .cta-band .cta-btn {
+    background: #0d1b2a;
+    box-shadow: 0 6px 24px rgba(13,27,42,0.4);
+    font-size: 18px;
+  }
+  .cta-band .cta-btn:hover { box-shadow: 0 10px 32px rgba(13,27,42,0.55); }
+
+  /* ── FOOTER ─────────────────────────────────────── */
+  footer {
+    background: #0d1b2a;
+    color: #a8c8e8;
+    text-align: center;
+    padding: 40px 20px 30px;
+  }
+  footer img { height: 48px; margin-bottom: 20px; filter: brightness(0) invert(1); opacity: 0.7; }
+  footer .footer-links { margin: 14px 0; }
+  footer .footer-links a {
+    color: #a8c8e8;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 10px;
+  }
+  footer .footer-links a:hover { color: #e8a020; }
+  footer .disclaimer {
+    font-size: 11px;
+    max-width: 700px;
+    margin: 16px auto 0;
+    line-height: 1.6;
+    color: #6a8a9a;
+  }
+  footer .copy {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #6a8a9a;
+    margin-bottom: 10px;
+  }
+
+  /* ── APPLY BANNER ───────────────────────────────── */
+  .apply-banner {
+    background: #0d1b2a;
+    border: 2px solid #e8a020;
+    border-radius: 8px;
+    text-align: center;
+    padding: 42px 30px;
+    max-width: 700px;
+    margin: 0 auto 0;
+  }
+  .apply-banner h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: clamp(18px, 3vw, 28px);
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 18px;
+    letter-spacing: -0.2px;
+  }
+  .apply-banner h2 span { color: #e8a020; }
+
+  /* responsive */
+  @media (max-width: 600px) {
+    .split-wrap { flex-direction: column; }
+    .checklist { grid-template-columns: 1fr; }
+    .testi-grid { grid-template-columns: 1fr; }
+    .included-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav-bar">
+  <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/yi9vgEV9zeK6VVng4R4E/media/6761dfa12787df1ae56b5659.png" alt="Tax Strategy 365">
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="tag">Real Estate Investors</div>
+  <h1>Learn How To Use The <span class="strikethrough">Real Estate Portfolio Lifecycle</span> To Save $10k–$50k Per Year On Taxes <span class="money-icon">💰</span></h1>
+  <div class="sub-tag">Watch this video before you book a call</div>
+
+  <div class="video-wrap">
+    <img src="https://storage.googleapis.com/msgsndr/yi9vgEV9zeK6VVng4R4E/media/698385d62839f164e847e5c8.gif" alt="Tax Strategy 365 Video">
+    <div class="play-overlay"><div class="play-btn"></div></div>
+  </div>
+
+  <a href="#" class="cta-btn">Apply To Work With Us</a>
+  <div class="trust-badge">✅ Trusted by <span>500+</span> Real Estate Investors</div>
+</section>
+
+<!-- SCHEDULE CONSULT BAND -->
+<div style="background:#e8a020; text-align:center; padding:22px 20px;">
+  <div style="font-family:'Montserrat',sans-serif; font-weight:900; font-size:clamp(18px,3vw,28px); color:#fff; text-transform:uppercase; letter-spacing:-0.3px; margin-bottom:14px;">
+    Schedule Your Free Tax Consultation
+  </div>
+  <a href="#" class="cta-btn" style="background:#0d1b2a; box-shadow:0 6px 24px rgba(0,0,0,0.3);">Secure Your Spot Now! &gt;&gt;</a>
+</div>
+
+<!-- TESTIMONIALS (first set) -->
+<section class="section gray">
+  <div class="container-wide">
+    <div class="section-title">See What Others Are Saying About <span class="gold">Tax Strategy 365</span></div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="testi-title">Finally found a CPA who gives practical advice</div>
+        <div class="stars">★★★★★</div>
+        <div class="testi-quote">"You are far and away the best CPA I've ever worked with... I've been through probably four or five... You've reduced my stress by a ton."</div>
+        <div class="testi-author">Josh, Real Estate Investor</div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-title">Eliminated capital gains taxes with a "lazy 1031" strategy</div>
+        <div class="stars">★★★★★</div>
+        <div class="testi-quote">"We had a long-term rental that we ended up selling... and we won't have to pay any taxes on the capital gains we got on that property."</div>
+        <div class="testi-author">Johanna, STR Investor</div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-title">Saved $33,000 in taxes with cost segregation</div>
+        <div class="stars">★★★★★</div>
+        <div class="testi-quote">"Before I started working with you I really felt like I was in the dark... I didn't even know what a cost segregation was."</div>
+        <div class="testi-author">Audrey, Travel Nurse</div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-title">Caught a $24,000 mistake by another tax firm</div>
+        <div class="stars">★★★★★</div>
+        <div class="testi-quote">"They'd forgot my cost segregation study... Now I'm getting $24,000 back from the government... that's a very significant difference."</div>
+        <div class="testi-author">Amy, Teacher</div>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:40px;">
+      <a href="#" class="cta-btn green">Apply For 2026 Tax Strategy — Book a Consult</a>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT IS TAX STRATEGY 365 -->
+<section class="section white">
+  <div class="container">
+    <div class="section-title">What is <span class="gold">Tax Strategy 365?</span></div>
+    <div class="split-wrap" style="margin-top:40px;">
+      <div class="img-col">
+        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/yi9vgEV9zeK6VVng4R4E/media/67a38f341e23d42b79f6d1cf.png" alt="Tax Strategy 365 Method">
+      </div>
+      <div class="text-col">
+        <p>The <strong>Tax Strategy 365 Method</strong> gives you a proactive, year-round defense system for your wealth.</p>
+        <p>It eliminates the "April Surprise" tax bill and shows you the exact steps you need to take to keep your hard-earned money...</p>
+        <p>Without the stress of a non-responsive CPA, without wondering if you're "doing it right," and without giving the government a massive interest-free loan every year.</p>
+        <p>Because let's face it — you already know real estate is the best way to build wealth. And you KNOW you're probably overpaying the IRS.</p>
+        <p><strong>The IRS plays the game 365 days a year.</strong> They take a cut of every rent check, every flip, and every dollar you earn, every single day.</p>
+        <p>If you only think about taxes in April, you've already lost. The <strong>Tax Strategy 365 Method</strong> does the heavy lifting for you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT WE HELP WITH -->
+<section class="section dark">
+  <div class="container">
+    <div class="section-title" style="color:#fff;">Here Is What We Help You With Inside <span class="gold">Tax Strategy 365</span></div>
+    <ul class="checklist">
+      <li><div class="check">✓</div><div><strong style="color:#e8d4a0;">1-1 Tax Advice From Our CPAs:</strong> You'll have a direct 1-1 relationship with one of our Real Estate Expert CPAs.</div></li>
+      <li><div class="check">✓</div><div><strong style="color:#e8d4a0;">Entity Mapping:</strong> Your custom LLC and trust structure mapped out to protect your assets and lower your tax bill.</div></li>
+      <li><div class="check">✓</div><div><strong style="color:#e8d4a0;">Check Your Last CPA's Homework:</strong> We look at your last 3 years of returns to find the money your old "historian" CPA missed.</div></li>
+      <li><div class="check">✓</div><div><strong style="color:#e8d4a0;">Proactive Planning Calls:</strong> We don't just talk in April. We meet throughout the year to "call the plays" before the clock runs out.</div></li>
+      <li><div class="check">✓</div><div><strong style="color:#e8d4a0;">Direct Access to the Team:</strong> No more waiting 3 weeks for an email back. 48-hr response guarantee.</div></li>
+      <li><div class="check">✓</div><div><strong style="color:#e8d4a0;">Portfolio Optimization:</strong> Deciding exactly when to buy, sell, or do a 1031 exchange based on your specific tax bracket.</div></li>
+      <li><div class="check">✓</div><div><strong style="color:#e8d4a0;">Estate &amp; Legacy Planning:</strong> Setting up the wills and trusts so the government doesn't become the main heir to your estate.</div></li>
+      <li><div class="check">✓</div><div><strong style="color:#e8d4a0;">Debt &amp; Refinancing Guidance:</strong> How to structure your loans and equity to maximize your interest deductions.</div></li>
+      <li><div class="check">✓</div><div><strong style="color:#e8d4a0;">The 365 Community:</strong> Access to our private group of high-level real estate investors who are all playing the same game you are.</div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- WHAT'S INCLUDED -->
+<section class="section gray">
+  <div class="container-wide">
+    <div class="section-title">What's <span class="gold">Included?</span></div>
+    <div class="included-grid">
+      <div class="included-card">
+        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/yi9vgEV9zeK6VVng4R4E/media/6975282059a77b7c74c9c466.png" alt="Strategy Calls">
+        <div class="card-body">
+          <h3>1-on-1 Strategy Calls With Your CPA</h3>
+          <p>You'll have a dedicated CPA who will learn your situation, goals, and pain points throughout the year. They'll build your strategy and help you implement year-round.</p>
+        </div>
+      </div>
+      <div class="included-card">
+        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/yi9vgEV9zeK6VVng4R4E/media/6975293beb392b0e9e1c8b0a.png" alt="Response Time">
+        <div class="card-body">
+          <h3>48-Hr MAX Response Time — Guaranteed</h3>
+          <p>Have a question? Email your CPA and we guarantee a 48-hr response time (usually much faster). No more waiting days or weeks to hear back.</p>
+        </div>
+      </div>
+      <div class="included-card">
+        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/yi9vgEV9zeK6VVng4R4E/media/6975296dc1fa0c35565c70e4.jpg" alt="Weekly Q&A">
+        <div class="card-body">
+          <h3>Weekly Q&amp;A Calls</h3>
+          <p>Join our weekly Q&amp;A call to get additional questions answered, learn from expert guest speakers, and meet other investors in our community.</p>
+        </div>
+      </div>
+      <div class="included-card">
+        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/yi9vgEV9zeK6VVng4R4E/media/6975298e59a77bdf63ca7103.jpg" alt="Course Library">
+        <div class="card-body">
+          <h3>Tax Strategy 365 Course Library</h3>
+          <p>100+ hours of educational content. Everything you need to know about different tax strategies, investing accounts, and building wealth tax-free.</p>
+        </div>
+      </div>
+      <div class="included-card">
+        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/yi9vgEV9zeK6VVng4R4E/media/69752af3a87beb6c089dc06f.png" alt="Team Access">
+        <div class="card-body">
+          <h3>Access to Our Team For 12 Months</h3>
+          <p>Get direct support from our team whenever you need it (not just during tax season), so you're never stuck, confused, or making expensive mistakes.</p>
+        </div>
+      </div>
+      <div class="included-card">
+        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/yi9vgEV9zeK6VVng4R4E/media/69752c6ed4fb90dc4ea4336e.jpg" alt="Tools">
+        <div class="card-body">
+          <h3>Plug-and-Play Investing Tools</h3>
+          <p>Get every spreadsheet, calculator, and template we use to track net worth, analyze rental properties, and build your wealth tax-free.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS (second set) -->
+<section class="section dark">
+  <div class="container-wide">
+    <div class="section-title" style="color:#fff;">What Our Clients Have to Say</div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="testi-title">Maximized deductions with cost segregation on four properties</div>
+        <div class="stars">★★★★★</div>
+        <div class="testi-quote">"I did all four cost segregations for the four newly acquired properties for 2024... learning how to use a profit loss statement was tremendous."</div>
+        <div class="testi-author">Alex, Real Estate Investor</div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-title">Offset his lifetime pension with real estate deductions</div>
+        <div class="stars">★★★★★</div>
+        <div class="testi-quote">"It really set me in the position to be able to offset my lifetime pension with my real estate so that I don't have to pay as much to Uncle Sam."</div>
+        <div class="testi-author">Glenn, Real Estate Investor</div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-title">Learned the short-term rental loophole to offset W2 income</div>
+        <div class="stars">★★★★★</div>
+        <div class="testi-quote">"Once I started learning about the short-term rental loophole and how we could utilize that to offset our federal tax liability from our W2 income — mind blowing."</div>
+        <div class="testi-author">Shannon, STR Investor</div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-title">Avoided a stressful 1031 exchange</div>
+        <div class="stars">★★★★★</div>
+        <div class="testi-quote">"We didn't realize what other kind of benefits we could have if we looked holistically at our entire portfolio... that was a huge takeaway for us."</div>
+        <div class="testi-author">Eddie, Software Engineer</div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-title">Transitioned from W2 to full-time real estate</div>
+        <div class="stars">★★★★★</div>
+        <div class="testi-quote">"It's been kind of interesting being a client of yours and just making the transition from a W2 to doing short-term rentals full-time... now it's a pretty big business."</div>
+        <div class="testi-author">Chelsea, STR Co-Host</div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-title">Found a CPA who actually understands short-term rentals</div>
+        <div class="stars">★★★★★</div>
+        <div class="testi-quote">"I saw your video and listened to a few of your podcasts... I had so many 'aha moments' during your bootcamp that said 'I need everything he does.'"</div>
+        <div class="testi-author">Carole, STR Investor</div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-title">Amazing community always there to help</div>
+        <div class="stars">★★★★★</div>
+        <div class="testi-quote">"It is an amazing community out there. You're never alone... just reach out and within probably 30 minutes I have a response."</div>
+        <div class="testi-author">Sheena, STR Investor</div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-title">Got more understanding in one hour than five years of trying</div>
+        <div class="stars">★★★★★</div>
+        <div class="testi-quote">"I've been working on this like five years... I have probably gotten more understanding in this past hour from you than in all those years combined."</div>
+        <div class="testi-author">Kathi, STR Investor</div>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:44px;">
+      <div class="apply-banner">
+        <h2>Apply For <span>2026 Tax Strategy</span></h2>
+        <a href="#" class="cta-btn">Book a Consult</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="section white">
+  <div class="container">
+    <div class="section-title">Your Real Estate <span class="gold">Tax Team</span></div>
+    <div class="team-grid">
+      <div class="team-card">
+        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/yi9vgEV9zeK6VVng4R4E/media/66e1f3394c9d9c4f2f04d644.jpeg" alt="Ryan Bakke CPA">
+        <h3>Ryan Bakke, CPA</h3>
+        <span>Founder of Tax Strategy 365</span>
+      </div>
+      <div class="team-card">
+        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/yi9vgEV9zeK6VVng4R4E/media/67801721f9e1e1689f185660.jpeg" alt="Mason Kimball CPA">
+        <h3>Mason Kimball, CPA</h3>
+        <span>Real Estate Tax Advisor</span>
+      </div>
+      <div class="team-card">
+        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/yi9vgEV9zeK6VVng4R4E/media/67801721249ca01beebe984e.jpeg" alt="Kevin Medina CPA">
+        <h3>Kevin Medina, CPA</h3>
+        <span>Real Estate Tax Advisor</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BOTTOM CTA BAND -->
+<div class="cta-band">
+  <h2>Book a Call to Save $10k–$50k in Taxes This Year</h2>
+  <a href="#" class="cta-btn">Secure Your Spot Now! &gt;&gt;</a>
+</div>
+
+<!-- CONSULTATION FORM -->
+<section id="apply-form" style="background: linear-gradient(160deg, #0a1520 0%, #0d2640 60%, #0a1520 100%); padding: 80px 20px; position: relative; overflow: hidden;">
+  <!-- decorative rings -->
+  <div style="position:absolute;top:-80px;right:-80px;width:320px;height:320px;border-radius:50%;border:2px solid rgba(232,160,32,0.12);pointer-events:none;"></div>
+  <div style="position:absolute;top:-40px;right:-40px;width:200px;height:200px;border-radius:50%;border:2px solid rgba(232,160,32,0.08);pointer-events:none;"></div>
+  <div style="position:absolute;bottom:-60px;left:-60px;width:260px;height:260px;border-radius:50%;border:2px solid rgba(232,160,32,0.1);pointer-events:none;"></div>
+
+  <div style="max-width:680px; margin:0 auto; position:relative; z-index:1;">
+
+    <!-- heading -->
+    <div style="text-align:center; margin-bottom:44px;">
+      <div style="display:inline-block; background:rgba(232,160,32,0.15); border:1px solid rgba(232,160,32,0.4); color:#e8a020; font-family:'Montserrat',sans-serif; font-weight:800; font-size:11px; letter-spacing:3px; text-transform:uppercase; padding:7px 20px; border-radius:30px; margin-bottom:18px;">Free Tax Consultation</div>
+      <h2 style="font-family:'Montserrat',sans-serif; font-weight:900; font-size:clamp(24px,4vw,40px); color:#fff; text-transform:uppercase; line-height:1.2; letter-spacing:-0.5px; margin-bottom:12px;">
+        Schedule Your <span style="color:#e8a020;">Free Strategy</span> Call
+      </h2>
+      <p style="color:#7a9ab8; font-size:15px; max-width:480px; margin:0 auto; line-height:1.7;">Tell us a bit about yourself and we'll match you with the right CPA. Takes less than 2 minutes.</p>
+    </div>
+
+    <!-- progress bar -->
+    <div style="background:rgba(255,255,255,0.06); border-radius:30px; height:5px; margin-bottom:36px; overflow:hidden;">
+      <div id="form-progress" style="background: linear-gradient(90deg,#e8a020,#f5c060); height:100%; width:0%; border-radius:30px; transition:width 0.5s ease;"></div>
+    </div>
+
+    <!-- card -->
+    <div style="background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08); border-radius:16px; padding:44px 40px; backdrop-filter:blur(10px); box-shadow:0 24px 80px rgba(0,0,0,0.4);">
+
+      <div id="form-step-1">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:700; font-size:12px; color:#e8a020; letter-spacing:2px; text-transform:uppercase; margin-bottom:24px;">Step 1 of 3 — Personal Info</div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-bottom:18px;">
+          <div class="fgroup">
+            <label class="flabel">First Name</label>
+            <input class="finput" type="text" placeholder="John" id="f-fname">
+          </div>
+          <div class="fgroup">
+            <label class="flabel">Last Name</label>
+            <input class="finput" type="text" placeholder="Smith" id="f-lname">
+          </div>
+        </div>
+        <div class="fgroup" style="margin-bottom:18px;">
+          <label class="flabel">Email Address</label>
+          <input class="finput" type="email" placeholder="john@example.com" id="f-email">
+        </div>
+        <div class="fgroup" style="margin-bottom:28px;">
+          <label class="flabel">Phone Number</label>
+          <input class="finput" type="tel" placeholder="+1 (555) 000-0000" id="f-phone">
+        </div>
+        <button class="form-next-btn" onclick="goStep(2)">Continue &rarr;</button>
+      </div>
+
+      <div id="form-step-2" style="display:none;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:700; font-size:12px; color:#e8a020; letter-spacing:2px; text-transform:uppercase; margin-bottom:24px;">Step 2 of 3 — Your Portfolio</div>
+        <div class="fgroup" style="margin-bottom:18px;">
+          <label class="flabel">How many rental properties do you own?</label>
+          <div class="fradio-grid">
+            <label class="fradio-opt"><input type="radio" name="props" value="0"> <span>None yet</span></label>
+            <label class="fradio-opt"><input type="radio" name="props" value="1-2"> <span>1–2</span></label>
+            <label class="fradio-opt"><input type="radio" name="props" value="3-5"> <span>3–5</span></label>
+            <label class="fradio-opt"><input type="radio" name="props" value="6+"> <span>6+</span></label>
+          </div>
+        </div>
+        <div class="fgroup" style="margin-bottom:18px;">
+          <label class="flabel">What type of investor are you?</label>
+          <div class="fradio-grid">
+            <label class="fradio-opt"><input type="radio" name="type" value="ltr"> <span>Long-Term Rental</span></label>
+            <label class="fradio-opt"><input type="radio" name="type" value="str"> <span>Short-Term Rental</span></label>
+            <label class="fradio-opt"><input type="radio" name="type" value="flip"> <span>Fix &amp; Flip</span></label>
+            <label class="fradio-opt"><input type="radio" name="type" value="mixed"> <span>Mixed / Other</span></label>
+          </div>
+        </div>
+        <div class="fgroup" style="margin-bottom:28px;">
+          <label class="flabel">Estimated annual tax bill?</label>
+          <select class="finput" id="f-tax">
+            <option value="">Select a range…</option>
+            <option>Under $10,000</option>
+            <option>$10,000 – $25,000</option>
+            <option>$25,000 – $50,000</option>
+            <option>$50,000 – $100,000</option>
+            <option>$100,000+</option>
+          </select>
+        </div>
+        <div style="display:flex; gap:14px;">
+          <button class="form-back-btn" onclick="goStep(1)">&larr; Back</button>
+          <button class="form-next-btn" style="flex:1;" onclick="goStep(3)">Continue &rarr;</button>
+        </div>
+      </div>
+
+      <div id="form-step-3" style="display:none;">
+        <div style="font-family:'Montserrat',sans-serif; font-weight:700; font-size:12px; color:#e8a020; letter-spacing:2px; text-transform:uppercase; margin-bottom:24px;">Step 3 of 3 — Final Details</div>
+        <div class="fgroup" style="margin-bottom:18px;">
+          <label class="flabel">What's your biggest tax challenge?</label>
+          <div class="fradio-grid" style="grid-template-columns:1fr;">
+            <label class="fradio-opt"><input type="radio" name="challenge" value="overpaying"> <span>I feel like I'm overpaying the IRS</span></label>
+            <label class="fradio-opt"><input type="radio" name="challenge" value="cpa"> <span>My current CPA doesn't understand real estate</span></label>
+            <label class="fradio-opt"><input type="radio" name="challenge" value="depreciation"> <span>I'm not using depreciation / cost seg</span></label>
+            <label class="fradio-opt"><input type="radio" name="challenge" value="entity"> <span>I need proper entity structuring</span></label>
+          </div>
+        </div>
+        <div class="fgroup" style="margin-bottom:28px;">
+          <label class="flabel">Anything else you'd like us to know? <span style="color:#4a6a8a; font-weight:400;">(optional)</span></label>
+          <textarea class="finput" rows="4" placeholder="Tell us about your situation…" style="resize:vertical;"></textarea>
+        </div>
+        <div style="display:flex; gap:14px;">
+          <button class="form-back-btn" onclick="goStep(2)">&larr; Back</button>
+          <button class="form-next-btn" style="flex:1; background:linear-gradient(135deg,#27ae60,#1e8449);" onclick="submitForm()">🔒 Book My Free Consultation</button>
+        </div>
+        <p style="text-align:center; font-size:12px; color:#4a6a8a; margin-top:16px;">No credit card required · 100% confidential · We respect your privacy</p>
+      </div>
+
+      <!-- success state -->
+      <div id="form-success" style="display:none; text-align:center; padding:20px 0;">
+        <div style="font-size:54px; margin-bottom:16px;">🎉</div>
+        <h3 style="font-family:'Montserrat',sans-serif; font-weight:900; font-size:24px; color:#fff; text-transform:uppercase; margin-bottom:12px;">You're on the list!</h3>
+        <p style="color:#7a9ab8; font-size:15px; line-height:1.7; max-width:400px; margin:0 auto 24px;">One of our CPAs will reach out within <strong style="color:#e8a020;">24 hours</strong> to confirm your free consultation time.</p>
+        <div style="background:rgba(232,160,32,0.1); border:1px solid rgba(232,160,32,0.3); border-radius:10px; padding:16px 24px; display:inline-block;">
+          <p style="color:#e8a020; font-family:'Montserrat',sans-serif; font-weight:700; font-size:13px; text-transform:uppercase; letter-spacing:1px; margin:0;">Average savings for new clients: <span style="font-size:20px;">$18,000/yr</span></p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- trust row -->
+    <div style="display:flex; justify-content:center; gap:30px; flex-wrap:wrap; margin-top:28px;">
+      <div style="display:flex; align-items:center; gap:8px; color:#4a6a8a; font-size:13px;"><span style="color:#27ae60; font-size:16px;">🔒</span> SSL Secured</div>
+      <div style="display:flex; align-items:center; gap:8px; color:#4a6a8a; font-size:13px;"><span style="font-size:16px;">⭐</span> 500+ Investors Served</div>
+      <div style="display:flex; align-items:center; gap:8px; color:#4a6a8a; font-size:13px;"><span style="color:#e8a020; font-size:16px;">✓</span> No Obligation</div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .fgroup { display:flex; flex-direction:column; }
+  .flabel { font-family:'Montserrat',sans-serif; font-weight:700; font-size:12px; letter-spacing:1px; text-transform:uppercase; color:#a8c8e8; margin-bottom:8px; }
+  .finput {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 13px 16px;
+    transition: border-color .2s, background .2s;
+    outline: none;
+    width: 100%;
+  }
+  .finput::placeholder { color: #3a5a7a; }
+  .finput:focus { border-color: #e8a020; background: rgba(232,160,32,0.06); }
+  .finput option { background: #0d2640; color: #fff; }
+
+  .fradio-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  .fradio-opt {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 8px;
+    padding: 12px 14px;
+    cursor: pointer;
+    transition: border-color .2s, background .2s;
+    color: #c8dce8;
+    font-size: 14px;
+  }
+  .fradio-opt:hover { border-color: rgba(232,160,32,0.5); background: rgba(232,160,32,0.06); }
+  .fradio-opt input[type=radio] { accent-color: #e8a020; width:16px; height:16px; flex-shrink:0; }
+  .fradio-opt:has(input:checked) { border-color: #e8a020; background: rgba(232,160,32,0.1); color:#fff; }
+
+  .form-next-btn {
+    width: 100%;
+    background: linear-gradient(135deg, #e8a020, #c47f10);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 6px 24px rgba(232,160,32,0.3);
+    transition: transform .15s, box-shadow .15s;
+  }
+  .form-next-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 32px rgba(232,160,32,0.45); }
+
+  .form-back-btn {
+    background: rgba(255,255,255,0.07);
+    color: #7a9ab8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 16px 20px;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background .15s;
+  }
+  .form-back-btn:hover { background: rgba(255,255,255,0.12); color:#fff; }
+
+  @media(max-width:560px){
+    #apply-form .fradio-grid { grid-template-columns:1fr; }
+    #apply-form > div > div:last-child > div { gap:16px; }
+    [style*="grid-template-columns:1fr 1fr"] { grid-template-columns:1fr !important; }
+  }
+</style>
+
+<script>
+  const steps = [null,'form-step-1','form-step-2','form-step-3'];
+  const progressMap = {1:'33%', 2:'66%', 3:'100%'};
+
+  function goStep(n) {
+    steps.forEach((id,i) => { if(id) document.getElementById(id).style.display = i===n ? 'block' : 'none'; });
+    document.getElementById('form-progress').style.width = progressMap[n];
+    document.getElementById('apply-form').scrollIntoView({behavior:'smooth', block:'start'});
+  }
+
+  function submitForm() {
+    steps.forEach(id => { if(id) document.getElementById(id).style.display = 'none'; });
+    document.getElementById('form-success').style.display = 'block';
+    document.getElementById('form-progress').style.width = '100%';
+    document.getElementById('form-progress').style.background = 'linear-gradient(90deg,#27ae60,#52d68a)';
+  }
+</script>
+
+<!-- FOOTER -->
+<footer>
+  <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/yi9vgEV9zeK6VVng4R4E/media/6761dfe363c0fe7b4dd595cf.png" alt="Tax Strategy 365 footer logo">
+  <div class="copy">© 2026 Tax Strategy 365</div>
+  <div class="footer-links">
+    <a href="#">Terms &amp; Conditions</a> |
+    <a href="#">Privacy Policy</a> |
+    <a href="#">Fulfillment Policy</a>
+  </div>
+  <div class="disclaimer">This site is not a part of the YouTube, Bing, Google or Facebook website; Google Inc, Microsoft INC or Meta Inc. Additionally, This site is NOT endorsed by YouTube, Google, Bing or Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc. YOUTUBE is a trademark of GOOGLE Inc. BING is a trademark of MICROSOFT Inc.</div>
+</footer>
+
+</body>
+</html>

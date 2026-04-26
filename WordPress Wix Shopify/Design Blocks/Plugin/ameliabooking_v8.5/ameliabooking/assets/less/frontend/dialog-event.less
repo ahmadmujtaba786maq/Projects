@@ -1,0 +1,458 @@
+.amelia-app-booking {
+  #am-cabinet {
+    .am-dialog-event-wrapper {
+
+      .el-checkbox__label {
+        white-space: normal;
+        word-break: break-word;
+      }
+      .el-checkbox {
+        display: flex;
+        align-items: center;
+      }
+      // Element Dialog
+      .el-dialog {
+        overflow: hidden;
+        min-height: 400px;
+
+        .el-dialog__header {
+          padding: @padding-big;
+        }
+
+        .el-dialog__body {
+          padding: 0;
+        }
+      }
+
+      // Dialog
+      .am-dialog-event-inner {
+
+
+        .am-pricing {
+          .am-setting-box {
+            .el-row {
+              display: flex;
+              .el-col {
+                line-height: 16px;
+              }
+            }
+          }
+
+          .am-event-close-after {
+            .el-radio {
+              margin-bottom: @margin-small;
+            }
+
+            .el-form-item {
+              .el-input-number {
+                width: 100%;
+              }
+              margin-bottom: @margin-small;
+              .el-input {
+                margin-bottom: @margin-small;
+              }
+            }
+          }
+        }
+
+        // Loader
+        .am-dialog-loader {
+          background-color: @color-bgr;
+        }
+
+        // Scrollable
+        .am-dialog-scrollable {
+          padding: 0 @padding-big 86px;
+          margin-bottom: 70px;
+
+          // Tabs Content
+          .el-tabs__content {
+            padding-top: @padding-medium;
+          }
+
+          // V-Calendar Column
+          .v-calendar-column {
+            .el-form-item__content, .am-calendar-picker {
+              &:after {
+                display: none;
+              }
+            }
+          }
+
+          // Grey Section
+          .am-section-grey {
+            padding: 0 16px;
+            background: @color-highlight;
+            margin-bottom: 16px;
+            border-radius: 4px;
+
+            &:last-of-type {
+              margin-bottom: 0;
+            }
+
+            .am-recurring-event {
+              .el-row {
+                margin-bottom: 16px;
+              }
+
+              p {
+                margin: 0 0 0 26px;
+                font-size: @small-fs;
+                line-height: 40px;
+
+                @media @less-then-medium {
+                  margin: 0;
+                }
+              }
+            }
+
+            .el-checkbox {
+              margin-bottom: @margin-medium;
+              margin-top: @margin-medium;
+              display: inline-flex;
+              align-items: center;
+            }
+
+            p {
+              font-size: 14px;
+              margin: 0;
+              line-height: 40px;
+            }
+          }
+
+          // Event Description
+          .am-event-description {
+            margin-top: @margin-medium;
+
+            .el-form-item {
+              margin: 0;
+            }
+          }
+
+          // Event Dates
+          .am-event-dates {
+            .am-event-date {
+              position: relative;
+              padding-top: @margin-medium;
+              border-bottom: 1px solid @color-divider-gray;
+
+              .el-row:nth-child(2) {
+                margin-bottom: 16px;
+              }
+
+              .el-form-item {
+                margin-bottom: 0;
+              }
+
+              .am-delete-element {
+                position: absolute;
+                top: 22px;
+                right: 0;
+              }
+
+              p {
+                margin: 0;
+                font-size: @small-fs;
+                line-height: 40px;
+              }
+            }
+          }
+
+          // Add Event Date
+          .am-add-event-date {
+            margin-top: @margin-medium;
+
+            button {
+              margin-bottom: @margin-medium;
+              margin-left: 0;
+            }
+          }
+
+          // Border Bottom
+          .am-border-bottom {
+            border-bottom: 1px solid @color-divider-gray;
+            padding: @padding-medium 0 0;
+
+            .el-input-number {
+              width: 100%;
+            }
+
+            .el-row {
+              margin-bottom: 16px;
+            }
+
+            .el-checkbox {
+              margin-bottom: @margin-medium;
+              .el-checkbox__input {
+                line-height: 40px;
+              }
+            }
+
+            p {
+              margin: 0;
+              font-size: @small-fs;
+              line-height: 40px;
+            }
+          }
+
+          // Tags
+          .el-select__tags {
+            top: 50%;
+            overflow: visible;
+            white-space: normal;
+            flex-wrap: wrap;
+          }
+
+          .am-event-period-start {
+            @media @less-then-medium {
+              padding-bottom: 16px;
+            }
+          }
+        }
+
+        // Footer
+        .am-dialog-footer {
+          box-sizing: border-box;
+          position: absolute;
+          width: 100%;
+          bottom: 0;
+          height: 70px;
+          border-top: 2px solid #E4E7ED;
+          display: flex;
+          align-items: center;
+          padding: 0 24px;
+
+          .am-dialog-confirmation {
+            padding: @padding-medium @padding-big;
+            z-index: 1;
+            position: absolute;
+            bottom: 73px;
+            left:0px;
+            background: @color-white;
+            width: 100%;
+            border-top: 1px solid @color-divider-gray;
+            border-bottom: none;
+            box-sizing: border-box;
+
+            form.el-form {
+              padding: 0 !important;
+            }
+
+            @media @less-then-small {
+              z-index: 1;
+              border-bottom: 1px solid @color-divider-gray;
+              bottom: 72px;
+            }
+          }
+
+          .am-dialog-footer-actions {
+            width: 100%;
+
+            .el-row {
+              width: 100%;
+
+              .align-left {
+                text-align: left;
+              }
+
+              .align-right {
+                text-align: right;
+              }
+
+              button {
+                margin: 0;
+
+                &:last-of-type {
+                  margin-left: 8px;
+                }
+              }
+            }
+          }
+        }
+
+
+        // Labels
+        label, p {
+          font-size: 14px;
+        }
+
+        // Spinner
+        .el-form-item {
+          .is-spinner {
+            width: 22px;
+            height: 22px;
+            display: none;
+            position: absolute;
+            right: 35px;
+            top: 8px;
+            stroke: @color-text-second;
+
+            &.is-spinner-right {
+              right: 12px;
+            }
+          }
+
+          &.active {
+            .is-spinner {
+              display: block;
+            }
+          }
+        }
+
+        // Customize
+        .am-event-colors {
+          padding: 0 0 @padding-medium;
+          margin: 0 0 @margin-medium;
+          border-bottom: 1px solid @color-divider-gray;
+
+          .am-event-color-selection > div:first-child {
+            margin-top: @margin-small;
+            margin-bottom: @margin-medium;
+          }
+
+          .am-event-swatches {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: @margin-small;
+
+            span {
+              cursor: pointer;
+              display: inline-block;
+              width: 24px;
+              height: 24px;
+              border-radius: 50%;
+              position: relative;
+              margin-right: @margin-small;
+
+              &.color-active {
+                &:before {
+                  position: absolute;
+                  top: 0;
+                  bottom: 0;
+                  left: 0;
+                  right: 0;
+                  color: #ffffff;
+                  text-align: center;
+                  font-family: element-icons;
+                  content: "\e6da";
+                  line-height: 1.9;
+                }
+              }
+            }
+          }
+
+          .am-event-swatches-first {
+            margin-top: 8px;
+            margin-left: 0;
+          }
+
+          .am-event-custom-color {
+            margin-top: 8px;
+            margin-bottom: 0;
+            width: 120px;
+          }
+
+          .el-radio {
+            width: 100%;
+          }
+        }
+
+        // Settings
+        .am-entity-settings {
+          .am-setting-box {
+            border: 1px solid @color-divider-gray;
+            border-radius: 3px;
+            margin-bottom: @margin-big;
+            position: relative;
+            line-height: 0.8;
+
+            .el-collapse-item__header i {
+              right: 16px !important;
+            }
+
+            .am-setting-box:last-of-type {
+              margin-bottom: 0;
+            }
+
+            &.el-collapse-item {
+              padding: 0;
+            }
+
+            &.el-collapse-item.is-active {
+              background-color: #ffffff;
+            }
+
+            &.am-switch-box {
+              padding: 13px;
+
+              p {
+                font-size: @small-fs;
+              }
+
+              .el-col {
+                min-height: 16px;
+              }
+
+              .align-right {
+                text-align: right;
+              }
+            }
+
+            .el-row {
+              display: flex;
+              .el-col {
+                line-height: 16px;
+              }
+            }
+
+            p {
+              margin: 0;
+            }
+
+            .el-collapse-item__header {
+              padding: @padding-medium;
+              vertical-align: middle;
+
+              &:hover {
+                background-color: @color-highlight;
+              }
+
+              i {
+                position: absolute;
+                right: 8px;
+                //top: 0;
+                color: @color-text-second;
+
+                &.el-icon-circle-check {
+                  color: @color-blue;
+                  right: 40px;
+                  position: absolute;
+                }
+              }
+
+              img, svg {
+                vertical-align: middle;
+                max-width: 60px;
+                //width: 60px;
+                max-height: 16px;
+              }
+            }
+
+            .el-collapse-item__wrap {
+              padding: 0 @padding-medium;
+              margin: @margin-medium 0;
+
+              .el-row {
+                margin-bottom: @margin-big;
+              }
+
+              .el-form-item:last-of-type {
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

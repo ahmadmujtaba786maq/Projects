@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="83px" height="77px" viewBox="0 0 83 77" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>sadas@svg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sadas">
+            <g id="Group" transform="translate(15.000000, 10.000000)">
+                <path d="M24,22.0117433 L24,4.11792048 C24,0.952680126 20.5351049,-1.02566259 17.763298,0.557047582 L2.07890067,9.51241882 C0.79246485,10.246805 0,11.6043394 0,13.0732917 L0,30.8819761 C0,34.0398366 3.44997042,36.0190793 6.22177731,34.4514888 L21.9063566,25.581256 C23.2009828,24.8488498 24,23.4868155 24,22.0117433"
+                      id="Fill-1" fill="#1A84EE" opacity="0.5">
+                    <animate id="n1" attributeName="opacity" from="0.5" to="1"
+                             begin="0;n6.end" dur="0.2s"/>
+                    <animate id="n2" attributeName="opacity" from="1" to="0.5"
+                             begin="n1.end" dur="0.2s"/>
+                </path>
+                <path d="M28,4.11798973 L28,22.0117724 C28,23.4868413 28.7990111,24.8488726 30.0936275,25.5810971 L45.7782699,34.4514901 C48.5500557,36.019077 52,34.0398388 52,30.8819854 L52,13.0733409 C52,11.6043919 51.2075412,10.2468605 49.9211151,9.51247598 L34.2366547,0.556944824 C31.4648688,-1.0255818 28,0.952756478 28,4.11798973"
+                      id="Fill-3" fill="#005AEE" opacity="0.5">
+                    <animate id="n3" attributeName="opacity" from="0.5" to="1"
+                             begin="n2.end" dur="0.2s"/>
+                    <animate id="n4" attributeName="opacity" from="1" to="0.5"
+                             begin="n3.end" dur="0.2s"/>
+                </path>
+                <path d="M24.1113561,29.6777187 L8.24731037,38.6917787 C5.44634083,40.2831798 5.43810376,44.2935108 8.2323006,45.8965519 L24.0963463,54.9970023 C25.3901153,55.7392318 26.9840796,55.7392318 28.2778486,54.9970023 L44.1420773,45.8965519 C46.9362742,44.2935108 46.9280371,40.2831798 44.1270676,38.6917787 L28.2630219,29.6777187 C26.9767578,28.9467654 25.3974371,28.9467654 24.1113561,29.6777187"
+                      id="Fill-5" fill="#3BA6FF" opacity="0.5">
+                    <animate id="n5" attributeName="opacity" from="0.5" to="1"
+                             begin="n4.end" dur="0.2s"/>
+                    <animate id="n6" attributeName="opacity" from="1" to="0.5"
+                             begin="n5.end" dur="0.2s"/>
+                </path>
+            </g>
+        </g>
+    </g>
+</svg>

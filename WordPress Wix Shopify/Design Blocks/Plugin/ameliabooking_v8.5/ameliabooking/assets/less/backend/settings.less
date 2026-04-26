@@ -1,0 +1,528 @@
+@import "../common/_variables";
+
+#am-settings {
+  .am-settings-cards {
+    padding-top: @padding-big*2;
+    padding-bottom: @padding-big*2;
+
+    .el-row {
+      display: flex;
+      @media @less-then-medium {
+        display: block;
+      }
+
+      .el-col {
+        border-right: 1px solid @color-divider-gray;
+        margin-bottom: @margin-big*2;
+        position: relative;
+
+        &:nth-child(3) {
+          border-right: none;
+        }
+
+        @media @less-then-medium {
+          border-right: none;
+        }
+      }
+
+      .am-settings-card {
+        position: relative;
+        height: 100%;
+        margin-bottom: @margin-small;
+        @media @less-then-medium {
+          height: auto;
+        }
+
+        h3 {
+          line-height: 1.4;
+          margin-top: 0;
+          margin-bottom: @margin-big;
+          font-size: @medium-fs;
+
+          img,
+          svg {
+            display: inline-block;
+            vertical-align: sub;
+            margin-right: @margin-small;
+            max-width: 24px;
+            max-height: 24px;
+          }
+        }
+
+        p {
+          font-size: @small-fs;
+          margin: @margin-medium 0;
+          min-height: 60px;
+
+          &.link {
+            min-height: 0;
+            color: @color-blue;
+            font-size: @mini-fs;
+            font-weight: @bold;
+            cursor: pointer;
+            text-transform: uppercase;
+            margin-bottom: 0;
+
+            &:hover {
+              color: fade(@color-blue, 75%);
+            }
+
+            @media @less-then-medium {
+              position: static;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .am-dialog-settings {
+    .am-dialog-scrollable {
+      .el-alert {
+        &.el-alert--warning {
+          color: @color-orange;
+          margin-bottom: @margin-medium;
+
+          .el-alert__title {
+            color: @color-orange;
+          }
+
+          .el-alert__content {
+            p {
+              font-size: 14px;
+              word-break: break-word;
+            }
+          }
+        }
+      }
+
+      .el-collapse {
+        .el-collapse-item__wrap {
+          margin: 0;
+
+          p {
+            font-size: @small-fs
+          }
+        }
+      }
+
+      .el-textarea {
+        margin-bottom: @margin-medium;
+      }
+
+      .am-notifications-placeholders {
+        margin-top: 0;
+      }
+
+      .am-placeholder-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: @margin-medium;
+
+        &__dropdown {
+          margin: 0 @margin-small @margin-small 0;
+        }
+
+        &__button {
+          color: #606266;
+        }
+      }
+
+      .am-api-key {
+        &-generate {
+          &-input {
+            .el-input__suffix {
+              color: black;
+              top: 10px;
+              cursor: pointer;
+              font-size: 18px;
+            }
+          }
+        }
+        &-heading {
+          text-align: center;
+          padding-bottom: 12px;
+          border-bottom: 1px solid darkgray;
+          margin-top: 30px;
+        }
+        &-row {
+          text-align: center;
+          margin-bottom: 10px;
+          border-bottom: 1px solid lightgray;
+          padding-bottom: 10px;
+          &-first {
+            padding-top: 8px;
+          }
+        }
+        &-warning {
+          margin-top: -12px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 18px;
+        }
+      }
+
+      .expiration-close {
+        background-color: fade(@color-orange, 20%);
+        &-text {
+          color: #d78d02;
+          font-weight: 600;
+        }
+      }
+      .expiration-passed {
+        background-color: fade(@color-red, 20%);
+        &-text {
+          color: @color-red;
+          font-weight: 600;
+        }
+      }
+    }
+
+    .am-google-calendar-tooltip {
+      margin: 0;
+    }
+
+    .am-google-calendar-button {
+      width: 46px;
+      height: 40px;
+      float: right;
+
+      svg {
+        path {
+          fill: @color-white !important;
+        }
+      }
+    }
+
+    .am-setting-box {
+      #am-woocommerce {
+        vertical-align: middle;
+        max-width: 100px;
+        max-height: 100px;
+      }
+
+      .am-settings-taxes {
+        .am-settings-taxes-radio {
+          font-size: 14px;
+          color: rgba(26, 44, 55, 1);
+        }
+      }
+
+      &-square-error {
+        border: 1px solid red;
+        &-text {
+          text-align: center;
+          color: red;
+          padding-top:10px;
+          font-weight: bold;
+          display: flex;
+          justify-content: center
+        }
+      }
+
+      .am-customize-notifications-combined {
+        display: flex;
+        align-items: center;
+        margin-bottom: @margin-big;
+        border: 1px solid @color-divider-gray;
+        padding: @padding-small;
+        background-color: @color-light-gray;
+        border-radius: 2%;
+
+        .am-customize-notifications-combined-tooltip {
+          font-size: 14px;
+          margin: 0;
+          line-height: 1.5;
+        }
+
+        p {
+          margin: 0;
+        }
+
+        p.am-blue-link {
+          color: @color-blue;
+          text-align: right;
+          cursor: pointer;
+          margin: 0;
+
+          &:hover {
+            color: darken(@color-blue, 10%);
+          }
+        }
+      }
+
+      .am-manage-employee-badges {
+        cursor: pointer;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: #1A84EE;
+        &-icon {
+          margin-right: 4px;
+        }
+      }
+
+      .am-outlook-calendar-button {
+        padding: 0;
+        height: 40px;
+        border: 1px solid transparent;
+        width: 100%;
+        background-color: #4285F4;
+        -webkit-border-radius: 1px;
+        border-radius: 1px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .25);
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: background-color .218s, border-color .218s, box-shadow .218s;
+        transition: background-color .218s, border-color .218s, box-shadow .218s;
+        -webkit-user-select: none;
+        -webkit-appearance: none;
+        background-image: none;
+        cursor: pointer;
+        outline: none;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+
+        &:hover {
+          background-color: #4285F4;
+        }
+
+        &:focus {
+          background-color: #3367D6;
+        }
+
+        &.disabled {
+          opacity: 0.5;
+          cursor: not-allowed;
+        }
+
+        &.connected {
+          background-color: #DC4E41;
+
+          &:hover {
+            background-color: #DC4E41;
+          }
+
+          &:focus {
+            background-color: #C53829;
+          }
+        }
+
+        .am-outlook-calendar-button-image {
+          float: left;
+          padding: 9px;
+          background: #fff;
+          border-radius: 1px;
+        }
+
+        .am-outlook-calendar-button-text {
+          padding: 12px 0;
+          display: inline-block;
+          margin: 0;
+        }
+      }
+
+      .am-mailchimp-button {
+        padding: 0;
+        height: 40px;
+        border: 1px solid transparent;
+        width: 100%;
+        background-color: #FFE01B;
+        -webkit-border-radius: 1px;
+        border-radius: 1px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .25);
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: background-color .218s, border-color .218s, box-shadow .218s;
+        transition: background-color .218s, border-color .218s, box-shadow .218s;
+        -webkit-user-select: none;
+        -webkit-appearance: none;
+        background-image: none;
+        cursor: pointer;
+        outline: none;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+
+        &.connected {
+          background-color: #DC4E41;
+          color: white;
+
+          &:hover {
+            background-color: #DC4E41;
+          }
+
+          &:focus {
+            background-color: #C53829;
+          }
+
+          .am-mailchimp-button-text {
+            color: white;
+          }
+        }
+
+        .am-mailchimp-button-image {
+          float: left;
+          background: #fff;
+          border-radius: 1px;
+          & img {
+            width: 40px;
+            height: 40px;
+          }
+        }
+
+        .am-mailchimp-button-text {
+          padding: 12px 0;
+          display: inline-block;
+          margin: 0;
+          color: black;
+        }
+      }
+    }
+
+    .am-setting-notifications-select {
+      .el-select__tags {
+        top: 50%;
+        overflow: visible;
+        white-space: normal;
+        flex-wrap: wrap;
+      }
+    }
+
+    .am-activation-alert {
+      margin-bottom: @margin-medium;
+
+      .el-icon-info {
+        color: @color-blue;
+      }
+    }
+
+    .am-purchase-code {
+      margin-bottom: @margin-medium;
+
+      .am-purchase-code-hidden {
+        p {
+          display: table-cell;
+          font-size: @small-fs;
+          word-break: break-word;
+          margin-right: 8px;
+        }
+
+        .el-icon-info {
+          color: @color-blue;
+          right: 12px;
+          font-size: 28px;
+          top: 12px;
+          display: inline-block;
+          margin-right: 8px;
+          margin-left: 8px;
+        }
+
+        background-color: @color-light-gray;
+        align-items: center;
+        display: flex;
+      }
+    }
+
+    .am-activate-plugin {
+      float: right;
+      width: 90%;
+      max-width: 90%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .am-envato-activation {
+      margin-bottom: @margin-big;
+    }
+
+    .am-envato-activation-button {
+      background: rgb(130, 181, 65);
+      border: 1px solid rgb(130, 181, 65);
+      color: @color-white;
+      width: 100%;
+
+      &:hover {
+        background: #6D9837;
+        border: 1px solid #6D9837;
+      }
+
+      .am-envato-activation-logo {
+        width: 12px;
+        margin-bottom: -2px;
+        margin-right: 3px;
+      }
+    }
+
+    .am-payments-meta-data {
+      div {
+        display: flex;
+        margin: auto;
+      }
+
+      .el-input {
+        margin-bottom: 0;
+      }
+
+      span {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.am-social-login {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  gap: 8px;
+
+  &__google,&__facebook {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 8px;
+
+    .am-setting-box.am-switch-box {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      .el-row {
+        width: 100%
+      }
+    }
+  }
+
+  &__facebook-id-secret {
+    border: 1px solid #E2E6EC;
+    border-radius: 3px;
+    padding: 12px 24px 0;
+  }
+}
+
+.amelia-dropdown {
+  &.el-dropdown-menu {
+    max-height: 400px;
+    overflow: auto;
+  }
+
+  &.el-dropdown-menu::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &.el-dropdown-menu::-webkit-scrollbar-thumb {
+    background-color: #dddddd;
+    border-radius: 10px;
+  }
+}

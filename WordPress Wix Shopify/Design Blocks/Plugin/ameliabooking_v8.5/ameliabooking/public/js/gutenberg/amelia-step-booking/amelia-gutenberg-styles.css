@@ -1,0 +1,46 @@
+/*.components-button.block-editor-block-types-list__item.editor-block-list-item-amelia-step-booking-gutenberg-block .block-editor-block-icon{
+    width: 44px !important;
+}
+
+.components-button.block-editor-block-types-list__item.editor-block-list-item-amelia-step-booking-gutenberg-block svg{
+    max-width: 44px !important;
+}
+
+.components-button.block-editor-block-types-list__item.editor-block-list-item-amelia-step-booking-gutenberg-block .block-editor-block-types-list__item-icon {
+ padding-right: 5px;
+}
+
+.block-editor-block-card span {
+    position: relative
+}
+
+.amelia-step-booking-gutenberg {
+    position: absolute;
+    max-width: 44px !important;
+}*/
+
+#amelia-js-select-service, #amelia-js-select-category, #amelia-js-select-employee, #amelia-js-select-location, #amelia-js-select-package {
+    height: 100px;
+    overflow-y: scroll;
+}
+
+.amelia-gutenberg-multi-select .components-input-control-suffix-wrapper{
+    display: none
+}
+
+.amelia-gutenberg-multi-select-note {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    font-size: 10px;
+    line-height: 12px;
+    border: 1px solid #D4DEFC;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.amelia-gutenberg-multi-select-note:before {
+    width: 16px;
+    height: 12px;
+    content: url('../../../img/info-filled.svg');
+}

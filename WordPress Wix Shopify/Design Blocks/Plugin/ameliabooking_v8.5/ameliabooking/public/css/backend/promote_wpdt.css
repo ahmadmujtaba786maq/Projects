@@ -1,0 +1,135 @@
+.am-promote-wpdt-notice {
+    background-image: url("../../wpdt/img/wpdt-promo-bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    display: block;
+    box-sizing: border-box;
+    margin: 20px 20px 20px 2px;
+    padding: 0 !important;
+    border-radius: 6px;
+}
+
+#am-promote-wpdt-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    min-height: 150px;
+    padding: 6px 0 6px 30px;
+    box-sizing: border-box;
+}
+
+#am-second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#am-download-it {
+    background: linear-gradient(351.76deg, #FFD601 -8.07%, #FCFF7D 123.41%);
+    width: 180px;
+    height: 36px;
+    padding: 6px 16px 6px 16px;
+    border-radius: 7px;
+    gap: 10px;
+    font-family: 'Amelia Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #1A2C37;
+    border: none;
+    cursor: pointer;
+}
+
+.am-wpdt-message {
+    font-family: 'Amelia Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.am-wpdt-logo {
+    min-width: 128px;
+    height: auto;
+}
+
+.notice-dismiss::before {
+    color: #33434C;
+}
+
+#am-third-section, #am-first-section {
+    max-width: 35%;
+}
+
+#am-third-section img, #am-first-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.am-wpdt-logo-mobile {
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    .am-wpdt-message, #am-download-it {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    #am-second-section {
+        flex: 0;
+    }
+
+    #am-second-section img {
+        height: 20px;
+        width: auto;
+    }
+}
+
+@media (max-width: 760px) {
+    .am-promote-wpdt-notice {
+        margin: 20px;
+    }
+
+    #am-promote-wpdt-section {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    #am-third-section, #am-first-section {
+        display: none;
+    }
+
+    #am-second-section {
+        margin: 10px auto;
+    }
+
+    .am-promote-wpdt-notice {
+        background: #005AEE;
+    }
+
+    .notice-dismiss::before {
+         color: #FFFFFF;
+    }
+
+    .am-wpdt-logo-mobile {
+        display: block;
+    }
+
+    .am-wpdt-logo {
+        display: none;
+    }
+
+    #am-second-section img {
+        height: 34px;
+    }
+}

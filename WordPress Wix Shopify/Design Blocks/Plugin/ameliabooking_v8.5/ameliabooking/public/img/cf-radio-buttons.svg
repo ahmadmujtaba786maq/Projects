@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <defs></defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[MODAL]-Select-Custom-fields" transform="translate(-307.000000, -278.000000)">
+            <g id="radio-buttons" transform="translate(307.000000, 278.000000)">
+                <g id="Group-3">
+                    <rect id="Rectangle-3" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="80" height="80"></rect>
+                    <g id="check" transform="translate(18.000000, 20.000000)">
+                        <path d="M21.572845,5.44456 L44.83652,5.44456" id="Shape" stroke="#1A84EE"
+                              stroke-linecap="round" stroke-linejoin="round"></path>
+                        <circle id="Oval" stroke="#1A84EE" stroke-linecap="round" stroke-linejoin="round" cx="5.28827"
+                                cy="5.44456" r="5.131695"></circle>
+                        <circle id="Oval" fill="#1A84EE" fill-rule="nonzero" cx="5.28827" cy="20.497525"
+                                r="3.48247"></circle>
+                        <path d="M21.572845,20.497525 L44.83652,20.497525" id="Shape" stroke="#1A84EE"
+                              stroke-linecap="round" stroke-linejoin="round"></path>
+                        <circle id="Oval" stroke="#1A84EE" stroke-linecap="round" stroke-linejoin="round" cx="5.28827"
+                                cy="20.497525" r="5.131695"></circle>
+                        <path d="M21.572845,35.55049 L44.83652,35.55049" id="Shape" stroke="#1A84EE"
+                              stroke-linecap="round" stroke-linejoin="round"></path>
+                        <circle id="Oval" stroke="#1A84EE" stroke-linecap="round" stroke-linejoin="round" cx="5.28827"
+                                cy="35.55049" r="5.131695"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

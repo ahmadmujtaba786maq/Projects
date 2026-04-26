@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>purple@svg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="purple" fill-rule="nonzero" fill="#774DFB">
+            <g id="map-location-pin-geolocation-6" transform="translate(10.000000, 4.000000)">
+                <path d="M12,6 C11.9887078,2.75399406 9.39794778,0.105563741 6.15297692,0.0228222172 C2.90800606,-0.0599193062 0.185639058,2.45303485 0.00893325502,5.69424714 C-0.167772548,8.93545943 2.26526662,11.7294782 5.5,12 L5.5,23.5 C5.5,23.7761424 5.72385763,24 6,24 C6.27614237,24 6.5,23.7761424 6.5,23.5 L6.5,12 C9.61701825,11.7393609 12.0108781,9.12787742 12,6 Z M6,3 C4.34314575,3 3,4.34314575 3,6 C3,6.17863279 2.90470054,6.3436963 2.75,6.4330127 C2.59529946,6.5223291 2.40470054,6.5223291 2.25,6.4330127 C2.09529946,6.3436963 2,6.17863279 2,6 C2,3.790861 3.790861,2 6,2 C6.27614237,2 6.5,2.22385763 6.5,2.5 C6.5,2.77614237 6.27614237,3 6,3 Z"
+                      id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

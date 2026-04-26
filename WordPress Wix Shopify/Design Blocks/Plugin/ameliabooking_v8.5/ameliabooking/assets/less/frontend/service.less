@@ -1,0 +1,300 @@
+@import "_variables";
+
+.amelia-app-booking {
+  #am-service-booking {
+
+    .am-service-gallery {
+      min-height: 256px;
+      background-image: linear-gradient(90deg, fade(@color-accent, 65%) 0%, @color-accent 100%);
+      @media @less-then-medium {
+        min-height: 1px;
+      }
+    }
+
+    h3 {
+      font-size: @medium-fs;
+      margin-bottom: @margin-big;
+      padding: 0;
+    }
+
+    p {
+      font-size: @small-fs;
+      padding: 0;
+      margin-bottom: @margin-medium;
+    }
+
+    .el-carousel__container {
+      height: 570px;
+      @media @less-then-medium {
+        height: 480px;
+      }
+      @media @less-then-small {
+        height: 300px;
+      }
+
+      .am-image-slide {
+        height: 570px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        @media @less-then-medium {
+          height: 480px;
+        }
+        @media @less-then-small {
+          height: 300px;
+        }
+      }
+    }
+
+    .am-service {
+      background: #fff;
+      margin: -60px 5% 0;
+      position: relative;
+      padding: @padding-big;
+
+      @media @less-then-small {
+        padding: 14px;
+      }
+
+      z-index: 3;
+      @media @less-then-medium {
+        margin: 0;
+      }
+
+      &.am-active-book {
+        box-shadow: 0 0 16px 1px fade(@color-divider-gray, 90%);
+      }
+
+      .am-service-header {
+        position: relative;
+        margin-bottom: @margin-big*2;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        @media @less-then-medium {
+          text-align: center;
+          display: block;
+        }
+
+        .am-service-image {
+          display: inline-block;
+          vertical-align: middle;
+          border-radius: 50%;
+          width: 100px;
+          height: 100px;
+          max-width: 100px;
+
+          img, svg {
+            width: 100%;
+            border-radius: 50%;
+          }
+        }
+
+        .am-service-data {
+          display: inline-block;
+          vertical-align: middle;
+          padding: 0 @padding-medium;
+          flex: 1;
+          @media @less-then-medium {
+            display: block;
+            margin-bottom: @margin-medium;
+            margin-top: @margin-medium;
+          }
+
+          .am-category-url {
+            cursor: pointer;
+            font-size: @small-fs;
+            display: inline-block;
+
+            &:hover {
+              color: @color-accent;
+            }
+          }
+
+          .am-service-title {
+            h2 {
+              font-size: @big-fs;
+              font-weight: @regular;
+              //margin-bottom: @margin-small;
+            }
+          }
+
+          .am-service-info {
+            margin-bottom: 0;
+
+            div {
+              font-size: @small-fs;
+              color: @color-text-second;
+              display: inline-block;
+              border-right: 1px solid @color-divider-gray;
+              margin-right: @margin-small;
+              padding-right: @padding-small;
+              @media @less-then-small {
+                display: block;
+                padding: 0;
+                border: none;
+              }
+
+              &:last-child {
+                border-right: none;
+              }
+
+              img, svg {
+                display: inline-block;
+                vertical-align: text-top;
+              }
+            }
+          }
+        }
+
+        .am-service-price {
+          display: inline-block;
+          /*          position: absolute;
+                    top: 0;
+                    right: 0;*/
+          padding: @padding-medium @padding-big;
+          border-radius: 30px;
+          background-color: @color-accent;
+          color: @color-white;
+          font-size: @big-fs;
+          line-height: 1.2;
+
+          sup {
+            font-size: @small-fs;
+            font-weight: @light;
+            margin-left: 2px;
+          }
+
+          @media @less-then-small {
+            position: static;
+          }
+        }
+      }
+
+      .am-service-description {
+        margin-bottom: @margin-big*2;
+      }
+
+      .am-service-info {
+        margin-bottom: @margin-big*2;
+
+        .el-row {
+          margin-bottom: @margin-small;
+
+          .el-col:first-child {
+            color: @color-text-second;
+          }
+
+          .am-service-info-column.el-col-sm-24:first-child {
+            margin-bottom: @margin-big;
+          }
+        }
+
+        .am-category-url {
+          color: @color-text-prime;
+          font-weight: @medium;
+          cursor: pointer;
+
+          &:hover {
+            color: @color-accent;
+          }
+        }
+
+        .am-extra {
+          &.el-collapse-item > div {
+            color: inherit;
+          }
+
+          .el-collapse-item {
+            &__header {
+              background-color: rgba(0, 0, 0, 0.02);
+              color: inherit;
+              padding: 0 0 0 @padding-medium;
+              font-size: @small-fs;
+            }
+
+            &__arrow {
+              color: inherit;
+            }
+
+            &__wrap {
+              background-color: transparent;
+            }
+
+            &__content {
+              padding: @padding-small;
+              display: inline-block;
+              width: 100%;
+            }
+          }
+        }
+      }
+
+      .am-service-providers {
+        margin-bottom: @margin-big*2;
+
+        .am-service-provider {
+          display: inline-block;
+          width: 100%;
+          max-width: 220px;
+          margin: 0 @margin-small @margin-big 0;
+
+          img {
+            border-radius: 50%;
+            max-width: 32px;
+            width: 32px;
+            height: 32px;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 @margin-small/2 0 0;
+          }
+
+          span {
+            display: inline-block;
+            max-width: 180px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            vertical-align: middle;
+          }
+        }
+      }
+
+      .am-step-booking {
+        h3 {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  //Small columns
+  &.am-mobile-collapsed {
+    #am-service-booking {
+      .am-service {
+        .am-service-header {
+          text-align: center;
+          display: block;
+
+          .am-service-data {
+            display: block;
+            margin-bottom: @margin-medium;
+            margin-top: @margin-medium;
+          }
+        }
+      }
+    }
+  }
+}
+
+.align-right-packages {
+  text-align: right;
+  @media @less-then-small {
+    text-align: center;
+  }
+  .el-button {
+    @media @less-then-small {
+      margin-bottom: @margin-small;
+    }
+  }
+}

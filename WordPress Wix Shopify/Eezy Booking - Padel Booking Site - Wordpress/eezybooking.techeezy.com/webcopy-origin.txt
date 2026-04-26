@@ -1,0 +1,1836 @@
+Uri: https://eezybooking.techeezy.com/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\index.htm
+Content Type: text/html
+
+Uri: https://eezybooking.techeezy.com/about-us/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\about-us\index.htm
+Content Type: text/html
+
+Uri: https://eezybooking.techeezy.com/author/admin/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\author\admin\index.htm
+Content Type: text/html
+
+Uri: https://eezybooking.techeezy.com/author/admin/feed/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\author\admin\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://eezybooking.techeezy.com/blogs/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\blogs\index.htm
+Content Type: text/html
+
+Uri: https://eezybooking.techeezy.com/business-idea-for-entrepreneur/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\business-idea-for-entrepreneur\index.htm
+Content Type: text/html
+
+Uri: https://eezybooking.techeezy.com/business-idea-for-entrepreneur/?replytocom=1
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\business-idea-for-entrepreneur\index-1.htm
+Content Type: text/html
+
+Uri: https://eezybooking.techeezy.com/business-idea-for-entrepreneur/feed/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\business-idea-for-entrepreneur\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://eezybooking.techeezy.com/category/business/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\category\business\index.htm
+Content Type: text/html
+
+Uri: https://eezybooking.techeezy.com/category/business/feed/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\category\business\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://eezybooking.techeezy.com/category/padel/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\category\padel\index.htm
+Content Type: text/html
+
+Uri: https://eezybooking.techeezy.com/category/padel/feed/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\category\padel\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://eezybooking.techeezy.com/category/playon/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\category\playon\index.htm
+Content Type: text/html
+
+Uri: https://eezybooking.techeezy.com/category/playon/feed/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\category\playon\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://eezybooking.techeezy.com/category/uncategorized/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\category\uncategorized\index.htm
+Content Type: text/html
+
+Uri: https://eezybooking.techeezy.com/category/uncategorized/feed/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\category\uncategorized\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://eezybooking.techeezy.com/comments/feed/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\comments\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://eezybooking.techeezy.com/contact-us/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\contact-us\index.htm
+Content Type: text/html
+
+Uri: https://eezybooking.techeezy.com/feed/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://eezybooking.techeezy.com/padels-a-new-way-to-enjoy-life/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\padels-a-new-way-to-enjoy-life\index.htm
+Content Type: text/html
+
+Uri: https://eezybooking.techeezy.com/padels-a-new-way-to-enjoy-life/feed/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\padels-a-new-way-to-enjoy-life\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://eezybooking.techeezy.com/playons-a-new-business-idea-for-entrepreneur-clone/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\playons-a-new-business-idea-for-entrepreneur-clone\index.htm
+Content Type: text/html
+
+Uri: https://eezybooking.techeezy.com/playons-a-new-business-idea-for-entrepreneur-clone/feed/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\playons-a-new-business-idea-for-entrepreneur-clone\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://eezybooking.techeezy.com/playons-spreading-everywhere/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\playons-spreading-everywhere\index.htm
+Content Type: text/html
+
+Uri: https://eezybooking.techeezy.com/playons-spreading-everywhere/feed/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\playons-spreading-everywhere\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://eezybooking.techeezy.com/policies-and-faqs/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\policies-and-faqs\index.htm
+Content Type: text/html
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/ameliabooking/public/css/frontend/elementor.css?ver=8.5
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\ameliabooking\public\css\frontend\elementor.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/ameliabooking/public/fonts/amelia-logo-beta.svg?23799949740ff8bddac3a62f1692a367
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\ameliabooking\public\fonts\amelia-logo-beta.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/ameliabooking/public/fonts/amelia-logo-outdated.svg?775bf949bc0992d056f6bee2efd5d1e2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\ameliabooking\public\fonts\amelia-logo-outdated.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/ameliabooking/public/fonts/amelia-logo-symbol.svg?26b1423ada37dd8d73a400f9ffb2d4b0
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\ameliabooking\public\fonts\amelia-logo-symbol.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/cookieadmin-pro/assets/js/consent.js?ver=1.1.0
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\cookieadmin-pro\assets\js\consent.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/cookieadmin/assets/css/consent.css?ver=1.1.0
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\cookieadmin\assets\css\consent.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/cookieadmin/assets/images/cookieadmin_icon.svg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\cookieadmin\assets\images\cookieadmin_icon.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/cookieadmin/assets/js/consent.js?ver=1.1.0
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\cookieadmin\assets\js\consent.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\css\conditionals\e-swiper.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\css\frontend.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/css/widget-counter.min.css?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\css\widget-counter.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\css\widget-divider.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\css\widget-heading.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\css\widget-icon-list.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\css\widget-image.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\css\widget-spacer.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\js\frontend-modules.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\js\frontend.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\js\webpack.runtime.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min.css?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\animations\styles\e-animation-grow.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInLeft.min.css?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\animations\styles\fadeInLeft.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\animations\styles\fadeInRight.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\animations\styles\fadeInUp.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/animations/styles/slideInLeft.min.css?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\animations\styles\slideInLeft.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/animations/styles/slideInUp.min.css?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\animations\styles\slideInUp.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\css\all.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\css\v4-shims.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.31.4
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\js\v4-shims.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.eot
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\webfonts\fa-brands-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.eot?
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\webfonts\fa-brands-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.svg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\webfonts\fa-brands-400.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.ttf
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\webfonts\fa-brands-400.ttf
+Content Type: font/ttf
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\webfonts\fa-brands-400.woff
+Content Type: font/woff
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\webfonts\fa-brands-400.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.eot
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\webfonts\fa-regular-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.eot?
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\webfonts\fa-regular-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.svg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\webfonts\fa-regular-400.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.ttf
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\webfonts\fa-regular-400.ttf
+Content Type: font/ttf
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\webfonts\fa-regular-400.woff
+Content Type: font/woff
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\webfonts\fa-regular-400.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.eot
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\webfonts\fa-solid-900.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.eot?
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\webfonts\fa-solid-900-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\webfonts\fa-solid-900.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.ttf
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\webfonts\fa-solid-900.ttf
+Content Type: font/ttf
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\webfonts\fa-solid-900.woff
+Content Type: font/woff
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\font-awesome\webfonts\fa-solid-900.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\jquery-numerator\jquery-numerator.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\swiper\v8\css\swiper.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementor\assets\lib\swiper\v8\swiper.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js?ver=3.7.2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementskit-lite\libs\framework\assets\js\frontend-script.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css?ver=3.7.2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementskit-lite\modules\elementskit-icon-pack\assets\css\ekiticons.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/fonts/elementskit.woff?itek3h
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementskit-lite\modules\elementskit-icon-pack\assets\fonts\elementskit.woff
+Content Type: font/woff
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css?ver=3.7.2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementskit-lite\widgets\init\assets\css\responsive.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css?ver=3.7.2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementskit-lite\widgets\init\assets\css\widget-styles.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementskit-lite/widgets/init/assets/img/arrow.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementskit-lite\widgets\init\assets\img\arrow.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementskit-lite/widgets/init/assets/img/cross-out.svg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementskit-lite\widgets\init\assets\img\cross-out.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementskit-lite/widgets/init/assets/img/sort_asc.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementskit-lite\widgets\init\assets\img\sort_asc.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementskit-lite/widgets/init/assets/img/sort_asc_disabled.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementskit-lite\widgets\init\assets\img\sort_asc_disabled.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementskit-lite/widgets/init/assets/img/sort_desc.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementskit-lite\widgets\init\assets\img\sort_desc.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.min.js?ver=3.7.2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementskit-lite\widgets\init\assets\js\animate-circle.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js?ver=3.7.2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementskit-lite\widgets\init\assets\js\elementor.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js?ver=3.7.2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\elementskit-lite\widgets\init\assets\js\widget-scripts.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/jeg-elementor-kit/assets/css/elements/main.css?ver=2.6.14
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\jeg-elementor-kit\assets\css\elements\main.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/jeg-elementor-kit/assets/fonts/jkiticon/jkiticon.css?ver=2.6.14
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\jeg-elementor-kit\assets\fonts\jkiticon\jkiticon.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/jeg-elementor-kit/assets/fonts/jkiticon/jkiticon.eot?bv8d8l
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\jeg-elementor-kit\assets\fonts\jkiticon\jkiticon.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/jeg-elementor-kit/assets/fonts/jkiticon/jkiticon.svg?bv8d8l
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\jeg-elementor-kit\assets\fonts\jkiticon\jkiticon.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/jeg-elementor-kit/assets/fonts/jkiticon/jkiticon.ttf?bv8d8l
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\jeg-elementor-kit\assets\fonts\jkiticon\jkiticon.ttf
+Content Type: font/ttf
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/jeg-elementor-kit/assets/fonts/jkiticon/jkiticon.woff2?bv8d8l
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\jeg-elementor-kit\assets\fonts\jkiticon\jkiticon.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/jeg-elementor-kit/assets/fonts/jkiticon/jkiticon.woff?bv8d8l
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\jeg-elementor-kit\assets\fonts\jkiticon\jkiticon.woff
+Content Type: font/woff
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/jeg-elementor-kit/assets/img/letter-x.svg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\jeg-elementor-kit\assets\img\letter-x.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/jeg-elementor-kit/assets/js/elements/post-pagination.js?ver=2.6.14
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\jeg-elementor-kit\assets\js\elements\post-pagination.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/jeg-elementor-kit/assets/js/elements/sticky-element.js?ver=2.6.14
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\jeg-elementor-kit\assets\js\elements\sticky-element.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/jeg-elementor-kit/assets/js/elements/testimonials.js?ver=2.6.14
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\jeg-elementor-kit\assets\js\elements\testimonials.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/jeg-elementor-kit/assets/js/tiny-slider/tiny-slider.css?ver=2.9.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\jeg-elementor-kit\assets\js\tiny-slider\tiny-slider.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/jeg-elementor-kit/assets/js/tiny-slider/tiny-slider.js?ver=2.9.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\jeg-elementor-kit\assets\js\tiny-slider\tiny-slider.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/jeg-elementor-kit/lib/jeg-framework/assets/css/jeg-dynamic-styles.css?ver=1.3.0
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\jeg-elementor-kit\lib\jeg-framework\assets\css\jeg-dynamic-styles.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/metform/public/assets/css/metform-ui.css?ver=4.0.6
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\metform\public\assets\css\metform-ui.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/metform/public/assets/css/style.css?ver=4.0.6
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\metform\public\assets\css\style.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/metform/public/assets/css/text-editor.css?ver=4.0.6
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\metform\public\assets\css\text-editor.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/metform/public/assets/js/app.js?ver=4.0.6
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\metform\public\assets\js\app.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/metform/public/assets/js/htm.js?ver=4.0.6
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\metform\public\assets\js\htm.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/metform/public/assets/lib/cute-alert/cute-alert.js?ver=4.0.6
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\metform\public\assets\lib\cute-alert\cute-alert.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/metform/public/assets/lib/cute-alert/style.css?ver=4.0.6
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\metform\public\assets\lib\cute-alert\style.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/css/admin-fa-css.css?ver=6.8.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\css\admin-fa-css.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/css/ajax-loader.gif
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\css\ajax-loader.gif
+Content Type: image/gif
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/css/dashboardstyle.css?ver=6.8.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\css\dashboardstyle.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/css/directory-style-rwd.css?ver=15.7.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\css\directory-style-rwd.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/css/directory-style.css?ver=15.7.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\css\directory-style.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/css/fonts/slick.eot
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\css\fonts\slick.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/css/fonts/slick.eot?
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\css\fonts\slick-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/css/fonts/slick.svg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\css\fonts\slick.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/css/fonts/slick.ttf
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\css\fonts\slick.ttf
+Content Type: font/ttf
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/css/fonts/slick.woff
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\css\fonts\slick.woff
+Content Type: font/woff
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/css/jquery-autocomplete-ui.css?ver=15.7.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\css\jquery-autocomplete-ui.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/css/magnific-popup.css?ver=15.7.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\css\magnific-popup.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/css/pdcustomize-common.css?ver=15.7.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\css\pdcustomize-common.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/css/qcawesomefont.min.css?ver=15.7.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\css\qcawesomefont.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/css/sbd_registration.css?ver=15.7.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\css\sbd_registration.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/css/slick-theme.css?ver=6.8.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\css\slick-theme.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/css/slick.css?ver=6.8.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\css\slick.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/css/style.css?ver=6.8.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\css\style.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/css/tab_style.css?ver=15.7.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\css\tab_style.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/fonts/fontawesome-webfont.eot?
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/fonts/fontawesome-webfont.eot?v=4.7.0
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/fonts/fontawesome-webfont.svg?v=4.7.0
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/fonts/fontawesome-webfont.ttf?v=4.7.0
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\fonts\fontawesome-webfont.ttf
+Content Type: font/ttf
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/fonts/fontawesome-webfont.woff2?v=4.7.0
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\fonts\fontawesome-webfont.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/fonts/fontawesome-webfont.woff?v=4.7.0
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\fonts\fontawesome-webfont.woff
+Content Type: font/woff
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/js/category-tab.js?ver=15.7.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\js\category-tab.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/js/jquery.magnific-popup.min.js?ver=15.7.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\js\jquery.magnific-popup.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/js/packery.pkgd.js?ver=15.7.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\js\packery.pkgd.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/js/pdcustomization-common.js?ver=15.7.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\js\pdcustomization-common.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/js/slick.min.js?ver=6.8.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\js\slick.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/assets/js/tooltipster.bundle.min.js?ver=15.7.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\assets\js\tooltipster.bundle.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/embed/css/embed-form.css?ver=15.7.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\embed\css\embed-form.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/simple-business-directory-pro/embed/js/embed-form.js?ver=15.7.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\simple-business-directory-pro\embed\js\embed-form.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-10.2.0
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\client\blocks\wc-blocks.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/css/brands.css?ver=10.2.0
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\css\brands.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\css\photoswipe\default-skin\default-skin.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\fonts\cardo_normal_400.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\fonts\Inter-VariableFont_slnt,wght.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/fonts/star.svg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\fonts\star.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/fonts/star.ttf
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\fonts\star.ttf
+Content Type: font/ttf
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/fonts/star.woff
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\fonts\star.woff
+Content Type: font/woff
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.svg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\fonts\WooCommerce.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.ttf
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\fonts\WooCommerce.ttf
+Content Type: font/ttf
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\fonts\WooCommerce.woff
+Content Type: font/woff
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/amex.svg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\images\icons\credit-cards\amex.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/diners.svg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\images\icons\credit-cards\diners.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/discover.svg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\images\icons\credit-cards\discover.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/jcb.svg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\images\icons\credit-cards\jcb.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/laser.svg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\images\icons\credit-cards\laser.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/maestro.svg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\images\icons\credit-cards\maestro.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/mastercard.svg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\images\icons\credit-cards\mastercard.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/visa.svg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\images\icons\credit-cards\visa.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/images/icons/loader.svg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\images\icons\loader.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=10.2.0
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\js\frontend\add-to-cart.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=10.2.0
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\js\frontend\order-attribution.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=10.2.0
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\js\frontend\woocommerce.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.10.2.0
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\js\jquery-blockui\jquery.blockUI.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.10.2.0
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\js\js-cookie\js.cookie.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=10.2.0
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\plugins\woocommerce\assets\js\sourcebuster\sourcebuster.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/themes/astra/assets/css/minified/compatibility/woocommerce/woocommerce-grid.min.css?ver=4.11.11
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\themes\astra\assets\css\minified\compatibility\woocommerce\woocommerce-grid.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/themes/astra/assets/css/minified/compatibility/woocommerce/woocommerce-layout-grid.min.css?ver=4.11.11
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\themes\astra\assets\css\minified\compatibility\woocommerce\woocommerce-layout-grid.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/themes/astra/assets/css/minified/compatibility/woocommerce/woocommerce-smallscreen-grid.min.css?ver=4.11.11
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\themes\astra\assets\css\minified\compatibility\woocommerce\woocommerce-smallscreen-grid.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.11.11
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\themes\astra\assets\css\minified\main.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/themes/astra/assets/css/minified/menu-animation.min.css?ver=4.11.11
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\themes\astra\assets\css\minified\menu-animation.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.11.11
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\themes\astra\assets\js\minified\frontend.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/2AH2LFJ-1-202x300.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\2AH2LFJ-1-202x300.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/2AH2LFJ-1-600x892.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\2AH2LFJ-1-600x892.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/2AH2LFJ-1.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\2AH2LFJ-1.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/AD9QPHP-100x100.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\AD9QPHP-100x100.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/AD9QPHP-1024x683.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\AD9QPHP-1024x683.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/AD9QPHP-150x150.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\AD9QPHP-150x150.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/AD9QPHP-300x200.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\AD9QPHP-300x200.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/AD9QPHP-300x300.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\AD9QPHP-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/AD9QPHP-600x400.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\AD9QPHP-600x400.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/AD9QPHP-768x512.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\AD9QPHP-768x512.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/AD9QPHP.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\AD9QPHP.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-07_56_44-PM-683x1024.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-07_56_44-PM-683x1024.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-07_56_44-PM-e1759326628840-100x100.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-07_56_44-PM-e1759326628840-100x100.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-07_56_44-PM-e1759326628840-150x150.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-07_56_44-PM-e1759326628840-150x150.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-07_56_44-PM-e1759326628840-300x277.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-07_56_44-PM-e1759326628840-300x277.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-07_56_44-PM-e1759326628840-300x300.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-07_56_44-PM-e1759326628840-300x300.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-07_56_44-PM-e1759326628840-600x554.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-07_56_44-PM-e1759326628840-600x554.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-07_56_44-PM-e1759326628840-768x709.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-07_56_44-PM-e1759326628840-768x709.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-07_56_44-PM-e1759326628840.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-07_56_44-PM-e1759326628840.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-08_35_32-PM-100x100.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-08_35_32-PM-100x100.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-08_35_32-PM-150x150.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-08_35_32-PM-150x150.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-08_35_32-PM-300x300.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-08_35_32-PM-300x300.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-08_35_32-PM-600x600.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-08_35_32-PM-600x600.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-08_35_32-PM-768x768.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-08_35_32-PM-768x768.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-08_35_32-PM.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-08_35_32-PM.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-08_35_48-PM-100x100.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-08_35_48-PM-100x100.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-08_35_48-PM-150x150.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-08_35_48-PM-150x150.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-08_35_48-PM-300x300.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-08_35_48-PM-300x300.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-08_35_48-PM-600x600.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-08_35_48-PM-600x600.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-08_35_48-PM-768x768.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-08_35_48-PM-768x768.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ChatGPT-Image-Aug-21-2025-08_35_48-PM.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ChatGPT-Image-Aug-21-2025-08_35_48-PM.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Client-1-300x66.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Client-1-300x66.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Client-1.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Client-1.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Client-2-300x66.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Client-2-300x66.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Client-2.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Client-2.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Client-3-300x66.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Client-3-300x66.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Client-3.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Client-3.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Client-4-300x66.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Client-4-300x66.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Client-4.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Client-4.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Client-5-300x66.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Client-5-300x66.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Client-5.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Client-5.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Client-6-300x66.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Client-6-300x66.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Client-6.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Client-6.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Client-7-300x66.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Client-7-300x66.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Client-7.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Client-7.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Client-8-300x66.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Client-8-300x66.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Client-8.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Client-8.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/close-up-of-athletic-woman-with-paddle-tennis-rack-2UKX3W7-1024x683.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\close-up-of-athletic-woman-with-paddle-tennis-rack-2UKX3W7-1024x683.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/close-up-of-athletic-woman-with-paddle-tennis-rack-2UKX3W7-300x200.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\close-up-of-athletic-woman-with-paddle-tennis-rack-2UKX3W7-300x200.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/close-up-of-athletic-woman-with-paddle-tennis-rack-2UKX3W7-600x400.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\close-up-of-athletic-woman-with-paddle-tennis-rack-2UKX3W7-600x400.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/close-up-of-athletic-woman-with-paddle-tennis-rack-2UKX3W7-768x512.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\close-up-of-athletic-woman-with-paddle-tennis-rack-2UKX3W7-768x512.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/close-up-of-athletic-woman-with-paddle-tennis-rack-2UKX3W7.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\close-up-of-athletic-woman-with-paddle-tennis-rack-2UKX3W7.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/close-up-of-young-man-smiling-outdoors-DELEX88-100x100.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\close-up-of-young-man-smiling-outdoors-DELEX88-100x100.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/close-up-of-young-man-smiling-outdoors-DELEX88-150x150.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\close-up-of-young-man-smiling-outdoors-DELEX88-150x150.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/close-up-of-young-man-smiling-outdoors-DELEX88-300x300.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\close-up-of-young-man-smiling-outdoors-DELEX88-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/close-up-of-young-man-smiling-outdoors-DELEX88.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\close-up-of-young-man-smiling-outdoors-DELEX88.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/cropped-Eezybooking-logo-1-100x59.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\cropped-Eezybooking-logo-1-100x59.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/cropped-Eezybooking-logo-1-300x178.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\cropped-Eezybooking-logo-1-300x178.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/cropped-Eezybooking-logo-1-600x356.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\cropped-Eezybooking-logo-1-600x356.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/cropped-Eezybooking-logo-1-768x456.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\cropped-Eezybooking-logo-1-768x456.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/cropped-Eezybooking-logo-1.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\cropped-Eezybooking-logo-1.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/cropped-Eezybooking-logo-100x100.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\cropped-Eezybooking-logo-100x100.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/cropped-Eezybooking-logo-150x150.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\cropped-Eezybooking-logo-150x150.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/cropped-Eezybooking-logo-300x300.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\cropped-Eezybooking-logo-300x300.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/cropped-Eezybooking-logo.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\cropped-Eezybooking-logo.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Gp-1-100x100.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Gp-1-100x100.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Gp-1-150x150.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Gp-1-150x150.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Gp-1-300x300.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Gp-1-300x300.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Gp-1.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Gp-1.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/Gp-5-e1750061403635.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\Gp-5-e1750061403635.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/happy-paddle-tennis-player-on-an-outdoor-court-loo-MX89ERL-100x100.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\happy-paddle-tennis-player-on-an-outdoor-court-loo-MX89ERL-100x100.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/happy-paddle-tennis-player-on-an-outdoor-court-loo-MX89ERL-150x150.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\happy-paddle-tennis-player-on-an-outdoor-court-loo-MX89ERL-150x150.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/happy-paddle-tennis-player-on-an-outdoor-court-loo-MX89ERL-300x300.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\happy-paddle-tennis-player-on-an-outdoor-court-loo-MX89ERL-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/happy-paddle-tennis-player-on-an-outdoor-court-loo-MX89ERL-600x600.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\happy-paddle-tennis-player-on-an-outdoor-court-loo-MX89ERL-600x600.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/happy-paddle-tennis-player-on-an-outdoor-court-loo-MX89ERL-768x768.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\happy-paddle-tennis-player-on-an-outdoor-court-loo-MX89ERL-768x768.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/happy-paddle-tennis-player-on-an-outdoor-court-loo-MX89ERL.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\happy-paddle-tennis-player-on-an-outdoor-court-loo-MX89ERL.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ImageGen-6-250x300.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ImageGen-6-250x300.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ImageGen-6-600x720.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ImageGen-6-600x720.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ImageGen-6-768x922.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ImageGen-6-768x922.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ImageGen-6-853x1024.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ImageGen-6-853x1024.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ImageGen-6.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ImageGen-6.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ImageGen-7-250x300.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ImageGen-7-250x300.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ImageGen-7-600x720.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ImageGen-7-600x720.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ImageGen-7-768x922.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ImageGen-7-768x922.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ImageGen-7-853x1024.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ImageGen-7-853x1024.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/ImageGen-7.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\ImageGen-7.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/man-playing-paddle-tennis-at-indoors-pitch-EBN3KGW-1024x683.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\man-playing-paddle-tennis-at-indoors-pitch-EBN3KGW-1024x683.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/man-playing-paddle-tennis-at-indoors-pitch-EBN3KGW-300x200.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\man-playing-paddle-tennis-at-indoors-pitch-EBN3KGW-300x200.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/man-playing-paddle-tennis-at-indoors-pitch-EBN3KGW-600x400.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\man-playing-paddle-tennis-at-indoors-pitch-EBN3KGW-600x400.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/man-playing-paddle-tennis-at-indoors-pitch-EBN3KGW-768x512.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\man-playing-paddle-tennis-at-indoors-pitch-EBN3KGW-768x512.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/man-playing-paddle-tennis-at-indoors-pitch-EBN3KGW.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\man-playing-paddle-tennis-at-indoors-pitch-EBN3KGW.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/man-playing-padel-9KR4F3U-e1750063137155-100x100.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\man-playing-padel-9KR4F3U-e1750063137155-100x100.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/man-playing-padel-9KR4F3U-e1750063137155-1024x683.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\man-playing-padel-9KR4F3U-e1750063137155-1024x683.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/man-playing-padel-9KR4F3U-e1750063137155-150x150.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\man-playing-padel-9KR4F3U-e1750063137155-150x150.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/man-playing-padel-9KR4F3U-e1750063137155-300x200.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\man-playing-padel-9KR4F3U-e1750063137155-300x200.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/man-playing-padel-9KR4F3U-e1750063137155-300x300.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\man-playing-padel-9KR4F3U-e1750063137155-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/man-playing-padel-9KR4F3U-e1750063137155-600x400.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\man-playing-padel-9KR4F3U-e1750063137155-600x400.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/man-playing-padel-9KR4F3U-e1750063137155-768x512.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\man-playing-padel-9KR4F3U-e1750063137155-768x512.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/man-playing-padel-9KR4F3U-e1750063137155.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\man-playing-padel-9KR4F3U-e1750063137155.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/monitor-teaching-padel-class-RQUY73T-1024x683.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\monitor-teaching-padel-class-RQUY73T-1024x683.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/monitor-teaching-padel-class-RQUY73T-300x200.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\monitor-teaching-padel-class-RQUY73T-300x200.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/monitor-teaching-padel-class-RQUY73T-600x400.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\monitor-teaching-padel-class-RQUY73T-600x400.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/monitor-teaching-padel-class-RQUY73T-768x512.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\monitor-teaching-padel-class-RQUY73T-768x512.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/monitor-teaching-padel-class-RQUY73T.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\monitor-teaching-padel-class-RQUY73T.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/paddle-tennis-player-making-an-effort-to-while-hit-QPJDK5U-100x100.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\paddle-tennis-player-making-an-effort-to-while-hit-QPJDK5U-100x100.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/paddle-tennis-player-making-an-effort-to-while-hit-QPJDK5U-150x150.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\paddle-tennis-player-making-an-effort-to-while-hit-QPJDK5U-150x150.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/paddle-tennis-player-making-an-effort-to-while-hit-QPJDK5U-300x300.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\paddle-tennis-player-making-an-effort-to-while-hit-QPJDK5U-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/paddle-tennis-player-making-an-effort-to-while-hit-QPJDK5U-600x600.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\paddle-tennis-player-making-an-effort-to-while-hit-QPJDK5U-600x600.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/paddle-tennis-player-making-an-effort-to-while-hit-QPJDK5U-768x768.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\paddle-tennis-player-making-an-effort-to-while-hit-QPJDK5U-768x768.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/paddle-tennis-player-making-an-effort-to-while-hit-QPJDK5U.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\paddle-tennis-player-making-an-effort-to-while-hit-QPJDK5U.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/sportsman-resting-from-playing-padel-AWX94Q7-100x100.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\sportsman-resting-from-playing-padel-AWX94Q7-100x100.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/sportsman-resting-from-playing-padel-AWX94Q7-150x150.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\sportsman-resting-from-playing-padel-AWX94Q7-150x150.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/sportsman-resting-from-playing-padel-AWX94Q7-300x300.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\sportsman-resting-from-playing-padel-AWX94Q7-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/sportsman-resting-from-playing-padel-AWX94Q7-600x600.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\sportsman-resting-from-playing-padel-AWX94Q7-600x600.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/sportsman-resting-from-playing-padel-AWX94Q7-768x768.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\sportsman-resting-from-playing-padel-AWX94Q7-768x768.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/sportsman-resting-from-playing-padel-AWX94Q7.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\sportsman-resting-from-playing-padel-AWX94Q7.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/World-Map.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\World-Map.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/young-athletic-woman-hitting-the-ball-while-playin-J9XJQ27-100x100.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\young-athletic-woman-hitting-the-ball-while-playin-J9XJQ27-100x100.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/young-athletic-woman-hitting-the-ball-while-playin-J9XJQ27-150x150.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\young-athletic-woman-hitting-the-ball-while-playin-J9XJQ27-150x150.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/young-athletic-woman-hitting-the-ball-while-playin-J9XJQ27-300x300.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\young-athletic-woman-hitting-the-ball-while-playin-J9XJQ27-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/young-athletic-woman-hitting-the-ball-while-playin-J9XJQ27-600x600.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\young-athletic-woman-hitting-the-ball-while-playin-J9XJQ27-600x600.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/young-athletic-woman-hitting-the-ball-while-playin-J9XJQ27-768x768.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\young-athletic-woman-hitting-the-ball-while-playin-J9XJQ27-768x768.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/young-athletic-woman-hitting-the-ball-while-playin-J9XJQ27.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\young-athletic-woman-hitting-the-ball-while-playin-J9XJQ27.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/young-athletic-woman-playing-paddle-tennis-on-outd-WUP7D6S.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\young-athletic-woman-playing-paddle-tennis-on-outd-WUP7D6S.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/young-bearded-man-portrait-outdoors-in-the-mountai-6Z46ZMB-100x100.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\young-bearded-man-portrait-outdoors-in-the-mountai-6Z46ZMB-100x100.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/young-bearded-man-portrait-outdoors-in-the-mountai-6Z46ZMB-150x150.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\young-bearded-man-portrait-outdoors-in-the-mountai-6Z46ZMB-150x150.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/young-bearded-man-portrait-outdoors-in-the-mountai-6Z46ZMB-300x300.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\young-bearded-man-portrait-outdoors-in-the-mountai-6Z46ZMB-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/09/young-bearded-man-portrait-outdoors-in-the-mountai-6Z46ZMB.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\09\young-bearded-man-portrait-outdoors-in-the-mountai-6Z46ZMB.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/10/app-store-1-100x100.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\10\app-store-1-100x100.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/10/app-store-1-150x150.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\10\app-store-1-150x150.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/10/app-store-1-300x300.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\10\app-store-1-300x300.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/10/app-store-1.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\10\app-store-1.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/10/balls-near-the-net-of-a-blue-padel-tennis-court-MWN78HZ.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\10\balls-near-the-net-of-a-blue-padel-tennis-court-MWN78HZ.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/10/close-up-of-female-athlete-with-paddle-tennis-rack-RQ2CD4P-1024x683.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\10\close-up-of-female-athlete-with-paddle-tennis-rack-RQ2CD4P-1024x683.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/10/close-up-of-female-athlete-with-paddle-tennis-rack-RQ2CD4P-1320x880.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\10\close-up-of-female-athlete-with-paddle-tennis-rack-RQ2CD4P-1320x880.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/10/close-up-of-female-athlete-with-paddle-tennis-rack-RQ2CD4P-300x200.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\10\close-up-of-female-athlete-with-paddle-tennis-rack-RQ2CD4P-300x200.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/10/close-up-of-female-athlete-with-paddle-tennis-rack-RQ2CD4P-600x400.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\10\close-up-of-female-athlete-with-paddle-tennis-rack-RQ2CD4P-600x400.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/10/close-up-of-female-athlete-with-paddle-tennis-rack-RQ2CD4P-768x512.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\10\close-up-of-female-athlete-with-paddle-tennis-rack-RQ2CD4P-768x512.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/10/close-up-of-female-athlete-with-paddle-tennis-rack-RQ2CD4P.jpg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\10\close-up-of-female-athlete-with-paddle-tennis-rack-RQ2CD4P.jpg
+Content Type: image/jpeg
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/10/play-100x100.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\10\play-100x100.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/10/play-150x150.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\10\play-150x150.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/10/play-300x300.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\10\play-300x300.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/2025/10/play.png
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\2025\10\play.png
+Content Type: image/png
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/css/post-10353.css?ver=1760995799
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\css\post-10353.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/css/post-20467.css?ver=1760978876
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\css\post-20467.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/css/post-36620.css?ver=1760717991
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\css\post-36620.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/css/post-37899.css?ver=1760995980
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\css\post-37899.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/css/post-40108.css?ver=1760981222
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\css\post-40108.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/css/post-6007.css?ver=1760622507
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\css\post-6007.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/css/post-63.css?ver=1759330221
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\css\post-63.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/css/ibmplexsans.css?ver=1758036500
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\css\ibmplexsans.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/css/lato.css?ver=1757414503
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\css\lato.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/css/montserrat.css?ver=1757414388
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\css\montserrat.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1757413117
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\css\roboto.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1757413122
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\css\robotoslab.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/ibmplexsans-0564cf0e.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\ibmplexsans-0564cf0e.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/ibmplexsans-632855d1.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\ibmplexsans-632855d1.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/ibmplexsans-786db93c.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\ibmplexsans-786db93c.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/ibmplexsans-7a83af82.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\ibmplexsans-7a83af82.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/ibmplexsans-868a235a.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\ibmplexsans-868a235a.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/ibmplexsans-92e63ec1.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\ibmplexsans-92e63ec1.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/ibmplexsans-a6dd2276.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\ibmplexsans-a6dd2276.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/ibmplexsans-bfe3e825.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\ibmplexsans-bfe3e825.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/ibmplexsans-c73940f4.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\ibmplexsans-c73940f4.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/ibmplexsans-d0195443.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\ibmplexsans-d0195443.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/ibmplexsans-eb6f2434.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\ibmplexsans-eb6f2434.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/ibmplexsans-f036af2c.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\ibmplexsans-f036af2c.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-05fdccf1.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-05fdccf1.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-06afc84d.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-06afc84d.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-218afe12.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-218afe12.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-27506bb9.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-27506bb9.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-3de4ca7e.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-3de4ca7e.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-3e7bd105.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-3e7bd105.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-46a87c80.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-46a87c80.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-66752f06.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-66752f06.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-85b778bd.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-85b778bd.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-8fd934da.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-8fd934da.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-a31ed1d0.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-a31ed1d0.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-a97e77d0.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-a97e77d0.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-ac002653.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-ac002653.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-b73b49a7.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-b73b49a7.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-b7f49127.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-b7f49127.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-bbe9e4b0.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-bbe9e4b0.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-bc192fa6.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-bc192fa6.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-bf5ac8af.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-bf5ac8af.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-d575eec9.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-d575eec9.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/lato-db75452c.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\lato-db75452c.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/montserrat-0b130f36.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\montserrat-0b130f36.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/montserrat-1e82e2bf.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\montserrat-1e82e2bf.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/montserrat-2c476a6c.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\montserrat-2c476a6c.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/montserrat-2c82b901.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\montserrat-2c82b901.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/montserrat-49e242af.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\montserrat-49e242af.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/montserrat-51d963d2.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\montserrat-51d963d2.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/montserrat-76393105.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\montserrat-76393105.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/montserrat-9210f8a7.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\montserrat-9210f8a7.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/montserrat-b9ec831f.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\montserrat-b9ec831f.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/montserrat-c6284e6c.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\montserrat-c6284e6c.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-1abb80a1.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\roboto-1abb80a1.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-29afb485.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\roboto-29afb485.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-3d87aca9.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\roboto-3d87aca9.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-4d1fb646.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\roboto-4d1fb646.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-60dc4b6f.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\roboto-60dc4b6f.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-7226307b.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\roboto-7226307b.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-724acd83.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\roboto-724acd83.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-74bd1011.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\roboto-74bd1011.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-82ad1387.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\roboto-82ad1387.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-835ffea9.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\roboto-835ffea9.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-9f01c202.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\roboto-9f01c202.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-aeb7f52d.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\roboto-aeb7f52d.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-b0264ac9.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\roboto-b0264ac9.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-bb0d2555.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\roboto-bb0d2555.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-c6d65aea.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\roboto-c6d65aea.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-e11fa48e.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\roboto-e11fa48e.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-ef8e8afd.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\roboto-ef8e8afd.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-f8743e4d.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\roboto-f8743e4d.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-429238b9.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\robotoslab-429238b9.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-56de4385.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\robotoslab-56de4385.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-c5e794db.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\robotoslab-c5e794db.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-ca82665f.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\robotoslab-ca82665f.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-cb40bc4b.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\robotoslab-cb40bc4b.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-ef584ac5.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\robotoslab-ef584ac5.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-fa7c06b8.woff2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-content\uploads\elementor\google-fonts\fonts\robotoslab-fa7c06b8.woff2
+Content Type: font/woff2
+
+Uri: https://eezybooking.techeezy.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\css\dist\block-library\style.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/comment-reply.min.js?ver=6.8.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\comment-reply.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/dist/a11y.min.js?ver=3156534cc54473497e14
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\dist\a11y.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\dist\dom-ready.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/dist/element.min.js?ver=a4eeeadd23c0d7ab1d2d
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\dist\element.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/dist/escape-html.min.js?ver=6561a406d2d232a6fbd2
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\dist\escape-html.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\dist\hooks.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\dist\i18n.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\dist\vendor\react-dom.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\dist\vendor\react.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\jquery\jquery-migrate.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\jquery\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.13.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\jquery\ui\autocomplete.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\jquery\ui\core.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/jquery/ui/menu.min.js?ver=1.13.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\jquery\ui\menu.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\mediaelement\mediaelement-and-player.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.8.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\mediaelement\mediaelement-migrate.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\mediaelement\mediaelementplayer-legacy.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/mediaelement/mejs-controls.svg
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\mediaelement\mejs-controls.svg
+Content Type: image/svg+xml
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.8.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\mediaelement\wp-mediaelement.min.css
+Content Type: text/css
+
+Uri: https://eezybooking.techeezy.com/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=6.8.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-includes\js\mediaelement\wp-mediaelement.min.js
+Content Type: application/javascript
+
+Uri: https://eezybooking.techeezy.com/wp-json/
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\index.htm
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/oembed/1.0/embed?url=https:%2F%2Feezybooking.techeezy.com%2F
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\oembed\1.0\embed
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/oembed/1.0/embed?url=https:%2F%2Feezybooking.techeezy.com%2F&format=xml
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\oembed\1.0\embed-1
+Content Type: text/xml
+
+Uri: https://eezybooking.techeezy.com/wp-json/oembed/1.0/embed?url=https:%2F%2Feezybooking.techeezy.com%2Fabout-us%2F
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\oembed\1.0\embed-6
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/oembed/1.0/embed?url=https:%2F%2Feezybooking.techeezy.com%2Fabout-us%2F&format=xml
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\oembed\1.0\embed-7
+Content Type: text/xml
+
+Uri: https://eezybooking.techeezy.com/wp-json/oembed/1.0/embed?url=https:%2F%2Feezybooking.techeezy.com%2Fblogs%2F
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\oembed\1.0\embed-2
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/oembed/1.0/embed?url=https:%2F%2Feezybooking.techeezy.com%2Fblogs%2F&format=xml
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\oembed\1.0\embed-3
+Content Type: text/xml
+
+Uri: https://eezybooking.techeezy.com/wp-json/oembed/1.0/embed?url=https:%2F%2Feezybooking.techeezy.com%2Fbusiness-idea-for-entrepreneur%2F
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\oembed\1.0\embed-16
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/oembed/1.0/embed?url=https:%2F%2Feezybooking.techeezy.com%2Fbusiness-idea-for-entrepreneur%2F&format=xml
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\oembed\1.0\embed-17
+Content Type: text/xml
+
+Uri: https://eezybooking.techeezy.com/wp-json/oembed/1.0/embed?url=https:%2F%2Feezybooking.techeezy.com%2Fcontact-us%2F
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\oembed\1.0\embed-4
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/oembed/1.0/embed?url=https:%2F%2Feezybooking.techeezy.com%2Fcontact-us%2F&format=xml
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\oembed\1.0\embed-5
+Content Type: text/xml
+
+Uri: https://eezybooking.techeezy.com/wp-json/oembed/1.0/embed?url=https:%2F%2Feezybooking.techeezy.com%2Fpadels-a-new-way-to-enjoy-life%2F
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\oembed\1.0\embed-12
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/oembed/1.0/embed?url=https:%2F%2Feezybooking.techeezy.com%2Fpadels-a-new-way-to-enjoy-life%2F&format=xml
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\oembed\1.0\embed-13
+Content Type: text/xml
+
+Uri: https://eezybooking.techeezy.com/wp-json/oembed/1.0/embed?url=https:%2F%2Feezybooking.techeezy.com%2Fplayons-a-new-business-idea-for-entrepreneur-clone%2F
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\oembed\1.0\embed-10
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/oembed/1.0/embed?url=https:%2F%2Feezybooking.techeezy.com%2Fplayons-a-new-business-idea-for-entrepreneur-clone%2F&format=xml
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\oembed\1.0\embed-11
+Content Type: text/xml
+
+Uri: https://eezybooking.techeezy.com/wp-json/oembed/1.0/embed?url=https:%2F%2Feezybooking.techeezy.com%2Fplayons-spreading-everywhere%2F
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\oembed\1.0\embed-14
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/oembed/1.0/embed?url=https:%2F%2Feezybooking.techeezy.com%2Fplayons-spreading-everywhere%2F&format=xml
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\oembed\1.0\embed-15
+Content Type: text/xml
+
+Uri: https://eezybooking.techeezy.com/wp-json/oembed/1.0/embed?url=https:%2F%2Feezybooking.techeezy.com%2Fpolicies-and-faqs%2F
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\oembed\1.0\embed-8
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/oembed/1.0/embed?url=https:%2F%2Feezybooking.techeezy.com%2Fpolicies-and-faqs%2F&format=xml
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\oembed\1.0\embed-9
+Content Type: text/xml
+
+Uri: https://eezybooking.techeezy.com/wp-json/wp/v2/categories/1
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\wp\v2\categories\1
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/wp/v2/categories/28
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\wp\v2\categories\28
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/wp/v2/categories/29
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\wp\v2\categories\29
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/wp/v2/categories/30
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\wp\v2\categories\30
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/wp/v2/pages/10353
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\wp\v2\pages\10353
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/wp/v2/pages/20467
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\wp\v2\pages\20467
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/wp/v2/pages/36620
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\wp\v2\pages\36620
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/wp/v2/pages/37899
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\wp\v2\pages\37899
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/wp/v2/pages/40108
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\wp\v2\pages\40108
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/wp/v2/posts/1
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\wp\v2\posts\1
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/wp/v2/posts/33211
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\wp\v2\posts\33211
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/wp/v2/posts/33316
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\wp\v2\posts\33316
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/wp/v2/posts/35258
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\wp\v2\posts\35258
+Content Type: application/json
+
+Uri: https://eezybooking.techeezy.com/wp-json/wp/v2/users/1
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\wp-json\wp\v2\users\1
+Content Type: application/json
+
+Uri: https://secure.gravatar.com/avatar/8e1606e6fba450a9362af43874c1b2dfad34c782e33d0a51e1b46c18a2a567dd?s=100&d=mm&r=g
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\avatar\8e1606e6fba450a9362af43874c1b2dfad34c782e33d0a51e1b46c18a2a567dd-1.png
+Content Type: image/png
+
+Uri: https://secure.gravatar.com/avatar/8e1606e6fba450a9362af43874c1b2dfad34c782e33d0a51e1b46c18a2a567dd?s=50&d=mm&r=g
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\avatar\8e1606e6fba450a9362af43874c1b2dfad34c782e33d0a51e1b46c18a2a567dd.png
+Content Type: image/png
+
+Uri: https://secure.gravatar.com/avatar/9951498ffd625ce6a9cab6e6f6b7f03665e6e74d460af0af76905299aed1987c?s=120&d=mm&r=g
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\avatar\9951498ffd625ce6a9cab6e6f6b7f03665e6e74d460af0af76905299aed1987c.jpg
+Content Type: image/jpeg
+
+Uri: https://secure.gravatar.com/avatar/9951498ffd625ce6a9cab6e6f6b7f03665e6e74d460af0af76905299aed1987c?s=240&d=mm&r=g
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\avatar\9951498ffd625ce6a9cab6e6f6b7f03665e6e74d460af0af76905299aed1987c-1.jpg
+Content Type: image/jpeg
+
+Uri: https://stats.wp.com/e-202545.js
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\e-202545.js
+Content Type: application/javascript
+
+Uri: https://stats.wp.com/s-202545.js
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\s-202545.js
+Content Type: application/javascript
+
+Uri: https://themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTZ1r3JsPcQLi8jytr04NNhU.woff
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\static\fonts\opensans\v8\DXI1ORHCpsQm3Vp6mXoaTZ1r3JsPcQLi8jytr04NNhU.woff
+Content Type: font/woff
+
+Uri: https://themes.googleusercontent.com/static/fonts/opensans/v8/K88pR3goAWT7BTt32Z01mz8E0i7KZn-EPnyo3HZu7kw.woff
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\static\fonts\opensans\v8\K88pR3goAWT7BTt32Z01mz8E0i7KZn-EPnyo3HZu7kw.woff
+Content Type: font/woff
+
+Uri: https://unpkg.com/@googlemaps/markerclusterer@2.6.2/dist/index.min.js?ver=6.8.3
+File Name: C:\Users\ahmad\Desktop\copied ones\eezybooking.techeezy.com\@googlemaps\markerclusterer@2.6.2\dist\index.min.js
+Content Type: text/javascript
+

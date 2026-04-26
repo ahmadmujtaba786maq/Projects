@@ -1,0 +1,540 @@
+@import "../common/_variables";
+
+#am-employees {
+  .am-assigned-services > div {
+    padding: 10px;
+    border: 1px solid @color-divider-gray;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    .am-assigned-services__service-row {
+      margin-bottom: 0;
+    }
+  }
+
+  .am-employees-filter {
+    position: relative;
+
+    .el-row {
+      .el-col {
+        .am-search {
+          .el-input {
+            width: 100%;
+            margin-bottom: 0;
+            @media @less-then-large {
+              margin-bottom: @margin-medium;
+            }
+
+            &.calc-width {
+              @media @less-then-medium {
+                width: calc(~'100% - 59px');
+                margin-right: @margin-small;
+              }
+            }
+          }
+
+          .el-button + .el-button {
+            margin-left: @margin-small;
+          }
+        }
+
+        .el-select {
+          width: 100%;
+          margin-bottom: 0;
+
+          &.calc-width {
+            width: calc(~'100% - 119px');
+            margin-right: @margin-small;
+            @media @less-then-large {
+              width: 100%;
+            }
+          }
+        }
+
+        .el-input {
+          width: 100%;
+          margin-bottom: 0;
+          @media @less-then-medium {
+            margin-bottom: @margin-medium;
+          }
+        }
+      }
+
+      .am-filter-fields {
+
+      }
+
+      .el-button {
+        /*line-height: 0.9;*/
+
+        &.button-filter-toggle {
+          display: none;
+          @media @less-then-medium {
+            display: inline-block;
+            vertical-align: top;
+          }
+        }
+
+        &.change-view {
+          @media @less-then-large {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .am-filter-buttons {
+      position: absolute;
+      right: 8px;
+      top: 0;
+    }
+
+    .el-input-group__append {
+      .el-button {
+        display: inline-block;
+
+        &:hover {
+          color: @color-blue;
+        }
+      }
+    }
+  }
+
+  .am-employees-table-view {
+    padding: 0;
+    @media @less-then-large {
+      border-top: 1px solid @color-divider-gray;
+    }
+  }
+
+  .am-employees-list-head {
+    padding: @padding-medium @padding-big;
+    border-bottom: 1px solid @color-divider-gray;
+    @media @less-then-large {
+      display: none;
+    }
+
+    p {
+      margin: 0;
+      color: @color-text-second;
+      text-transform: uppercase;
+      font-size: @mini-fs;
+    }
+  }
+
+  .am-employee-row {
+    border-bottom: 1px solid @color-divider-gray;
+    padding: @padding-medium @padding-big;
+    position: relative;
+
+    &.am-hidden-entity {
+      opacity: 0.6;
+
+      &:after {
+        display: block;
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        bottom: 26px;
+        right: 105px;
+        content: url('../../img/hide.svg');
+        @media @less-then-small {
+          bottom: 42px;
+        }
+      }
+    }
+
+    .am-employee-col {
+      display: flex;
+      align-items: center;
+      min-height: 40px;
+      @media @less-then-large {
+        margin-bottom: @margin-medium;
+      }
+      @media @more-then-large {
+        flex-wrap: wrap;
+      }
+
+      &.am-edit-btn {
+        justify-content: flex-end;
+      }
+
+      h4 {
+        margin: @margin-small 0;
+      }
+
+      img {
+        margin-right: @margin-small;
+        border-radius: 50%;
+        max-width: 32px;
+      }
+
+      button {
+        float: right;
+      }
+
+      .am-employee-id {
+        color: #7F8FA4;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .am-employee-status-label {
+    display: inline-block;
+    padding: @padding-small/2 @padding-small;
+    border-radius: @border-radius/2;
+    @media @less-then-small {
+      margin-bottom: @margin-small;
+    }
+
+    &.available {
+      background-color: fade(@color-green, 10%);
+      color: @color-green;
+    }
+
+    &.busy {
+      background-color: fade(@color-orange, 10%);
+      color: @color-orange;
+    }
+
+    &.away, &.break, &.dayoff {
+      background-color: fade(@color-red, 10%);
+      color: @color-red;
+    }
+  }
+
+  .am-outlook-calendar-button {
+    padding: 0;
+    height: 40px;
+    border: 1px solid transparent;
+    max-width: 206px;
+    width: 100%;
+    background-color: #4285F4;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .25);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: background-color .218s, border-color .218s, box-shadow .218s;
+    transition: background-color .218s, border-color .218s, box-shadow .218s;
+    -webkit-user-select: none;
+    -webkit-appearance: none;
+    background-image: none;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+
+    &:hover {
+      background-color: #4285F4;
+    }
+
+    &:focus {
+      background-color: #3367D6;
+    }
+
+    &.connected {
+      background-color: #DC4E41;
+
+      &:hover {
+        background-color: #DC4E41;
+      }
+
+      &:focus {
+        background-color: #C53829;
+      }
+    }
+
+    .am-outlook-calendar-button-image {
+      float: left;
+      padding: 9px;
+      background: #fff;
+      border-radius: 1px;
+    }
+
+    .am-outlook-calendar-button-text {
+      padding: 12px 0;
+      display: inline-block;
+      margin: 0;
+    }
+  }
+
+  .am-google-calendar-button {
+    padding: 0;
+    height: 40px;
+    border: 1px solid #747775;
+    max-width: 206px;
+    width: 100%;
+    background-color: #ffffff;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: background-color .218s, border-color .218s, box-shadow .218s;
+    transition: background-color .218s, border-color .218s, box-shadow .218s;
+    -webkit-user-select: none;
+    -webkit-appearance: none;
+    background-image: none;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+
+    &:hover {
+      box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
+      background-color: rgba(48, 48, 48, 0.08);
+    }
+
+    &:focus {
+      box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
+      background-color: rgba(48, 48, 48, 0.08);
+    }
+
+    &.connected {
+      background-color: #131314;
+      border: 1px solid #8e918f;
+
+      &:hover {
+        box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
+        background-color: #131314;
+      }
+
+      &:focus {
+        box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
+        background-color: #131314;
+      }
+    }
+
+    .am-google-calendar-button-image {
+      float: left;
+      padding: 9px;
+      background: transparent;
+      border-radius: 1px;
+
+      img {
+        width: 20px;
+      }
+    }
+
+    .am-google-calendar-button-text {
+      padding: 12px 0;
+      display: inline-block;
+      margin: 0;
+      color: #131314;
+
+      &.connected {
+        color: #e3e3e3;
+      }
+    }
+  }
+
+  #am-google-calendar-connected {
+    .el-badge__content {
+      background-color: @color-green;
+    }
+  }
+
+  #am-google-calendar-disconnected {
+    .el-badge__content {
+      background-color: @color-red;
+    }
+  }
+
+  .am-google-calendar-tooltip {
+    margin: 28px 0 0 -12px;
+  }
+
+  .am-apple-calendar-button {
+    padding: 0;
+    height: 40px;
+    border: 1px solid transparent;
+    max-width: 354px;
+    width: 100%;
+    background-color: #4285F4;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .25);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: background-color .218s, border-color .218s, box-shadow .218s;
+    transition: background-color .218s, border-color .218s, box-shadow .218s;
+    -webkit-user-select: none;
+    -webkit-appearance: none;
+    background-image: none;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+
+    &:hover {
+      background-color: #4285F4;
+    }
+
+    &:focus {
+      background-color: #3367D6;
+    }
+
+    &.connected {
+      background-color: #edeff3;
+      border: 1px solid #8e918f;
+
+      &:hover {
+        box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
+      }
+
+      &:focus {
+        box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
+      }
+    }
+
+    .am-apple-calendar-button-image {
+      float: left;
+      padding: 9px;
+      background: transparent;
+      border-radius: 1px;
+
+      img {
+        width: 20px;
+      }
+    }
+
+    .am-apple-calendar-button-text {
+      padding: 12px 0;
+      display: inline-block;
+      margin: 0;
+      color: #ffffff;
+
+      &.connected {
+        color: #131314;
+      }
+    }
+  }
+
+  .am-employee-card {
+    margin-bottom: @margin-big;
+    padding: @padding-medium;
+    border-radius: 8px;
+    border: 1px solid @color-divider-gray;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    overflow: hidden;
+    min-height: 100px;
+
+    &:hover {
+      background-color: @color-highlight;
+    }
+
+    &.am-hidden-entity {
+      opacity: 0.6;
+
+      &:after {
+        display: block;
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        bottom: 16px;
+        right: 16px;
+        content: url('../../img/hide.svg');
+      }
+    }
+
+    @media @less-then-xsmall {
+      display: block;
+    }
+
+    .am-employee-status-label {
+      position: absolute;
+      top: 12px;
+      right: 16px;
+    }
+
+    img {
+      margin: 0 @margin-small;
+      border-radius: 50%;
+      width: 64px;
+      height: 64px;
+      min-width: 64px;
+      max-width: 64px;
+      @media @less-then-xsmall {
+        max-width: 48px;
+      }
+    }
+
+    h4 {
+      margin: 0 @margin-small 0 @margin-small;
+    }
+
+    p, p.am-email {
+      margin: 0 @margin-small 0 @margin-small;
+      color: @color-text-second;
+      font-size: @small-fs;
+      @media @less-then-xsmall {
+        font-size: @small-fs*0.9;
+
+      }
+    }
+
+    .am-employee-id {
+      color: #7F8FA4;
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    &-info-content {
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+
+    &-badge {
+      max-width: 80%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: fit-content;
+      display: inherit;
+      padding: 0px 4px;
+      border-radius: 5px;
+      color: #FFF;
+      text-align: center;
+      font-family: @roboto;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 19px;
+
+      &-list {
+        max-width: 200px;
+      }
+    }
+  }
+
+  #pane-details {
+    .ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options {
+      max-height: 200px;
+      overflow-x: hidden;
+    }
+  }
+
+  .am-service-periods {
+    padding: 10px;
+    border: 1px solid @color-divider-gray;
+    border-radius: 3px;
+    margin-top: 15px;
+  }
+}
+

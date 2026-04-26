@@ -1,0 +1,453 @@
+[dir=rtl] {
+  [class*=el-col-] {
+    float: right;
+  }
+
+  .amelia-app-booking {
+    #am-search-booking {
+      .am-search-results {
+        .am-search-input {
+          .el-input {
+            input {
+              padding-right: @padding-medium*2;
+              padding-left: @padding-medium;
+            }
+          }
+        }
+
+        .am-service-list-container {
+          .am-service {
+            .am-service-header {
+              .am-service-price {
+                margin-left: 0;
+                margin-right: auto;
+              }
+
+              .am-service-data {
+                .am-service-info {
+                  div {
+                    border-left: 1px solid @color-divider-gray;
+                    margin-right: 0;
+                    margin-left: @margin-small;
+                    padding-right:0;
+                    padding-left: @padding-small;
+                    border-right: none;
+
+                    &:last-child {
+                      border-left: none;
+                    }
+                    &:first-child {
+                      border-left: 1px solid @color-divider-gray;
+                    }
+                  }
+                }
+              }
+            }
+
+            .el-collapse-item {
+              .el-collapse-item__header {
+                .el-collapse-item__arrow {
+                  &.el-icon-arrow-right {
+                    &:before {
+                      content: "\E604";
+                    }
+                  }
+
+                  &.el-icon-arrow-left {
+                    &:before {
+                      content: "\E600";
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .am-search-filters {
+        border-right: 1px solid @color-divider-gray;
+        border-left: none;
+
+        .am-close-icon {
+          right: auto;
+          left: 32px;
+        }
+      }
+
+      &.am-collapsed {
+        .am-search-results {
+          .am-search-input {
+            .el-input {
+              margin-left: 0;
+              margin-right: @margin-big*2;
+            }
+          }
+
+          .am-service-list-container .am-service .am-service-header .am-service-price {
+            right: auto;
+            left: 24px;
+          }
+        }
+
+        .am-search-filters {
+          left: auto;
+          right: -360px;
+          border-left: 1px solid @color-divider-gray;
+
+          &.am-show-filters {
+            transform: translate(-360px, 0);
+          }
+        }
+      }
+    }
+
+    #am-step-booking, .am-step-booking-catalog {
+      .am-select-date {
+        right: auto;
+        left: -45%;
+      }
+
+      &.am-active-confirm {
+        .am-select-date {
+          left: auto;
+          right: -47%;
+        }
+
+        .am-confirm-booking {
+          left: 0;
+          right: 3%;
+
+          @media only screen and (max-width: 767px) {
+            padding-left: 0;
+            padding-right: 0;
+          }
+
+          @media only screen and (max-width: 991px) {
+            left: 0;
+            right: 0;
+            width: 100%;
+          }
+        }
+      }
+
+      &.am-active-recurring-dates, &.am-active-package-list {
+        .am-recurring-dates, .am-package-list {
+          left: 0;
+          right: 3%;
+
+          @media only screen and (max-width: 767px) {
+            padding-left: 0;
+            padding-right: 0;
+          }
+
+          @media only screen and (max-width: 991px) {
+            left: 0;
+            right: 0;
+            width: 100%;
+          }
+        }
+
+        .am-select-date {
+          left: auto;
+          right: -47%;
+        }
+      }
+
+      &.am-mobile-collapsed {
+        .am-select-date {
+          left: -100%;
+          right: auto;
+        }
+
+        &.am-active-confirm {
+          .am-confirm-booking {
+            position: relative;
+          }
+        }
+
+        .am-confirmation-booking-details {
+          & > div {
+            text-align: right;
+            p {
+              text-align: right;
+            }
+          }
+        }
+      }
+
+      &.am-active-picker {
+        .am-select-date {
+          left: 0;
+        }
+      }
+
+      .am-confirm-booking {
+        .am-confirmation-extras-cost {
+          .el-collapse {
+            .el-collapse-item__header {
+              .am-extras-total-cost {
+                margin-left: @margin-small;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #am-service-booking {
+      .am-service {
+        .am-service-info {
+          .am-extra {
+            .el-collapse-item__header {
+              padding: 0 @margin-medium 0 0;
+            }
+          }
+        }
+
+        .am-service-header {
+          .am-service-data {
+            .am-service-info {
+              div {
+                border-right: 0;
+                border-left: 1px solid @color-divider-gray;
+                margin-right: 0;
+                padding-right: 0;
+                margin-left: @margin-small;
+                padding-left: @margin-small;
+
+                &:last-child {
+                  border-left: 0;
+                }
+              }
+            }
+          }
+        }
+
+        .am-service-providers {
+          .am-service-provider {
+            margin-right: 0;
+            margin-left: @margin-small;
+
+            img {
+              margin-left: @margin-small/2;
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+
+    #am-events-booking {
+      .am-event-list {
+        .am-event {
+          .am-event-data {
+            .am-event-price {
+              right: auto;
+              left: 16px;
+            }
+            .am-event-info {
+              .am-event-title {
+                margin-right: 0;
+                margin-left: @margin-medium;
+                padding-right: 0;
+                padding-left: @padding-big;
+              }
+              .am-event-sub-info {
+                & > div {
+                  margin-right: 0;
+                  margin-left: @margin-medium*2;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .am-align-right {
+      text-align: left !important;
+    }
+
+    .el-input-group--prepend .el-input__inner, .el-input-group__append {
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+    }
+
+    .am-custom-fields {
+      .el-checkbox, .el-radio {
+        margin-right: 0;
+        text-align: right;
+      }
+    }
+  }
+
+  #am-catalog {
+    .am-category-services-thumbs {
+      span {
+        margin-right: @margin-small;
+      }
+    }
+  }
+
+  .el-select-dropdown__wrap, .el-scrollbar__wrap {
+    margin-right: 0 !important;
+    margin-left: -17px;
+  }
+  .el-checkbox__label, .el-radio__label {
+    margin-left: 0;
+    padding-right: @margin-small;
+  }
+  .c-header .c-arrow-layout {
+    transform: rotate(180deg);
+  }
+  .am-confirmation-booking-cost p:not(.am-align-right) {
+    text-align: right;
+  }
+  .am-add-coupon > div {
+    text-align: right;
+  }
+  .el-form--label-top .el-form-item__label {
+    display: block;
+    text-align: right;
+  }
+
+  .el-input {
+    &__prefix {
+      left: auto;
+      right: 5px;
+    }
+
+    &-group {
+      &--append {
+        .el-input__inner {
+          border-top-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+        }
+      }
+
+      &__prepend {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-right: 1px solid #DCDFE6 ;
+      }
+    }
+  }
+
+  .el-icon {
+    &-arrow {
+      &-right {
+        &:before {
+          content: "\E600";
+        }
+      }
+
+      &-left {
+        &:before {
+          content: "\E604";
+        }
+      }
+    }
+
+    &-back {
+      &:before {
+        content: "\E604";
+      }
+    }
+  }
+
+  .am-modal {
+    &.am-in-body {
+      .el-input-group--prepend .el-input__inner, .el-input-group__append {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+      }
+
+      .am-align-right {
+        text-align: left !important;
+      }
+
+      .am-custom-fields {
+        .el-checkbox, .el-radio {
+          margin-right: 0;
+          text-align: right;
+        }
+      }
+    }
+
+    .am-confirm-booking-form {
+      .am-confirmation-booking-details {
+        text-align: right;
+      }
+    }
+
+    .am-confirmation-extras-cost {
+      .el-collapse {
+        .el-collapse-item__header {
+          i {
+            margin-right: @margin-small;
+          }
+        }
+      }
+    }
+  }
+
+  // Event Calendar
+  #am-modal.am-modal.am-in-body {
+    &.am-event-modal {
+      .el-dialog__body {
+        text-align: initial;
+      }
+
+      .am-event-modal {
+        &__header {
+          &-booking-btn {
+            &-price {
+              padding-left: 0;
+              padding-right: @padding-big;
+
+              &:before {
+                left: unset;
+                right: 11px;
+              }
+            }
+          }
+        }
+      }
+
+      .el-input-group {
+        &--prepend {
+          .el-input-group__prepend {
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+          }
+
+          .el-input__inner {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+          }
+        }
+
+        &--append {
+          .el-input-group__append {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+          }
+
+          .el-input__inner {
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+          }
+        }
+      }
+    }
+  }
+}

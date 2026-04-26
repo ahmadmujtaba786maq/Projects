@@ -1,0 +1,106 @@
+.divi_booking:before {
+    content: "" !important;
+    background-image: url(../includes/images/amelia-logo-outdated-divi.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto 5px;
+    height: 20px;
+    margin-bottom: 4px !important;
+}
+
+
+.divi_customer:before {
+    content: "" !important;
+    background-image: url(../includes/images/amelia-logo-admin-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto 5px;
+    height: 20px;
+    margin-bottom: 1px !important;
+}
+
+
+.divi_employee:before {
+    content: "" !important;
+    background-image: url(../includes/images/amelia-logo-admin-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto 5px;
+    height: 20px;
+    margin-bottom: 1px !important;
+}
+
+
+
+.divi_catalog:before {
+    content: "" !important;
+    background-image: url(../includes/images/amelia-logo-outdated-divi.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto 5px;
+    height: 20px;
+    margin-bottom: 4px !important;
+}
+
+
+.divi_search:before {
+    content: "" !important;
+    background-image: url(../includes/images/amelia-logo-outdated-divi.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto 5px;
+    height: 20px;
+    margin-bottom: 4px !important;
+}
+
+
+.divi_events:before {
+    content: "" !important;
+    background-image: url(../includes/images/amelia-logo-outdated-divi.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto 5px;
+    height: 20px;
+    margin-bottom: 4px !important;
+}
+
+.divi_step_booking:before {
+    content: "" !important;
+    background-image: url(../includes/images/amelia-logo-admin-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto 5px;
+    height: 20px;
+    margin-bottom: 1px !important;
+}
+
+.divi_catalog_booking:before {
+    content: "" !important;
+    background-image: url(../includes/images/amelia-logo-admin-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto 5px;
+    height: 20px;
+    margin-bottom: 1px !important;
+}
+
+.divi_events_list_booking:before {
+    content: "" !important;
+    background-image: url(../includes/images/amelia-logo-admin-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto 5px;
+    height: 20px;
+    margin-bottom: 1px !important;
+}
+
+.divi_events_calendar_booking:before {
+    content: "" !important;
+    background-image: url(../includes/images/amelia-logo-admin-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto 5px;
+    height: 20px;
+    margin-bottom: 1px !important;
+}
+

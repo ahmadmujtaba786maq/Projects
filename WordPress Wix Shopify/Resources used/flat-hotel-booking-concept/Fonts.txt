@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Josefin Sans
+Author: Typemade
+Url: http://www.fontsquirrel.com/fonts/josefin-sans
+
+Font: Sniglet
+Author: The League of Moveable Type
+Url: http://www.fontsquirrel.com/fonts/sniglet

@@ -1,0 +1,54 @@
+@mixin empty-state {
+  .am-empty {
+    --am-c-e-bgr: var(--am-c-main-bgr);
+    --am-c-e-text: var(--am-c-main-text);
+    max-width: 760px;
+    width: 100%;
+    height: 460px;
+    text-align: center;
+    background-color: var(--am-c-e-bgr);
+    padding: 56px;
+    margin: 100px auto;
+    box-shadow: 0 30px 40px rgba(0, 0, 0, 0.12);
+
+    * {
+      font-family: var(--am-font-family);
+      box-sizing: border-box;
+      color: var(--am-c-e-text);
+    }
+
+    img {
+      margin-top: 10px;
+    }
+
+    &__heading {
+      display: block;
+      text-align: center;
+      font-size: 24px;
+      line-height: 1.5;
+      font-weight: bold;
+    }
+
+    &__subheading {
+      display: block;
+      text-align: center;
+      font-size: 16px;
+      line-height: 1.5;
+      font-weight: 400;
+    }
+
+    &__text {
+      p, span, a {
+        font-size: 14px;
+        padding: 0;
+        margin: 8px 0;
+        color: var(--am-c-e-text);
+      }
+
+      a {
+        text-decoration: none;
+        color: var(--am-c-primary);
+      }
+    }
+  }
+}

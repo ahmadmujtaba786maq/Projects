@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>default location@svg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="60" cy="60" r="60"></circle>
+    </defs>
+    <g id="Flows" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="default-location">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#D3DDEA" xlink:href="#path-1"></use>
+            <path d="M59.7998013,25 C47.6980924,25.06122 36.8230237,32.2074447 32.2360098,43.1127176 C27.6489959,54.0179905 30.251247,66.5397535 38.8316378,74.850197 L58.8712112,94.5685897 C59.1524342,94.8446948 59.5352467,95 59.9345967,95 C60.3339466,95 60.7167592,94.8446948 60.9979821,94.5685897 L80.7679649,74.8793662 C89.3697458,66.5717065 91.9856417,54.0364427 87.3959388,43.1183921 C82.8062359,32.2003415 71.9147292,25.0494644 59.7998013,25 Z M59.7998013,65.836908 C53.1824317,65.836908 47.8179936,60.6131061 47.8179936,54.16922 C47.8179936,47.7253338 53.1824317,42.501532 59.7998013,42.501532 C66.417171,42.501532 71.7816091,47.7253338 71.7816091,54.16922 C71.7816091,57.2636832 70.5192437,60.2314053 68.2722189,62.4195213 C66.025194,64.6076372 62.9775743,65.836908 59.7998013,65.836908 Z"
+                  id="Shape" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

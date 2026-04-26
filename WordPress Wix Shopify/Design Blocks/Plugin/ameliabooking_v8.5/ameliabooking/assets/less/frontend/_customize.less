@@ -1,0 +1,4570 @@
+@import "_variables";
+
+// selector variable
+@checkGroup: el-checkbox-group;
+@checkBtn: el-checkbox-button;
+@calendar: v-calendar-column;
+@formItem: el-form-item;
+@input: el-input;
+@textarea: el-textarea;
+@select: el-select;
+@radio: el-radio;
+@checkbox: el-checkbox;
+@upload: el-upload;
+@collapse: el-collapse;
+
+.amelia-app-booking #amelia-booking-wrap {
+  .am-step-booking-catalog {
+    .am-form {
+      //STEP BY STEP
+      &-stepByStepForm {
+        //STEP BY STEP - SELECT SERVICE FORM
+        &-selectServiceForm {
+          background-color: @sbs-ssf-bgr-color;
+
+          .am-select-service {
+            background-color: transparent;
+          }
+        }
+
+        //STEP BY STEP - CALENDAR DATE TIME FORM
+        &-calendarDateTimeForm {
+          &.am-select-date {
+            background: linear-gradient(@sbs-cf-gradient-angle, @sbs-cf-gradient1 0%, @sbs-cf-gradient2 100%);
+
+            * {
+              color: @sbs-cf-text-color;
+            }
+
+            .am-recurring-check {
+              span {
+                color: @sbs-cf-text-color;
+              }
+            }
+
+            .am-appointment-times {
+              .el-radio-button {
+                .el-radio-button__inner {
+                  color: @sbs-cf-text-color;
+                }
+              }
+            }
+          }
+        }
+
+        //STEP BY STEP - RECURRING SETUP FORM
+        &-recurringSetupForm {
+          &.am-select-date {
+            background: linear-gradient(@sbs-rsf-gradient-angle, @sbs-rsf-gradient1 0%, @sbs-rsf-gradient2 100%);
+          }
+        }
+
+        //STEP BY STEP - RECURRING DATES FORM
+        &-recurringDatesForm {
+          &.am-recurring-dates {
+            background-color: @sbs-rdf-bgr-color;
+
+            .am-recurring-dates-header {
+              p {
+                color: @sbs-rdf-text-color;
+              }
+
+              p.am-recurring-dates-header-second {
+                color: fade(@sbs-rdf-text-color, 65%);
+              }
+            }
+
+            .am-recurring-dates-row-header {
+              * {
+                color: fade(@sbs-rdf-text-color, 65%);
+              }
+            }
+
+            .am-recurring-flex-row-middle-align.am-recurring-dates-row-editing {
+              background-color: fade(@sbs-rdf-bgr-color, 60%);
+            }
+
+            // NONE FORM ITEMS
+            .am-select {
+              &-stepByStepForm {
+                //CUSTOMIZE - SELECT - STEP BY STEP - RECURRING DATES FORM
+                &-recurringDatesForm {
+                  &.is-editing {
+                    .@{input} {
+                      &:hover {
+                        .@{select} {
+                          &__caret {
+                            color: @sbs-rdf-input-text-color;
+                          }
+                        }
+                      }
+
+                      & .@{input}__inner {
+                        color: @sbs-rdf-input-text-color;
+                        background-color: @sbs-rdf-input-color;
+                      }
+
+                      &.is-disabled {
+                        .@{input}__inner {
+                          background-color: fade(@sbs-rdf-input-color, 25%);
+                        }
+                      }
+
+                      & .@{select} {
+                        &__caret {
+                          color: fade(@sbs-rdf-input-text-color, 75%);
+                        }
+                      }
+                    }
+
+                    &.am-recurring-row-item {
+                      .@{select} {
+                        background-color: transparent;
+                      }
+                    }
+                  }
+
+                  .@{input} {
+                    & .@{input}__inner {
+                      color: @sbs-rdf-text-color;
+                    }
+
+                    &.is-disabled {
+                      .@{input}__inner {
+                        background-color: fade(@sbs-rdf-input-color, 25%);
+                      }
+                    }
+
+                    & .@{select} {
+                      &__caret {
+                        color: fade(@sbs-rdf-input-text-color, 75%);
+                      }
+                    }
+                  }
+
+                  .@{select} {
+                    background-color: transparent;
+                  }
+                }
+              }
+            }
+
+            .am-block-stepByStepForm-recurringDatesForm {
+              &.am-pagination.am-section {
+                p {
+                  color: @sbs-rdf-text-color;
+                }
+
+                .el-pagination {
+                  button {
+                    background-color: @sbs-rdf-bgr-color;
+                  }
+
+                  .el-pager {
+                    li {
+                      background-color: @sbs-rdf-bgr-color;
+                      color: @sbs-rdf-text-color;
+
+                      &:hover {
+                        color: @color-accent;
+                      }
+                    }
+
+                    li.active {
+                      background-color: @color-accent;
+
+                      &:hover {
+                        color: @sbs-rdf-text-color;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        //STEP BY STEP - SELECT PACKAGE FORM
+        &-selectPackageForm {
+          background-color: @sbs-spf-bgr-color;
+
+          p {
+            color: @sbs-spf-text-color;
+          }
+        }
+
+        //STEP BY STEP - PACKAGE INFO FORM
+        &-packageInfoForm {
+          background-color: @sbs-pif-bgr-color;
+
+          p, h2 {
+            color: @sbs-pif-text-color;
+          }
+
+          .am-package {
+            &-rule {
+              span, i {
+                color: @sbs-pif-text-color;
+              }
+            }
+
+            &-description {
+              color: @sbs-pif-text-color;
+            }
+          }
+        }
+
+        //STEP BY STEP - PACKAGE SETUP FORM
+        &-packageSetupForm {
+          &.am-select-date {
+            background: linear-gradient(@sbs-psf-gradient-angle, @sbs-psf-gradient1 0%, @sbs-psf-gradient2 100%);
+
+            * {
+              color: @sbs-psf-text-color;
+            }
+
+            .am-appointment-times {
+              .el-radio-button {
+                .el-radio-button__inner {
+                  color: @sbs-psf-text-color;
+                }
+              }
+            }
+          }
+        }
+
+        //STEP BY STEP - PACKAGE LIST FORM
+        &-packageListForm {
+          &.am-package-list {
+            background-color: @sbs-plf-bgr-color;
+
+            .am-package-header-image-data-wrapper, .am-overview-booking, .am-appointments-wrapper {
+              * {
+                color: @sbs-plf-text-color
+              }
+            }
+
+            .am-package-price__wrapper {
+              color: @color-accent;
+            }
+
+            .am-package-description {
+              color: @sbs-plf-text-color;
+            }
+
+            .am-appointment {
+              &-header-cell {
+                color: fade(@sbs-plf-text-color, 50%);
+              }
+
+              &-body-heading {
+                color: fade(@sbs-plf-text-color, 50%);
+              }
+            }
+
+            .el-collapse {
+              &-item {
+                &__header {
+                  background-color: rgba(0, 0, 0, 0.05);
+                }
+
+                &__wrap {
+                  background-color: transparent;
+                }
+              }
+            }
+          }
+        }
+
+        //STEP BY STEP - CONFIRM BOOKING FORM
+        &-confirmBookingForm {
+          //STEP BY STEP - CONFIRM BOOKING FORM - APPOINTMENT
+          &-appointment {
+            &.am-confirm-booking {
+              .@{formItem} {
+                &__content {
+                  .am-payment-button {
+
+                    &-selected {
+                      p {
+                        color: @color-accent;
+                      }
+                    }
+                    &-inner {
+                      svg {
+                        path {
+                          fill: @sbs-caf-text-color;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              background-color: @sbs-caf-bgr-color;
+
+              p {
+                color: @sbs-caf-text-color;
+              }
+            }
+          }
+
+          //STEP BY STEP - CONFIRM BOOKING FORM - PACKAGE
+          &-package {
+            &.am-confirm-booking {
+              .@{formItem} {
+                &__content {
+                  .am-payment-button {
+
+                    &-selected {
+                      p {
+                        color: @color-accent;
+                      }
+                    }
+                    &-inner {
+                      svg {
+                        path {
+                          fill: @sbs-cpf-text-color;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              background-color: @sbs-cpf-bgr-color;
+
+              p, h2 {
+                color: @sbs-cpf-text-color;
+              }
+            }
+          }
+        }
+
+        //STEP BY STEP - CONGRATULATIONS BOOKING FORM
+        &-congratulationsForm {
+          //STEP BY STEP - CONGRATULATIONS BOOKING FORM - APPOINTMENT
+          &-appointment {
+            &.am-success-payment {
+              background-color: @sbs-coa-bgr-color;
+
+              h4, p {
+                color: @sbs-coa-text-color;
+              }
+            }
+
+          }
+
+          //STEP BY STEP - CONGRATULATIONS BOOKING FORM - PACKAGE
+          &-package {
+            &.am-success-payment {
+              background-color: @sbs-cop-bgr-color;
+
+              h4, p {
+                color: @sbs-cop-text-color;
+              }
+            }
+
+          }
+        }
+      }
+
+      //CATALOG FORM
+      &-catalogForm {
+        //CATALOG FORM - SELECT SERVICE FORM
+        &-selectServiceForm {
+          background-color: @cf-ssf-bgr-color;
+
+          .am-select-service {
+            background-color: transparent;
+          }
+        }
+
+        //CATALOG FORM - CALENDAR DATE TIME FORM
+        &-calendarDateTimeForm {
+          &.am-select-date {
+            background: linear-gradient(@cf-cf-gradient-angle, @cf-cf-gradient1 0%, @cf-cf-gradient2 100%);
+
+            * {
+              color: @cf-cf-text-color;
+            }
+
+            .am-recurring-check {
+              span {
+                color: @cf-cf-text-color;
+              }
+            }
+
+            .am-appointment-times {
+              .el-radio-button {
+                .el-radio-button__inner {
+                  color: @cf-cf-text-color;
+                }
+              }
+            }
+          }
+        }
+
+        //CATALOG FORM - RECURRING SETUP FORM
+        &-recurringSetupForm {
+          &.am-select-date {
+            background: linear-gradient(@cf-rsf-gradient-angle, @cf-rsf-gradient1 0%, @cf-rsf-gradient2 100%);
+          }
+        }
+
+        //CATALOG FORM - RECURRING DATES FORM
+        &-recurringDatesForm {
+          &.am-recurring-dates {
+            background-color: @cf-rdf-bgr-color;
+
+            .am-recurring-dates-header {
+              p {
+                color: @cf-rdf-text-color;
+              }
+
+              p.am-recurring-dates-header-second {
+                color: fade(@cf-rdf-text-color, 65%);
+              }
+            }
+
+            .am-recurring-dates-row-header {
+              * {
+                color: fade(@cf-rdf-text-color, 65%);
+              }
+            }
+
+            .am-recurring-flex-row-middle-align.am-recurring-dates-row-editing {
+              background-color: fade(@cf-rdf-bgr-color, 60%);
+            }
+
+            // NONE FORM ITEMS
+            .am-select {
+              &-catalogForm {
+                //CUSTOMIZE - SELECT - STEP BY STEP - RECURRING DATES FORM
+                &-recurringDatesForm {
+                  &.is-editing {
+                    .@{input} {
+                      &:hover {
+                        .@{select} {
+                          &__caret {
+                            color: @cf-rdf-input-text-color;
+                          }
+                        }
+                      }
+
+                      & .@{input}__inner {
+                        color: @cf-rdf-input-text-color;
+                        background-color: @cf-rdf-input-color;
+                      }
+
+                      &.is-disabled {
+                        .@{input}__inner {
+                          background-color: fade(@cf-rdf-input-color, 25%);
+                        }
+                      }
+
+                      & .@{select} {
+                        &__caret {
+                          color: fade(@cf-rdf-input-text-color, 75%);
+                        }
+                      }
+                    }
+
+                    &.am-recurring-row-item {
+                      .@{select} {
+                        background-color: transparent;
+                      }
+                    }
+                  }
+
+                  .@{input} {
+                    & .@{input}__inner {
+                      color: @cf-rdf-text-color;
+                    }
+
+                    &.is-disabled {
+                      .@{input}__inner {
+                        background-color: fade(@cf-rdf-input-color, 25%);
+                      }
+                    }
+
+                    & .@{select} {
+                      &__caret {
+                        color: fade(@cf-rdf-input-text-color, 75%);
+                      }
+                    }
+                  }
+
+                  .@{select} {
+                    background-color: transparent;
+                  }
+                }
+              }
+            }
+
+            .am-block-catalogForm-recurringDatesForm {
+              &.am-pagination.am-section {
+                p {
+                  color: @cf-rdf-text-color;
+                }
+
+                .el-pagination {
+                  button {
+                    background-color: @cf-rdf-bgr-color;
+                  }
+
+                  .el-pager {
+                    li {
+                      background-color: @cf-rdf-bgr-color;
+                      color: @cf-rdf-text-color;
+
+                      &:hover {
+                        color: @color-accent;
+                      }
+                    }
+
+                    li.active {
+                      background-color: @color-accent;
+
+                      &:hover {
+                        color: @cf-rdf-text-color;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        //CATALOG FORM - PACKAGE SETUP FORM
+        &-packageSetupForm {
+          &.am-select-date {
+            background: linear-gradient(@cf-psf-gradient-angle, @cf-psf-gradient1 0%, @cf-psf-gradient2 100%);
+
+            * {
+              color: @cf-psf-text-color;
+            }
+
+            .am-appointment-times {
+              .el-radio-button {
+                .el-radio-button__inner {
+                  color: @cf-psf-text-color;
+                }
+              }
+            }
+          }
+        }
+
+        //CATALOG FORM - PACKAGE LIST FORM
+        &-packageListForm {
+          &.am-package-list {
+            background-color: @cf-plf-bgr-color;
+
+            .am-package-header-image-data-wrapper, .am-overview-booking, .am-appointments-wrapper {
+              * {
+                color: @cf-plf-text-color
+              }
+            }
+
+            .am-package-price__wrapper {
+              color: @color-accent;
+            }
+
+            .am-package-description {
+              color: @cf-plf-text-color;
+            }
+
+            .am-appointment {
+              &-header-cell {
+                color: fade(@cf-plf-text-color, 50%);
+              }
+
+              &-body-heading {
+                color: fade(@cf-plf-text-color, 50%);
+              }
+            }
+
+            .el-collapse {
+              &-item {
+                &__header {
+                  background-color: rgba(0, 0, 0, 0.05);
+                }
+
+                &__wrap {
+                  background-color: transparent;
+                }
+              }
+            }
+          }
+        }
+
+        //CATALOG FORM - CONFIRM BOOKING FORM
+        &-confirmBookingForm {
+          //CATALOG FORM - CONFIRM BOOKING FORM - APPOINTMENT
+          &-appointment {
+            &.am-confirm-booking {
+              background-color: @cf-caf-bgr-color;
+
+              p {
+                color: @cf-caf-text-color;
+              }
+            }
+          }
+
+          //CATALOG FORM - CONFIRM BOOKING FORM - PACKAGE
+          &-package {
+            &.am-confirm-booking {
+
+              .@{formItem} {
+                &__content {
+                  .am-payment-button {
+
+                    &-selected {
+                      p {
+                        color: @color-accent;
+                      }
+                    }
+                    &-inner {
+                      svg {
+                        path {
+                          fill: @cf-cpf-text-color;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              background-color: @cf-cpf-bgr-color;
+
+              p, h2 {
+                color: @cf-cpf-text-color;
+              }
+            }
+          }
+        }
+
+        //CATALOG FORM - CONGRATULATIONS BOOKING FORM
+        &-congratulationsForm {
+          //CATALOG FORM - CONGRATULATIONS BOOKING FORM - APPOINTMENT
+          &-appointment {
+            &.am-success-payment {
+              background-color: @cf-coa-bgr-color;
+
+              h4, p {
+                color: @cf-coa-text-color;
+              }
+            }
+          }
+
+          //CATALOG FORM - CONGRATULATIONS BOOKING FORM - PACKAGE
+          &-package {
+            &.am-success-payment {
+              background-color: @cf-cop-bgr-color;
+
+              h4, p {
+                color: @cf-cop-text-color;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    //CUSTOMIZE - BLOCK
+    .am-block {
+      //CUSTOMIZE - BLOCK - STEP BY STEP
+      &-stepByStepForm {
+        //CUSTOMIZE - BLOCK - STEP BY STEP - SELECT SERVICE FORM
+        &-selectServiceForm {
+          color: @sbs-ssf-text-color;
+
+          .@{formItem} {
+            &__label {
+              color: @sbs-ssf-text-color;
+              font-weight: 700;
+            }
+          }
+
+          span, p {
+            color: @sbs-ssf-text-color;
+          }
+        }
+
+        //CUSTOMIZE - BLOCK - STEP BY STEP - CALENDAR DATE FORM
+        &-calendarDateTimeForm {
+          color: @sbs-cf-text-color;
+
+          span, p {
+            color: @sbs-cf-text-color;
+          }
+        }
+
+        //CUSTOMIZE - BLOCK - STEP BY STEP - RECURRING SETUP FORM
+        &-recurringSetupForm {
+          color: @sbs-rsf-text-color;
+
+          span, p {
+            color: @sbs-rsf-text-color;
+          }
+
+          p.am-recurring-setup-title {
+            color: @sbs-rsf-text-color
+          }
+
+          &.am-recurring-setup-description {
+            span, p {
+              color: @sbs-rsf-text-color;
+            }
+          }
+        }
+
+        //CUSTOMIZE - BLOCK - STEP BY STEP - RECURRING DATES FORM
+        &-recurringDatesForm {
+          span, p, i {
+            color: @sbs-rdf-text-color;
+          }
+
+          &.am-delete-element {
+            i {
+              background-color: @color-accent;
+            }
+
+            &:hover {
+              i {
+                background-color: @sbs-rdf-text-color;
+                color: @color-accent;
+              }
+            }
+          }
+        }
+
+        //CUSTOMIZE - BLOCK - STEP BY STEP - PACKAGE INFO FORM
+        &-packageInfoForm {
+          color: @sbs-pif-text-color;
+          fill: @sbs-pif-text-color;
+        }
+
+        //CUSTOMIZE - BLOCK - STEP BY STEP - PACKAGE SETUP FORM
+        &-packageSetupForm {
+          color: @sbs-psf-text-color;
+
+          span, p {
+            color: @sbs-psf-text-color;
+          }
+        }
+
+        //CUSTOMIZE - BLOCK - STEP BY STEP - CONFIRM BOOKING FORM
+        &-confirmBookingForm {
+          // APPOINTMENT
+          &-appointment {
+            color: @sbs-caf-text-color;
+
+            .@{formItem} {
+              &__label {
+                color: @sbs-caf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @sbs-caf-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            div, i {
+              color: @sbs-caf-text-color;
+            }
+          }
+
+          // PACKAGE
+          &-package {
+            color: @sbs-cpf-text-color;
+
+            .@{formItem} {
+              &__label {
+                color: @sbs-cpf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @sbs-cpf-text-color;
+                }
+              }
+            }
+
+            div, i {
+              color: @sbs-cpf-text-color;
+            }
+          }
+        }
+      }
+
+
+      //CUSTOMIZE - BLOCK - CATALOG FORM
+      &-catalogForm {
+        //CUSTOMIZE - BLOCK - CATALOG FORM - SELECT SERVICE FORM
+        &-selectServiceForm {
+          color: @cf-ssf-text-color;
+
+          .@{formItem} {
+            &__label {
+              color: @cf-ssf-text-color;
+              font-weight: 700;
+            }
+          }
+
+          span, p {
+            color: @cf-ssf-text-color;
+          }
+        }
+
+        //CUSTOMIZE - BLOCK - CATALOG FORM - CALENDAR DATE FORM
+        &-calendarDateTimeForm {
+          color: @cf-cf-text-color;
+
+          span, p {
+            color: @cf-cf-text-color;
+          }
+        }
+
+        //CUSTOMIZE - BLOCK - CATALOG FORM - RECURRING SETUP FORM
+        &-recurringSetupForm {
+          color: @cf-rsf-text-color;
+
+          span, p {
+            color: @cf-rsf-text-color;
+          }
+
+          p.am-recurring-setup-title {
+            color: @cf-rsf-text-color
+          }
+
+          &.am-recurring-setup-description {
+            span, p {
+              color: @cf-rsf-text-color;
+            }
+          }
+        }
+
+        //CUSTOMIZE - BLOCK - CATALOG FORM - RECURRING DATES FORM
+        &-recurringDatesForm {
+          span, p, i {
+            color: @cf-rdf-text-color;
+          }
+
+          &.am-delete-element {
+            i {
+              background-color: @color-accent;
+            }
+
+            &:hover {
+              i {
+                background-color: @cf-rdf-text-color;
+                color: @color-accent;
+              }
+            }
+          }
+        }
+
+        //CUSTOMIZE - BLOCK - CATALOG FORM - PACKAGE SETUP FORM
+        &-packageSetupForm {
+          color: @cf-psf-text-color;
+
+          span, p {
+            color: @cf-psf-text-color;
+          }
+        }
+
+        //CUSTOMIZE - BLOCK - CATALOG FORM - CONFIRM BOOKING FORM
+        &-confirmBookingForm {
+          // APPOINTMENT
+          &-appointment {
+            color: @cf-caf-text-color;
+
+            .am-payment-buttons-wrapper {
+              label {
+                span {
+                  color: @cf-caf-text-color;
+                }
+              }
+            }
+
+            .@{formItem} {
+              &__label {
+                color: @cf-caf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @cf-caf-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            div, i {
+              color: @cf-caf-text-color;
+            }
+          }
+
+          // PACKAGE
+          &-package {
+            color: @cf-cpf-text-color;
+
+            .@{formItem} {
+              &__label {
+                color: @cf-cpf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @cf-cpf-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            div, i {
+              color: @cf-cpf-text-color;
+            }
+          }
+        }
+
+        //CUSTOMIZE - BLOCK - CATALOG FORM - CONFIRM BOOKING FORM
+        &-congratulationsForm {
+          // APPOINTMENT
+          &-appointment {
+            color: @cf-coa-text-color;
+
+            .@{formItem} {
+              &__label {
+                color: @cf-coa-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @cf-coa-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            div, i {
+              color: @cf-coa-text-color;
+            }
+          }
+
+          // PACKAGE
+          &-package {
+            color: @cf-cop-text-color;
+
+            .@{formItem} {
+              &__label {
+                color: @cf-cop-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @cf-cop-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            div, i {
+              color: @cf-cop-text-color;
+            }
+          }
+        }
+      }
+    }
+
+    .@{calendar} {
+      .am-calendar {
+        // STEP BY STEP
+        &-stepByStepForm {
+          // STEP BY STEP - RECURRING SETUP FORM
+          &-recurringSetupForm {
+            &.@{formItem} {
+              & .@{formItem}__label {
+                color: @sbs-rsf-text-color;
+                font-weight: 700;
+              }
+
+              & .@{formItem}__content {
+                & .@{input}__inner {
+                  color: @sbs-rsf-input-text-color;
+                  background-color: @sbs-rsf-input-color;
+                }
+              }
+            }
+
+            .popover-content-wrapper .popover-content {
+              color: @sbs-rsf-dropdown-text-color;
+              background-color: @sbs-rsf-dropdown-color;
+
+              * {
+                color: @sbs-rsf-dropdown-text-color;
+              }
+
+              .c-title-popover.popover-container {
+                .popover-origin {
+                  background-color: @sbs-rsf-dropdown-color;
+
+                  * {
+                    background-color: @sbs-rsf-dropdown-color;
+                  }
+                }
+              }
+
+              .c-day-content:hover {
+                & > div {
+                  color: @color-accent;
+                }
+              }
+
+              :not(.c-day-backgrounds.c-day-layer:empty) ~ .c-day-content-wrapper .c-day-content > div {
+                color: @color-white;
+              }
+            }
+          }
+        }
+
+        // CATALOG FORM
+        &-catalogForm {
+          // CATALOG FORM - RECURRING SETUP FORM
+          &-recurringSetupForm {
+            &.@{formItem} {
+              & .@{formItem}__label {
+                color: @cf-rsf-text-color;
+                font-weight: 700;
+              }
+
+              & .@{formItem}__content {
+                & .@{input}__inner {
+                  color: @cf-rsf-input-text-color;
+                  background-color: @cf-rsf-input-color;
+                }
+              }
+            }
+
+            .popover-content-wrapper .popover-content {
+              color: @cf-rsf-dropdown-text-color;
+              background-color: @cf-rsf-dropdown-color;
+
+              * {
+                color: @cf-rsf-dropdown-text-color;
+              }
+
+              .c-title-popover.popover-container {
+                .popover-origin {
+                  background-color: @cf-rsf-dropdown-color;
+
+                  * {
+                    background-color: @cf-rsf-dropdown-color;
+                  }
+                }
+              }
+
+              .c-day-content:hover {
+                & > div {
+                  color: @color-accent;
+                }
+              }
+
+              :not(.c-day-backgrounds.c-day-layer:empty) ~ .c-day-content-wrapper .c-day-content > div {
+                color: @color-white;
+              }
+            }
+          }
+        }
+      }
+
+      &.am-calendar {
+        // STEP BY STEP
+        &-stepByStepForm {
+          // STEP BY STEP - RECURRING DATES FORM
+          &-recurringDatesForm {
+            &.am-recurring-row-item.am-recurring-row-item-date {
+              &.is-editing {
+                & .@{input}__inner {
+                  color: @sbs-rdf-input-text-color;
+                  background-color: @sbs-rdf-input-color;
+                }
+
+                .popover-content-wrapper .popover-content {
+                  color: @sbs-rdf-dropdown-text-color;
+                  background-color: @sbs-rdf-dropdown-color;
+
+                  * {
+                    color: @sbs-rdf-dropdown-text-color;
+                  }
+
+                  .c-title-popover.popover-container {
+                    .popover-origin {
+                      background-color: @sbs-rdf-dropdown-color;
+
+                      * {
+                        background-color: @sbs-rdf-dropdown-color;
+                      }
+                    }
+                  }
+
+                  .c-day-content:hover {
+                    & > div {
+                      color: @color-accent;
+                    }
+                  }
+
+                  :not(.c-day-backgrounds.c-day-layer:empty) ~ .c-day-content-wrapper .c-day-content > div {
+                    color: @color-white;
+                  }
+                }
+              }
+
+              &.is-substitute {
+                & .@{input}__inner {
+                  color: @color-accent;
+                }
+              }
+
+              & .@{input}__inner {
+                color: @sbs-rdf-text-color;
+              }
+            }
+
+            .popover-container {
+              .popover-content-wrapper .popover-content {
+                color: @sbs-rdf-dropdown-text-color;
+                background-color: @sbs-rdf-dropdown-color;
+
+                * {
+                  color: @sbs-rdf-dropdown-text-color;
+                }
+
+                .c-title-popover.popover-container {
+                  .popover-origin {
+                    background-color: @sbs-rdf-dropdown-color;
+
+                    * {
+                      background-color: @sbs-rdf-dropdown-color;
+                    }
+                  }
+                }
+
+                .c-day-content:hover {
+                  & > div {
+                    color: @color-accent;
+                  }
+                }
+
+                :not(.c-day-backgrounds.c-day-layer:empty) ~ .c-day-content-wrapper .c-day-content > div {
+                  color: @color-white;
+                }
+              }
+            }
+          }
+        }
+
+        // CATALOG FORM
+        &-catalogForm {
+          // CATALOG FORM - RECURRING DATES FORM
+          &-recurringDatesForm {
+            &.am-recurring-row-item.am-recurring-row-item-date {
+              &.is-editing {
+                & .@{input}__inner {
+                  color: @cf-rdf-input-text-color;
+                  background-color: @cf-rdf-input-color;
+                }
+              }
+
+              &.is-substitute {
+                & .@{input}__inner {
+                  color: @color-accent;
+                }
+              }
+
+              & .@{input}__inner {
+                color: @cf-rdf-text-color;
+              }
+            }
+
+            .popover-container {
+              .popover-content-wrapper .popover-content {
+                color: @cf-rdf-dropdown-text-color;
+                background-color: @cf-rdf-dropdown-color;
+
+                * {
+                  color: @cf-rdf-dropdown-text-color;
+                }
+
+                .c-title-popover.popover-container {
+                  .popover-origin {
+                    background-color: @cf-rdf-dropdown-color;
+
+                    * {
+                      background-color: @cf-rdf-dropdown-color;
+                    }
+                  }
+                }
+
+                .c-day-content:hover {
+                  & > div {
+                    color: @color-accent;
+                  }
+                }
+
+                :not(.c-day-backgrounds.c-day-layer:empty) ~ .c-day-content-wrapper .c-day-content > div {
+                  color: @color-white;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #am-events-booking {
+    .am-event-list {
+      .am-form {
+        //EVENT LIST
+        &-eventListForm {
+          &.am-event {
+            background-color: @elf-bgr-color;
+
+            &:hover {
+              background-color: darken(@elf-bgr-color, 5%);
+            }
+
+            .am-event-data {
+              .am-event-info {
+                .am-event-sub-info {
+                  & > div {
+                    color: @elf-text-color;
+                  }
+                }
+              }
+            }
+
+            .am-event-book-cta {
+              &__inner {
+                span {
+                  color: @elf-text-color;
+                }
+              }
+            }
+          }
+
+          div {
+            color: @elf-text-color;
+
+            &.am-calendar-picker * {
+              color: @color-text-prime;
+            }
+
+            &.@{formItem}__error {
+              color: @color-red;
+            }
+          }
+
+          //EVENT LIST - CONFIRM BOOKING FORM
+          &-confirmBookingForm {
+            //EVENT LIST - CONFIRM BOOKING FORM - EVENT
+            &-event {
+              &.am-confirmation-booking {
+                p {
+                  color: @elf-text-color;
+                }
+
+                .am-payment-button {
+                  &:hover {
+                    p {
+                      color: @color-accent;
+                    }
+                  }
+
+                  &-selected {
+                    p {
+                      color: @color-accent;
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          //EVENT LIST - CONGRATULATIONS BOOKING FORM
+          &-congratulationsForm {
+            &-event {
+              h4, p {
+                color: @elf-text-color;
+              }
+            }
+          }
+        }
+      }
+
+      .am-block {
+        &-eventListForm {
+          &-confirmBookingForm {
+            &-event {
+              .@{formItem} {
+                &__label {
+                  color: @elf-text-color;
+                  font-weight: 700;
+
+                  span {
+                    color: @elf-text-color;
+                    font-weight: 700;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .@{calendar} {
+      &.am-calendar {
+        &-eventListForm {
+          .@{input}__inner {
+            color: @elf-input-text-color;
+            background-color: @elf-input-color;
+          }
+
+          .@{input}__prefix {
+            svg {
+              path {
+                fill: @elf-input-text-color;
+              }
+            }
+          }
+
+          .popover-content-wrapper .popover-content {
+            color: @elf-dropdown-text-color;
+            background-color: @elf-dropdown-color;
+
+            * {
+              color: @elf-dropdown-text-color;
+            }
+
+            .c-title-popover.popover-container {
+              .popover-origin {
+                background-color: @elf-dropdown-color;
+
+                * {
+                  background-color: @elf-dropdown-color;
+                }
+              }
+            }
+
+            .c-day-content:hover {
+              & > div {
+                color: @color-accent;
+              }
+            }
+
+            :not(.c-day-backgrounds.c-day-layer:empty) ~ .c-day-content-wrapper .c-day-content > div {
+              color: @color-white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // FORM ITEMS
+  .@{formItem} {
+    // CUSTOMIZE - INPUT
+    &.am-input {
+      // CUSTOMIZE - INPUT - STEP BY STEP
+      &-stepByStepForm {
+        // CUSTOMIZE - INPUT - STEP BY STEP - CONFIRM BOOKING
+        &-confirmBookingForm {
+          // CUSTOMIZE - INPUT - STEP BY STEP - CONFIRM BOOKING APPOINTMENT
+          &-appointment {
+            .@{formItem} {
+              &__label {
+                color: @sbs-caf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @sbs-caf-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            .@{input} {
+              &__inner {
+                color: @sbs-caf-input-text-color;
+                background-color: @sbs-caf-input-color;
+              }
+
+              &.is-disabled {
+                .@{input}__inner {
+                  border-color: #e4e7ed;
+                  background-color: lighten(@sbs-caf-input-color, 15%);
+                }
+              }
+
+              &-group {
+                &__prepend {
+                  background-color: @sbs-caf-input-color;
+
+                  .@{input}__icon {
+                    color: @sbs-caf-input-text-color;
+                  }
+                }
+
+                .@{input} {
+                  &__suffix {
+                    i {
+                      color: @sbs-caf-input-text-color;
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          // CUSTOMIZE - INPUT - STEP BY STEP - CONFIRM BOOKING PACKAGE
+          &-package {
+            .@{formItem} {
+              &__label {
+                color: @sbs-cpf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @sbs-cpf-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            .@{input} {
+              &__inner {
+                color: @sbs-cpf-input-text-color;
+                background-color: @sbs-cpf-input-color;
+              }
+
+              &.is-disabled {
+                .@{input}__inner {
+                  border-color: #e4e7ed;
+                  background-color: lighten(@sbs-cpf-input-color, 15%);
+                }
+              }
+
+              &-group {
+                &__prepend {
+                  background-color: @sbs-cpf-input-color;
+
+                  .@{input}__icon {
+                    color: @sbs-cpf-input-text-color;
+                  }
+                }
+
+                .@{input} {
+                  &__suffix {
+                    i {
+                      color: @sbs-cpf-input-text-color;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      // CUSTOMIZE - INPUT - EVENT LIST
+      &-eventListForm {
+        // CUSTOMIZE - INPUT - EVENT LIST - CONFIRM BOOKING
+        &-confirmBookingForm {
+          // CUSTOMIZE - INPUT - EVENT LIST - CONFIRM BOOKING EVENT
+          &-event {
+            .@{formItem} {
+              &__label {
+                color: @elf-text-color;
+                font-weight: 700;
+              }
+            }
+
+            .@{input} {
+              &__inner {
+                color: @elf-input-text-color;
+                background-color: @elf-input-color;
+              }
+
+              &.is-disabled {
+                .@{input}__inner {
+                  border-color: #e4e7ed;
+                  background-color: lighten(@elf-input-color, 15%);
+                }
+              }
+
+              &-group {
+                &__prepend {
+                  background-color: @elf-input-color;
+
+                  .@{input}__icon {
+                    color: @elf-input-text-color;
+                  }
+                }
+
+                .@{input} {
+                  &__suffix {
+                    i {
+                      color: @elf-input-text-color;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      // CUSTOMIZE - INPUT - CATALOG FORM
+      &-catalogForm {
+        // CUSTOMIZE - INPUT - CATALOG FORM - CONFIRM BOOKING
+        &-confirmBookingForm {
+          // CUSTOMIZE - INPUT - CATALOG FORM - CONFIRM BOOKING APPOINTMENT
+          &-appointment {
+            .@{formItem} {
+              &__label {
+                color: @cf-caf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @cf-caf-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            .@{input} {
+              &__inner {
+                color: @cf-caf-input-text-color;
+                background-color: @cf-caf-input-color;
+              }
+
+              &.is-disabled {
+                .@{input}__inner {
+                  border-color: #e4e7ed;
+                  background-color: lighten(@cf-caf-input-color, 15%);
+                }
+              }
+
+              &-group {
+                &__prepend {
+                  background-color: @cf-caf-input-color;
+
+                  .@{input}__icon {
+                    color: @cf-caf-input-text-color;
+                  }
+                }
+
+                .@{input} {
+                  &__suffix {
+                    i {
+                      color: @cf-caf-input-text-color;
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          // CUSTOMIZE - INPUT - CATALOG FORM - CONFIRM BOOKING PACKAGE
+          &-package {
+            .@{formItem} {
+              &__label {
+                color: @cf-cpf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @cf-cpf-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            .@{input} {
+              &__inner {
+                color: @cf-cpf-input-text-color;
+                background-color: @cf-cpf-input-color;
+              }
+
+              &.is-disabled {
+                .@{input}__inner {
+                  border-color: #e4e7ed;
+                  background-color: lighten(@cf-cpf-input-color, 15%);
+                }
+              }
+
+              &-group {
+                &__prepend {
+                  background-color: @cf-cpf-input-color;
+
+                  .@{input}__icon {
+                    color: @cf-cpf-input-text-color;
+                  }
+                }
+
+                .@{input} {
+                  &__suffix {
+                    i {
+                      color: @cf-cpf-input-text-color;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    //CUSTOMIZE - SELECT
+    &.am-select {
+      //CUSTOMIZE - SELECT - STEP BY STEP
+      &-stepByStepForm {
+        //CUSTOMIZE - SELECT - STEP BY STEP - SELECT SERVICE FORM
+        &-selectServiceForm {
+          .@{formItem} {
+            &__label {
+              color: @sbs-ssf-text-color;
+              font-weight: 700;
+            }
+          }
+
+          .@{input} {
+            &:hover {
+              .@{select} {
+                &__caret {
+                  color: @sbs-ssf-input-text-color;
+                }
+              }
+            }
+
+            &__inner {
+              color: @sbs-ssf-input-text-color;
+              background-color: @sbs-ssf-input-color;
+            }
+
+            &.is-disabled {
+              .@{input}__inner {
+                background-color: fade(@sbs-ssf-input-color, 25%);
+              }
+            }
+
+            & .@{select} {
+              &__caret {
+                color: fade(@sbs-ssf-input-text-color, 75%);
+              }
+            }
+          }
+        }
+
+        //CUSTOMIZE - SELECT - STEP BY STEP - RECURRING SETUP FORM
+        &-recurringSetupForm {
+          .@{formItem} {
+            &__label {
+              color: @sbs-rsf-text-color;
+              font-weight: 700;
+            }
+          }
+
+          .@{input} {
+            &:hover {
+              .@{select} {
+                &__caret {
+                  color: @sbs-rsf-input-text-color;
+                }
+              }
+            }
+
+            & .@{input}__inner {
+              color: @sbs-rsf-input-text-color;
+              background-color: @sbs-rsf-input-color;
+            }
+
+            &.is-disabled {
+              .@{input}__inner {
+                background-color: fade(@sbs-rsf-input-color, 25%);
+              }
+            }
+
+            & .@{select} {
+              &__caret {
+                color: fade(@sbs-rsf-input-text-color, 75%);
+              }
+            }
+          }
+        }
+
+        //CUSTOMIZE - SELECT - STEP BY STEP - SELECT PACKAGE FORM
+        &-selectPackageForm {
+          .@{formItem} {
+            &__label {
+              color: @sbs-spf-text-color;
+              font-weight: 700;
+            }
+          }
+
+          .@{input} {
+            &:hover {
+              .@{select} {
+                &__caret {
+                  color: @sbs-spf-input-text-color;
+                }
+              }
+            }
+
+            &__inner {
+              color: @sbs-spf-input-text-color;
+              background-color: @sbs-spf-input-color;
+            }
+
+            &.is-disabled {
+              .@{input}__inner {
+                background-color: fade(@sbs-spf-input-color, 25%);
+              }
+            }
+
+            & .@{select} {
+              &__caret {
+                color: fade(@sbs-spf-input-text-color, 75%);
+              }
+            }
+          }
+        }
+
+        //CUSTOMIZE - SELECT - STEP BY STEP - PACKAGE SETUP FORM
+        &-packageSetupForm {
+          .@{formItem} {
+            &__label {
+              color: @sbs-psf-text-color;
+              font-weight: 700;
+            }
+          }
+
+          .@{input} {
+            &:hover {
+              .@{select} {
+                &__caret {
+                  color: @sbs-psf-input-text-color;
+                }
+              }
+            }
+
+            & input.@{input}__inner {
+              color: @sbs-psf-input-text-color;
+              background-color: @sbs-psf-input-color;
+            }
+
+            &.is-disabled {
+              .@{input}__inner {
+                background-color: fade(@sbs-psf-input-color, 25%);
+              }
+            }
+
+            & .@{select} {
+              &__caret {
+                color: fade(@sbs-psf-input-text-color, 75%);
+              }
+            }
+          }
+        }
+
+        //CUSTOMIZE - SELECT - STEP BY STEP - CONFIRM APPOINTMENT FORM
+        &-confirmBookingForm {
+          &-appointment {
+            .@{formItem} {
+              &__label {
+                color: @sbs-caf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @sbs-caf-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            .@{input} {
+              &:hover {
+                .@{select} {
+                  &__caret {
+                    color: @sbs-caf-input-text-color;
+                  }
+                }
+              }
+
+              & .@{input}__inner {
+                color: @sbs-caf-input-text-color;
+                background-color: @sbs-caf-input-color;
+              }
+
+              &.is-disabled {
+                .@{input}__inner {
+                  background-color: fade(@sbs-caf-input-color, 25%);
+                }
+              }
+
+              & .@{select} {
+                &__caret {
+                  color: fade(@sbs-caf-input-text-color, 75%);
+                }
+              }
+            }
+          }
+
+          &-package {
+            .@{formItem} {
+              &__label {
+                color: @sbs-cpf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @sbs-cpf-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            .@{input} {
+              &:hover {
+                .@{select} {
+                  &__caret {
+                    color: @sbs-cpf-input-text-color;
+                  }
+                }
+              }
+
+              & .@{input}__inner {
+                color: @sbs-cpf-input-text-color;
+                background-color: @sbs-cpf-input-color;
+              }
+
+              &.is-disabled {
+                .@{input}__inner {
+                  background-color: fade(@sbs-cpf-input-color, 25%);
+                }
+              }
+
+              & .@{select} {
+                &__caret {
+                  color: fade(@sbs-cpf-input-text-color, 75%);
+                }
+              }
+            }
+          }
+        }
+
+        //CUSTOMIZE - SELECT - STEP BY STEP - CONGRATULATIONS APPOINTMENT FORM
+        &-congratulationsForm {
+          &-appointment {
+            .@{formItem} {
+              &__label {
+                color: @sbs-coa-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @sbs-coa-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            .@{input} {
+              &:hover {
+                .@{select} {
+                  &__caret {
+                    color: @sbs-coa-input-text-color;
+                  }
+                }
+              }
+
+              & .@{input}__inner {
+                color: @sbs-coa-input-text-color;
+                background-color: @sbs-coa-input-color;
+
+                &::placeholder {
+                  color: fade(@sbs-coa-input-text-color, 60%);
+                }
+
+                &::-webkit-input-placeholder {
+                  color: fade(@sbs-coa-input-text-color, 60%);
+                }
+
+                &::-moz-placeholder {
+                  color: fade(@sbs-coa-input-text-color, 60%);
+                }
+
+                &:-ms-input-placeholder {
+                  color: fade(@sbs-coa-input-text-color, 60%);
+                }
+
+                &:-moz-placeholder {
+                  color: fade(@sbs-coa-input-text-color, 60%);
+                }
+              }
+
+              &.is-disabled {
+                .@{input}__inner {
+                  background-color: fade(@sbs-coa-input-color, 25%);
+                }
+              }
+
+              & .@{select} {
+                &__caret {
+                  color: fade(@sbs-coa-input-text-color, 75%);
+                }
+              }
+            }
+          }
+
+          &-package {
+            .@{formItem} {
+              &__label {
+                color: @sbs-cop-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @sbs-cop-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            .@{input} {
+              &:hover {
+                .@{select} {
+                  &__caret {
+                    color: @sbs-cop-input-text-color;
+                  }
+                }
+              }
+
+              & .@{input}__inner {
+                color: @sbs-cop-input-text-color;
+                background-color: @sbs-cop-input-color;
+
+                &::placeholder {
+                  color: fade(@sbs-cop-input-text-color, 60%);
+                }
+
+                &::-webkit-input-placeholder {
+                  color: fade(@sbs-cop-input-text-color, 60%);
+                }
+
+                &::-moz-placeholder {
+                  color: fade(@sbs-cop-input-text-color, 60%);
+                }
+
+                &:-ms-input-placeholder {
+                  color: fade(@sbs-cop-input-text-color, 60%);
+                }
+
+                &:-moz-placeholder {
+                  color: fade(@sbs-cop-input-text-color, 60%);
+                }
+              }
+
+              &.is-disabled {
+                .@{input}__inner {
+                  background-color: fade(@sbs-cop-input-color, 25%);
+                }
+              }
+
+              & .@{select} {
+                &__caret {
+                  color: fade(@sbs-cop-input-text-color, 75%);
+                }
+              }
+            }
+          }
+        }
+      }
+
+      //CUSTOMIZE - SELECT - EVENT LIST
+      &-eventListForm {
+        .@{input} {
+          &:hover {
+            .@{select} {
+              &__caret {
+                color: @elf-input-text-color;
+              }
+            }
+          }
+
+          &__inner {
+            color: @elf-input-text-color;
+            background-color: @elf-input-color;
+
+            &::placeholder {
+              color: fade(@elf-input-text-color, 60%);
+            }
+
+            &::-webkit-input-placeholder {
+              color: fade(@elf-input-text-color, 60%);
+            }
+
+            &::-moz-placeholder {
+              color: fade(@elf-input-text-color, 60%);
+            }
+
+            &:-ms-input-placeholder {
+              color: fade(@elf-input-text-color, 60%);
+            }
+
+            &:-moz-placeholder {
+              color: fade(@elf-input-text-color, 60%);
+            }
+          }
+
+          &__prefix {
+            img, svg {
+              path {
+                fill: @elf-input-text-color
+              }
+            }
+          }
+
+          &.is-disabled {
+            .@{input}__inner {
+              background-color: fade(@elf-input-color, 25%);
+            }
+          }
+
+          & .@{select} {
+            &__caret {
+              color: fade(@elf-input-text-color, 75%);
+            }
+          }
+        }
+
+        //CUSTOMIZE - SELECT - EVENT LIST - CONFIRM EVENT FORM
+        &-confirmBookingForm, &-congratulationsForm {
+          &-event {
+            .@{formItem} {
+              &__label {
+                color: @elf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @elf-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            .@{input} {
+              &:hover {
+                .@{select} {
+                  &__caret {
+                    color: @elf-input-text-color;
+                  }
+                }
+              }
+
+              & .@{input}__inner {
+                color: @elf-input-text-color;
+                background-color: @elf-input-color;
+
+                &::placeholder {
+                  color: fade(@elf-input-text-color, 60%);
+                }
+
+                &::-webkit-input-placeholder {
+                  color: fade(@elf-input-text-color, 60%);
+                }
+
+                &::-moz-placeholder {
+                  color: fade(@elf-input-text-color, 60%);
+                }
+
+                &:-ms-input-placeholder {
+                  color: fade(@elf-input-text-color, 60%);
+                }
+
+                &:-moz-placeholder {
+                  color: fade(@elf-input-text-color, 60%);
+                }
+              }
+
+              &.is-disabled {
+                .@{input}__inner {
+                  background-color: fade(@elf-input-color, 25%);
+                }
+              }
+
+              & .@{select} {
+                &__caret {
+                  color: fade(@elf-input-text-color, 75%);
+                }
+              }
+            }
+          }
+        }
+      }
+
+      //CUSTOMIZE - SELECT - CATALOG FORM
+      &-catalogForm {
+        //CUSTOMIZE - SELECT - CATALOG FORM - SELECT SERVICE FORM
+        &-selectServiceForm {
+          .@{formItem} {
+            &__label {
+              color: @cf-ssf-text-color;
+              font-weight: 700;
+            }
+          }
+
+          .@{input} {
+            &:hover {
+              .@{select} {
+                &__caret {
+                  color: @cf-ssf-input-text-color;
+                }
+              }
+            }
+
+            &__inner {
+              color: @cf-ssf-input-text-color;
+              background-color: @cf-ssf-input-color;
+            }
+
+            &.is-disabled {
+              .@{input}__inner {
+                background-color: fade(@cf-ssf-input-color, 25%);
+              }
+            }
+
+            & .@{select} {
+              &__caret {
+                color: fade(@cf-ssf-input-text-color, 75%);
+              }
+            }
+          }
+        }
+
+        //CUSTOMIZE - SELECT - CATALOG FORM - RECURRING SETUP FORM
+        &-recurringSetupForm {
+          .@{formItem} {
+            &__label {
+              color: @cf-rsf-text-color;
+              font-weight: 700;
+            }
+          }
+
+          .@{input} {
+            &:hover {
+              .@{select} {
+                &__caret {
+                  color: @cf-rsf-input-text-color;
+                }
+              }
+            }
+
+            & .@{input}__inner {
+              color: @cf-rsf-input-text-color;
+              background-color: @cf-rsf-input-color;
+            }
+
+            &.is-disabled {
+              .@{input}__inner {
+                background-color: fade(@cf-rsf-input-color, 25%);
+              }
+            }
+
+            & .@{select} {
+              &__caret {
+                color: fade(@cf-rsf-input-text-color, 75%);
+              }
+            }
+          }
+        }
+
+        //CUSTOMIZE - SELECT - CATALOG FORM - PACKAGE SETUP FORM
+        &-packageSetupForm {
+          .@{formItem} {
+            &__label {
+              color: @cf-psf-text-color;
+              font-weight: 700;
+            }
+          }
+
+          .@{input} {
+            &:hover {
+              .@{select} {
+                &__caret {
+                  color: @cf-psf-input-text-color;
+                }
+              }
+            }
+
+            & input.@{input}__inner {
+              color: @cf-psf-input-text-color;
+              background-color: @cf-psf-input-color;
+            }
+
+            &.is-disabled {
+              .@{input}__inner {
+                background-color: fade(@cf-psf-input-color, 25%);
+              }
+            }
+
+            & .@{select} {
+              &__caret {
+                color: fade(@cf-psf-input-text-color, 75%);
+              }
+            }
+          }
+        }
+
+        //CUSTOMIZE - SELECT - CATALOG FORM - CONFIRM FORM
+        &-confirmBookingForm {
+          // APPOINTMENT
+          &-appointment {
+
+            .@{formItem} {
+              &__label {
+                color: @cf-caf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @cf-caf-text-color;
+                  font-weight: 700;
+                }
+              }
+              &__content {
+                .am-payment-button {
+
+                  &-selected {
+                    p {
+                      color: @color-accent;
+                    }
+                  }
+                  &-inner {
+                    svg {
+                      path {
+                        fill: @cf-caf-text-color;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+
+            .@{input} {
+              &:hover {
+                .@{select} {
+                  &__caret {
+                    color: @cf-caf-input-text-color;
+                  }
+                }
+              }
+
+              & .@{input}__inner {
+                color: @cf-caf-input-text-color;
+                background-color: @cf-caf-input-color;
+              }
+
+              &.is-disabled {
+                .@{input}__inner {
+                  background-color: fade(@cf-caf-input-color, 25%);
+                }
+              }
+
+              & .@{select} {
+                &__caret {
+                  color: fade(@cf-caf-input-text-color, 75%);
+                }
+              }
+            }
+          }
+
+          // PACKAGE
+          &-package {
+            .@{formItem} {
+              &__label {
+                color: @cf-cpf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @cf-cpf-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            .@{input} {
+              &:hover {
+                .@{select} {
+                  &__caret {
+                    color: @cf-cpf-input-text-color;
+                  }
+                }
+              }
+
+              & .@{input}__inner {
+                color: @cf-cpf-input-text-color;
+                background-color: @cf-cpf-input-color;
+              }
+
+              &.is-disabled {
+                .@{input}__inner {
+                  background-color: fade(@cf-cpf-input-color, 25%);
+                }
+              }
+
+              & .@{select} {
+                &__caret {
+                  color: fade(@cf-cpf-input-text-color, 75%);
+                }
+              }
+            }
+          }
+        }
+
+        //CUSTOMIZE - SELECT - CATALOG FORM - CONGRATULATIONS FORM
+        &-congratulationsForm {
+          // APPOINTMENT
+          &-appointment {
+            .@{formItem} {
+              &__label {
+                color: @cf-coa-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @cf-coa-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            .@{input} {
+              &:hover {
+                .@{select} {
+                  &__caret {
+                    color: @cf-coa-input-text-color;
+                  }
+                }
+              }
+
+              & .@{input}__inner {
+                color: @cf-coa-input-text-color;
+                background-color: @cf-coa-input-color;
+
+                &::placeholder {
+                  color: fade(@cf-coa-input-text-color, 60%);
+                }
+
+                &::-webkit-input-placeholder {
+                  color: fade(@cf-coa-input-text-color, 60%);
+                }
+
+                &::-moz-placeholder {
+                  color: fade(@cf-coa-input-text-color, 60%);
+                }
+
+                &:-ms-input-placeholder {
+                  color: fade(@cf-coa-input-text-color, 60%);
+                }
+
+                &:-moz-placeholder {
+                  color: fade(@cf-coa-input-text-color, 60%);
+                }
+              }
+
+              &.is-disabled {
+                .@{input}__inner {
+                  background-color: fade(@cf-coa-input-color, 25%);
+                }
+              }
+
+              & .@{select} {
+                &__caret {
+                  color: fade(@cf-coa-input-text-color, 75%);
+                }
+              }
+            }
+          }
+
+          // PACKAGE
+          &-package {
+            .@{formItem} {
+              &__label {
+                color: @cf-cop-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @cf-cop-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            .@{input} {
+              &:hover {
+                .@{select} {
+                  &__caret {
+                    color: @cf-cop-input-text-color;
+                  }
+                }
+              }
+
+              & .@{input}__inner {
+                color: @cf-cop-input-text-color;
+                background-color: @cf-cop-input-color;
+
+                &::placeholder {
+                  color: fade(@cf-cop-input-text-color, 60%);
+                }
+
+                &::-webkit-input-placeholder {
+                  color: fade(@cf-cop-input-text-color, 60%);
+                }
+
+                &::-moz-placeholder {
+                  color: fade(@cf-cop-input-text-color, 60%);
+                }
+
+                &:-ms-input-placeholder {
+                  color: fade(@cf-cop-input-text-color, 60%);
+                }
+
+                &:-moz-placeholder {
+                  color: fade(@cf-cop-input-text-color, 60%);
+                }
+              }
+
+              &.is-disabled {
+                .@{input}__inner {
+                  background-color: fade(@cf-cop-input-color, 25%);
+                }
+              }
+
+              & .@{select} {
+                &__caret {
+                  color: fade(@cf-cop-input-text-color, 75%);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    //CUSTOMIZE - INPUT NUMBER
+    &.am-input-number {
+      //CUSTOMIZE - INPUT NUMBER - STEP BY STEP
+      &-stepByStepForm {
+        //CUSTOMIZE - INPUT NUMBER - STEP BY STEP - RECURRING SETUP FORM
+        &-recurringSetupForm {
+          &:hover {
+            .@{input}__inner {
+              border-color: #C0C4CC;
+            }
+          }
+
+          .@{formItem} {
+            &__label {
+              color: @sbs-rsf-text-color;
+              font-weight: 700;
+            }
+          }
+
+          .@{input} {
+            &-number {
+              & .@{input}-number__increase, & .@{input}-number__decrease {
+                color: @sbs-rsf-input-text-color;
+                background-color: @sbs-rsf-input-color;
+
+                i {
+                  color: inherit;
+                }
+
+                &:hover {
+                  &:not(.is-disabled) {
+                    &~.@{input} {
+                      .@{input}__inner {
+                        &:not(.is-disabled) {
+                          border-color: #C0C4CC;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+
+              & .@{input} {
+                &__inner {
+                  color: @sbs-rsf-input-text-color;
+                  background-color: @sbs-rsf-input-color;
+                }
+              }
+
+              &.is-disabled {
+                .@{input}__inner {
+                  background-color: fade(@sbs-rsf-input-color, 25%);
+                }
+              }
+            }
+          }
+        }
+      }
+
+      //CUSTOMIZE - INPUT NUMBER - EVENT LIST
+      &-eventListForm {
+        &:hover {
+          .@{input}__inner {
+            border-color: #C0C4CC;
+          }
+        }
+
+        .@{formItem} {
+          &__label {
+            color: @elf-text-color;
+            font-weight: 700;
+          }
+        }
+
+        .@{input} {
+          &-number {
+            & .@{input}-number__increase, & .@{input}-number__decrease {
+              color: @elf-input-text-color;
+              background-color: @elf-input-color;
+
+              i {
+                color: inherit;
+              }
+
+              &:hover {
+                &:not(.is-disabled) {
+                  &~.@{input} {
+                    .@{input}__inner {
+                      &:not(.is-disabled) {
+                        border-color: #C0C4CC;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+
+            & .@{input} {
+              &__inner {
+                color: @elf-input-text-color;
+                background-color: @elf-input-color;
+              }
+            }
+
+            &.is-disabled {
+              .@{input}__inner {
+                background-color: fade(@elf-input-color, 25%);
+              }
+            }
+          }
+        }
+      }
+
+      //CUSTOMIZE - INPUT NUMBER - CATALOG FORM
+      &-catalogForm {
+        //CUSTOMIZE - INPUT NUMBER - CATALOG FORM - RECURRING SETUP FORM
+        &-recurringSetupForm {
+          &:hover {
+            .@{input}__inner {
+              border-color: #C0C4CC;
+            }
+          }
+
+          .@{formItem} {
+            &__label {
+              color: @cf-rsf-text-color;
+              font-weight: 700;
+            }
+          }
+
+          .@{input} {
+            &-number {
+              & .@{input}-number__increase, & .@{input}-number__decrease {
+                color: @cf-rsf-input-text-color;
+                background-color: @cf-rsf-input-color;
+
+                i {
+                  color: inherit;
+                }
+
+                &:hover {
+                  &:not(.is-disabled) {
+                    &~.@{input} {
+                      .@{input}__inner {
+                        &:not(.is-disabled) {
+                          border-color: #C0C4CC;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+
+              & .@{input} {
+                &__inner {
+                  color: @cf-rsf-input-text-color;
+                  background-color: @cf-rsf-input-color;
+                }
+              }
+
+              &.is-disabled {
+                .@{input}__inner {
+                  background-color: fade(@cf-rsf-input-color, 25%);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    //CUSTOMIZE - CHECKBOX BTN
+    &.am-checkbox-btn {
+      //CUSTOMIZE - CHECKBOX BTN -STEP BY STEP
+      &-stepByStepForm {
+        //CUSTOMIZE - CHECKBOX BTN - STEP BY STEP - RECURRING SETUP FORM
+        &-recurringSetupForm {
+          .@{formItem} {
+            &__label {
+              color: @sbs-rsf-text-color;
+              font-weight: 700;
+            }
+          }
+
+          .@{checkBtn} {
+            & .@{checkBtn}__inner {
+              color: @sbs-rsf-input-text-color;
+              background-color: @sbs-rsf-input-color;
+            }
+          }
+
+          .@{checkGroup} {
+            .@{checkBtn} {
+              &.is-checked {
+                .@{checkBtn}__inner {
+                  color: @sbs-rsf-input-text-color;
+                  background-color: @color-accent;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      //CUSTOMIZE - CHECKBOX BTN -CATALOG FORM
+      &-catalogForm {
+        //CUSTOMIZE - CHECKBOX BTN - CATALOG FORM - RECURRING SETUP FORM
+        &-recurringSetupForm {
+          .@{formItem} {
+            &__label {
+              color: @cf-rsf-text-color;
+              font-weight: 700;
+            }
+          }
+
+          .@{checkBtn} {
+            & .@{checkBtn}__inner {
+              color: @cf-rsf-input-text-color;
+              background-color: @cf-rsf-input-color;
+            }
+          }
+
+          .@{checkGroup} {
+            .@{checkBtn} {
+              &.is-checked {
+                .@{checkBtn}__inner {
+                  color: @cf-rsf-input-text-color;
+                  background-color: @color-accent;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    //CUSTOMIZE - RADIO BTN
+    &.am-radio-btn {
+      //CUSTOMIZE - RADIO BTN - STEP BY STEP
+      &-stepByStepForm {
+
+        //CUSTOMIZE - RADIO BTN - STEP BY STEP - CONFIRM APPOINTMENT FORM
+        &-confirmBookingForm {
+          &-appointment {
+            .am-payment-type-radio {
+              span {
+                color: @sbs-caf-text-color;
+              }
+            }
+            .@{formItem} {
+              &__label {
+                color: @sbs-caf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @sbs-caf-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+          }
+
+          &-package {
+            .am-payment-type-radio {
+              span {
+                color: @sbs-cpf-text-color;
+              }
+            }
+            .@{formItem} {
+              &__label {
+                color: @sbs-cpf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @sbs-cpf-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      //CUSTOMIZE - RADIO BTN - EVENT LIST
+      &-eventListForm {
+
+        //CUSTOMIZE - RADIO BTN - EVENT LIST - CONFIRM EVENT FORM
+        &-confirmBookingForm {
+          &-event {
+            .am-payment-type-radio-checked {
+              .el-radio__label {
+                color: @color-accent;
+              }
+            }
+            .@{formItem} {
+              &__label {
+                color: @elf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @elf-text-color;
+                  font-weight: 700;
+                }
+              }
+              &__content {
+                span {
+                  color: @elf-text-color;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      //CUSTOMIZE - RADIO BTN - CATALOG FORM
+      &-catalogForm {
+
+        //CUSTOMIZE - RADIO BTN - CATALOG FORM - CONFIRM FORM
+        &-confirmBookingForm {
+          // APPOINTMENT
+          &-appointment {
+            .@{formItem} {
+              &__label {
+                color: @cf-caf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @cf-caf-text-color;
+                  font-weight: 700;
+                }
+              }
+              &__content {
+                span {
+                  color: @cf-caf-text-color;
+                }
+              }
+            }
+          }
+
+          // PACKAGE
+          &-package {
+            .@{formItem} {
+              &__label {
+                color: @cf-cpf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @cf-cpf-text-color;
+                  font-weight: 700;
+                }
+              }
+              &__content {
+                span {
+                  color: @cf-cpf-text-color;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    //CUSTOMIZE - CUSTOM FIELDS
+    &.am-custom {
+      //CUSTOMIZE - CUSTOM FIELDS - STEP BY STEP
+      &-stepByStepForm {
+        //CUSTOMIZE - CUSTOM FIELDS - STEP BY STEP - CONFIRM BOOKING
+        &-confirmBookingForm {
+          //CUSTOMIZE - CUSTOM FIELDS - STEP BY STEP - CONFIRM BOOKING - APPOINTMENT
+          &-appointment {
+            .@{formItem} {
+              &__label {
+                color: @sbs-caf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @sbs-caf-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            .@{input} {
+              &__inner {
+                color: @sbs-caf-input-text-color;
+                background-color: @sbs-caf-input-color;
+              }
+
+              &__suffix {
+                i {
+                  color: @sbs-caf-input-text-color;
+                }
+              }
+            }
+
+            .@{textarea} {
+              &__inner {
+                color: @sbs-caf-input-text-color;
+                background-color: @sbs-caf-input-color;
+              }
+            }
+
+            .@{radio} {
+              &__label {
+                color: @sbs-caf-text-color;
+                font-weight: 700;
+              }
+            }
+
+            .@{checkbox} {
+              &__label {
+                color: @sbs-caf-text-color;
+                font-weight: 700;
+              }
+
+              &.is-checked {
+                .@{checkbox}__label {
+                  color: @color-accent;
+                }
+              }
+            }
+
+            .@{upload} {
+              &-dragger {
+                background-color: @sbs-caf-bgr-color;
+              }
+            }
+
+            .am-calendar-picker.popover-container {
+              .popover-content-wrapper .popover-content {
+                color: @sbs-caf-dropdown-text-color;
+                background-color: @sbs-caf-dropdown-color;
+
+                * {
+                  color: @sbs-caf-dropdown-text-color;
+                }
+
+                .c-title-popover.popover-container {
+                  .popover-origin {
+                    background-color: @sbs-caf-dropdown-color;
+
+                    * {
+                      background-color: @sbs-caf-dropdown-color;
+                    }
+                  }
+                }
+
+                .c-day-content:hover {
+                  & > div {
+                    color: @color-accent;
+                  }
+                }
+
+                :not(.c-day-backgrounds.c-day-layer:empty) ~ .c-day-content-wrapper .c-day-content > div {
+                  color: @color-white;
+                }
+              }
+            }
+          }
+
+          //CUSTOMIZE - CUSTOM FIELDS - STEP BY STEP - CONFIRM BOOKING - PACKAGE
+          &-package {
+            .@{formItem} {
+              &__label {
+                color: @sbs-cpf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @sbs-cpf-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            .@{input} {
+              &__inner {
+                color: @sbs-cpf-input-text-color;
+                background-color: @sbs-cpf-input-color;
+              }
+
+              &__suffix {
+                i {
+                  color: @sbs-cpf-input-text-color;
+                }
+              }
+            }
+
+            .@{textarea} {
+              &__inner {
+                color: @sbs-cpf-input-text-color;
+                background-color: @sbs-cpf-input-color;
+              }
+            }
+
+            .@{radio} {
+              &__label {
+                color: @sbs-cpf-text-color;
+                font-weight: 700;
+              }
+            }
+
+            .@{checkbox} {
+              &__label {
+                color: @sbs-cpf-text-color;
+                font-weight: 700;
+              }
+
+              &.is-checked {
+                .@{checkbox}__label {
+                  color: @color-accent;
+                }
+              }
+            }
+
+            .@{upload} {
+              &-dragger {
+                background-color: @sbs-cpf-bgr-color;
+              }
+            }
+
+            .am-calendar-picker.popover-container {
+              .popover-content-wrapper .popover-content {
+                color: @sbs-cpf-dropdown-text-color;
+                background-color: @sbs-cpf-dropdown-color;
+
+                * {
+                  color: @sbs-cpf-dropdown-text-color;
+                }
+
+                .c-title-popover.popover-container {
+                  .popover-origin {
+                    background-color: @sbs-cpf-dropdown-color;
+
+                    * {
+                      background-color: @sbs-cpf-dropdown-color;
+                    }
+                  }
+                }
+
+                .c-day-content:hover {
+                  & > div {
+                    color: @color-accent;
+                  }
+                }
+
+                :not(.c-day-backgrounds.c-day-layer:empty) ~ .c-day-content-wrapper .c-day-content > div {
+                  color: @color-white;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      //CUSTOMIZE - CUSTOM FIELDS - EVENT LIST
+      &-eventListForm {
+        //CUSTOMIZE - CUSTOM FIELDS - EVENT LIST - CONFIRM BOOKING
+        &-confirmBookingForm {
+          //CUSTOMIZE - CUSTOM FIELDS - EVENT LIST - CONFIRM BOOKING - EVENT
+          &-event {
+            .@{formItem} {
+              &__label {
+                color: @elf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @elf-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            .@{input} {
+              &__inner {
+                color: @elf-input-text-color;
+                background-color: @elf-input-color;
+              }
+
+              &__suffix {
+                i {
+                  color: @elf-input-text-color;
+                }
+              }
+            }
+
+            .@{textarea} {
+              &__inner {
+                color: @elf-input-text-color;
+                background-color: @elf-input-color;
+              }
+            }
+
+            .@{radio} {
+              &__label {
+                color: @elf-text-color;
+                font-weight: 700;
+              }
+            }
+
+            .@{checkbox} {
+              &__label {
+                color: @elf-text-color;
+                font-weight: 700;
+              }
+
+              &.is-checked {
+                .@{checkbox}__label {
+                  color: @color-accent;
+                }
+              }
+            }
+
+            .@{upload} {
+              &-dragger {
+                background-color: @elf-bgr-color;
+              }
+            }
+
+            .am-calendar-picker.popover-container {
+              .popover-content-wrapper .popover-content {
+                color: @elf-dropdown-text-color !important;
+                background-color: @elf-dropdown-color !important;
+
+                * {
+                  color: @elf-dropdown-text-color !important;
+                }
+
+                .c-title-popover.popover-container {
+                  .popover-origin {
+                    background-color: @elf-dropdown-color !important;
+
+                    * {
+                      background-color: @elf-dropdown-color !important;
+                    }
+                  }
+                }
+
+                .c-day-content:hover {
+                  & > div {
+                    color: @color-accent !important;
+                  }
+                }
+
+                :not(.c-day-backgrounds.c-day-layer:empty) ~ .c-day-content-wrapper .c-day-content > div {
+                  color: @color-white !important;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      //CUSTOMIZE - CUSTOM FIELDS - CATALOG FORM
+      &-catalogForm {
+        //CUSTOMIZE - CUSTOM FIELDS - CATALOG FORM - CONFIRM BOOKING
+        &-confirmBookingForm {
+          //CUSTOMIZE - CUSTOM FIELDS - CATALOG FORM - CONFIRM BOOKING - APPOINTMENT
+          &-appointment {
+            .@{formItem} {
+              &__label {
+                color: @cf-caf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @cf-caf-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            .@{input} {
+              &__inner {
+                color: @cf-caf-input-text-color;
+                background-color: @cf-caf-input-color;
+              }
+
+              &__suffix {
+                i {
+                  color: @cf-caf-input-text-color;
+                }
+              }
+            }
+
+            .@{textarea} {
+              &__inner {
+                color: @cf-caf-input-text-color;
+                background-color: @cf-caf-input-color;
+              }
+            }
+
+            .@{radio} {
+              &__label {
+                color: @cf-caf-text-color;
+                font-weight: 700;
+              }
+            }
+
+            .@{checkbox} {
+              &__label {
+                color: @cf-caf-text-color;
+                font-weight: 700;
+              }
+
+              &.is-checked {
+                .@{checkbox}__label {
+                  color: @color-accent;
+                }
+              }
+            }
+
+            .@{upload} {
+              &-dragger {
+                background-color: @cf-caf-bgr-color;
+              }
+            }
+
+            .am-calendar-picker.popover-container {
+              .popover-content-wrapper .popover-content {
+                color: @cf-caf-dropdown-text-color;
+                background-color: @cf-caf-dropdown-color;
+
+                * {
+                  color: @cf-caf-dropdown-text-color;
+                }
+
+                .c-title-popover.popover-container {
+                  .popover-origin {
+                    background-color: @cf-caf-dropdown-color;
+
+                    * {
+                      background-color: @cf-caf-dropdown-color;
+                    }
+                  }
+                }
+
+                .c-day-content:hover {
+                  & > div {
+                    color: @color-accent;
+                  }
+                }
+
+                :not(.c-day-backgrounds.c-day-layer:empty) ~ .c-day-content-wrapper .c-day-content > div {
+                  color: @color-white;
+                }
+              }
+            }
+          }
+
+          //CUSTOMIZE - CUSTOM FIELDS - CATALOG FORM - CONFIRM BOOKING - PACKAGE
+          &-package {
+            .@{formItem} {
+              &__label {
+                color: @cf-cpf-text-color;
+                font-weight: 700;
+
+                span {
+                  color: @cf-cpf-text-color;
+                  font-weight: 700;
+                }
+              }
+            }
+
+            .@{input} {
+              &__inner {
+                color: @cf-cpf-input-text-color;
+                background-color: @cf-cpf-input-color;
+              }
+
+              &__suffix {
+                i {
+                  color: @cf-cpf-input-text-color;
+                }
+              }
+            }
+
+            .@{textarea} {
+              &__inner {
+                color: @cf-cpf-input-text-color;
+                background-color: @cf-cpf-input-color;
+              }
+            }
+
+            .@{radio} {
+              &__label {
+                color: @cf-cpf-text-color;
+                font-weight: 700;
+              }
+            }
+
+            .@{checkbox} {
+              &__label {
+                color: @cf-cpf-text-color;
+                font-weight: 700;
+              }
+
+              &.is-checked {
+                .@{checkbox}__label {
+                  color: @color-accent;
+                }
+              }
+            }
+
+            .@{upload} {
+              &-dragger {
+                background-color: @cf-cpf-bgr-color;
+              }
+            }
+
+            .am-calendar-picker.popover-container {
+              .popover-content-wrapper .popover-content {
+                color: @cf-cpf-dropdown-text-color;
+                background-color: @cf-cpf-dropdown-color;
+
+                * {
+                  color: @cf-cpf-dropdown-text-color;
+                }
+
+                .c-title-popover.popover-container {
+                  .popover-origin {
+                    background-color: @cf-cpf-dropdown-color;
+
+                    * {
+                      background-color: @cf-cpf-dropdown-color;
+                    }
+                  }
+                }
+
+                .c-day-content:hover {
+                  & > div {
+                    color: @color-accent;
+                  }
+                }
+
+                :not(.c-day-backgrounds.c-day-layer:empty) ~ .c-day-content-wrapper .c-day-content > div {
+                  color: @color-white;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // CREDIT CARD - STRIPE
+  .am-stripe {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin: 0;
+    padding-left: @padding-small;
+    border-radius: 4px;
+    background-color: #ffffff;
+
+    > div {
+      width: 100%;
+    }
+  }
+}
+
+// DROPDOWN CUSTOMIZE STYLES
+.@{select}-dropdown {
+  &.am-dropdown {
+    // STEP BY STEP FORM
+    &-stepByStepForm {
+      // STEP BY STEP FORM - SELECT SERVICE FORM
+      &-selectServiceForm {
+        background-color: @sbs-ssf-dropdown-color;
+        border-color: @sbs-ssf-dropdown-color;
+
+        & .@{select}-dropdown {
+          &__item {
+            color: @sbs-ssf-dropdown-text-color;
+
+            &:hover {
+              background-color: darken(@sbs-ssf-dropdown-color, 15%);
+            }
+
+            &.selected {
+              color: @color-accent;
+            }
+          }
+        }
+
+        &[x-placement^=bottom] {
+          & .popper__arrow {
+            border-bottom-color: @sbs-ssf-dropdown-color;
+
+            &::after {
+              border-bottom-color: @sbs-ssf-dropdown-color;
+            }
+          }
+        }
+
+        &[x-placement^=top] {
+          & .popper__arrow {
+            border-top-color: @sbs-ssf-dropdown-color;
+
+            &::after {
+              border-top-color: @sbs-ssf-dropdown-color;
+            }
+          }
+        }
+      }
+
+      // STEP BY STEP FORM - SELECT PACKAGE FORM
+      &-selectPackageForm {
+        background-color: @sbs-spf-dropdown-color;
+        border-color: @sbs-spf-dropdown-color;
+
+        & .@{select}-dropdown {
+          &__item {
+            color: @sbs-spf-dropdown-text-color;
+
+            &:hover {
+              background-color: darken(@sbs-spf-dropdown-color, 15%);
+            }
+
+            &.selected {
+              color: @color-accent;
+            }
+          }
+        }
+
+        &[x-placement^=bottom] {
+          & .popper__arrow {
+            border-bottom-color: @sbs-spf-dropdown-color;
+
+            &::after {
+              border-bottom-color: @sbs-spf-dropdown-color;
+            }
+          }
+        }
+
+        &[x-placement^=top] {
+          & .popper__arrow {
+            border-top-color: @sbs-spf-dropdown-color;
+
+            &::after {
+              border-top-color: @sbs-spf-dropdown-color;
+            }
+          }
+        }
+      }
+
+      // STEP BY STEP FORM - RECURRING SETUP FORM
+      &-recurringSetupForm {
+        background-color: @sbs-rsf-dropdown-color;
+        border-color: @sbs-rsf-dropdown-color;
+
+        & .@{select}-dropdown {
+          &__item {
+            color: @sbs-rsf-dropdown-text-color;
+
+            &:hover {
+              background-color: darken(@sbs-rsf-dropdown-color, 15%);
+            }
+
+            &.selected {
+              color: @color-accent;
+            }
+          }
+        }
+
+        &[x-placement^=bottom] {
+          & .popper__arrow {
+            border-bottom-color: @sbs-rsf-dropdown-color;
+
+            &::after {
+              border-bottom-color: @sbs-rsf-dropdown-color;
+            }
+          }
+        }
+
+        &[x-placement^=top] {
+          & .popper__arrow {
+            border-top-color: @sbs-rsf-dropdown-color;
+
+            &::after {
+              border-top-color: @sbs-rsf-dropdown-color;
+            }
+          }
+        }
+      }
+
+      // STEP BY STEP FORM - RECURRING DATES FORM
+      &-recurringDatesForm {
+        background-color: @sbs-rdf-dropdown-color;
+        border-color: @sbs-rdf-dropdown-color;
+
+        & .@{select}-dropdown {
+          &__item {
+            color: @sbs-rdf-dropdown-text-color;
+
+            &:hover {
+              background-color: darken(@sbs-rdf-dropdown-color, 15%);
+            }
+
+            &.selected {
+              color: @color-accent;
+            }
+          }
+        }
+
+        &[x-placement^=bottom] {
+          & .popper__arrow {
+            border-bottom-color: @sbs-rdf-dropdown-color;
+
+            &::after {
+              border-bottom-color: @sbs-rdf-dropdown-color;
+            }
+          }
+        }
+
+        &[x-placement^=top] {
+          & .popper__arrow {
+            border-top-color: @sbs-rdf-dropdown-color;
+
+            &::after {
+              border-top-color: @sbs-rdf-dropdown-color;
+            }
+          }
+        }
+      }
+
+      // STEP BY STEP FORM - RECURRING SETUP FORM
+      &-packageSetupForm {
+        background-color: @sbs-psf-dropdown-color;
+        border-color: @sbs-psf-dropdown-color;
+
+        & .@{select}-dropdown {
+          &__item {
+            color: @sbs-psf-dropdown-text-color;
+
+            &:hover {
+              background-color: darken(@sbs-psf-dropdown-color, 15%);
+            }
+
+            &.selected {
+              color: @color-accent;
+            }
+          }
+        }
+
+        &[x-placement^=bottom] {
+          & .popper__arrow {
+            border-bottom-color: @sbs-psf-dropdown-color;
+
+            &::after {
+              border-bottom-color: @sbs-psf-dropdown-color;
+            }
+          }
+        }
+
+        &[x-placement^=top] {
+          & .popper__arrow {
+            border-top-color: @sbs-psf-dropdown-color;
+
+            &::after {
+              border-top-color: @sbs-psf-dropdown-color;
+            }
+          }
+        }
+      }
+
+      // STEP BY STEP FORM - CONFIRM APPOINTMENT FORM
+      &-confirmBookingForm {
+        &-appointment {
+          background-color: @sbs-caf-dropdown-color;
+          border-color: @sbs-caf-dropdown-color;
+
+          & .@{select}-dropdown {
+            &__item {
+              color: @sbs-caf-dropdown-text-color;
+
+              &:hover {
+                background-color: darken(@sbs-caf-dropdown-color, 15%);
+              }
+
+              &.selected {
+                color: @color-accent;
+              }
+
+              .am-phone-input-phonecode {
+                color: @sbs-caf-dropdown-text-color;
+              }
+            }
+          }
+
+          &[x-placement^=bottom] {
+            & .popper__arrow {
+              border-bottom-color: @sbs-caf-dropdown-color;
+
+              &::after {
+                border-bottom-color: @sbs-caf-dropdown-color;
+              }
+            }
+          }
+
+          &[x-placement^=top] {
+            & .popper__arrow {
+              border-top-color: @sbs-caf-dropdown-color;
+
+              &::after {
+                border-top-color: @sbs-caf-dropdown-color;
+              }
+            }
+          }
+        }
+
+        &-package {
+          background-color: @sbs-cpf-dropdown-color;
+          border-color: @sbs-cpf-dropdown-color;
+
+          & .@{select}-dropdown {
+            &__item {
+              color: @sbs-cpf-dropdown-text-color;
+
+              &:hover {
+                background-color: darken(@sbs-cpf-dropdown-color, 15%);
+              }
+
+              &.selected {
+                color: @color-accent;
+              }
+
+              .am-phone-input-phonecode {
+                color: @sbs-cpf-dropdown-text-color;
+              }
+            }
+          }
+
+          &[x-placement^=bottom] {
+            & .popper__arrow {
+              border-bottom-color: @sbs-cpf-dropdown-color;
+
+              &::after {
+                border-bottom-color: @sbs-cpf-dropdown-color;
+              }
+            }
+          }
+
+          &[x-placement^=top] {
+            & .popper__arrow {
+              border-top-color: @sbs-cpf-dropdown-color;
+
+              &::after {
+                border-top-color: @sbs-cpf-dropdown-color;
+              }
+            }
+          }
+        }
+      }
+
+      // STEP BY STEP FORM - CONGRATULATIONS APPOINTMENT FORM
+      &-congratulationsForm {
+        &-appointment {
+          background-color: @sbs-coa-dropdown-color;
+          border-color: @sbs-coa-dropdown-color;
+
+          & .@{select}-dropdown {
+            &__item {
+              color: @sbs-coa-dropdown-text-color;
+
+              &:hover {
+                background-color: darken(@sbs-coa-dropdown-color, 15%);
+              }
+
+              &.selected {
+                color: @color-accent;
+              }
+            }
+          }
+
+          &[x-placement^=bottom] {
+            & .popper__arrow {
+              border-bottom-color: @sbs-coa-dropdown-color;
+
+              &::after {
+                border-bottom-color: @sbs-coa-dropdown-color;
+              }
+            }
+          }
+
+          &[x-placement^=top] {
+            & .popper__arrow {
+              border-top-color: @sbs-coa-dropdown-color;
+
+              &::after {
+                border-top-color: @sbs-coa-dropdown-color;
+              }
+            }
+          }
+        }
+
+        &-package {
+          background-color: @sbs-cop-dropdown-color;
+          border-color: @sbs-cop-dropdown-color;
+
+          & .@{select}-dropdown {
+            &__item {
+              color: @sbs-cop-dropdown-text-color;
+
+              &:hover {
+                background-color: darken(@sbs-cop-dropdown-color, 15%);
+              }
+
+              &.selected {
+                color: @color-accent;
+              }
+            }
+          }
+
+          &[x-placement^=bottom] {
+            & .popper__arrow {
+              border-bottom-color: @sbs-cop-dropdown-color;
+
+              &::after {
+                border-bottom-color: @sbs-cop-dropdown-color;
+              }
+            }
+          }
+
+          &[x-placement^=top] {
+            & .popper__arrow {
+              border-top-color: @sbs-cop-dropdown-color;
+
+              &::after {
+                border-top-color: @sbs-cop-dropdown-color;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // CATALOG FORM
+    &-catalogForm {
+      // CATALOG FORM - SELECT SERVICE FORM
+      &-selectServiceForm {
+        background-color: @cf-ssf-dropdown-color;
+        border-color: @cf-ssf-dropdown-color;
+
+        & .@{select}-dropdown {
+          &__item {
+            color: @cf-ssf-dropdown-text-color;
+
+            &:hover {
+              background-color: darken(@cf-ssf-dropdown-color, 15%);
+            }
+
+            &.selected {
+              color: @color-accent;
+            }
+          }
+        }
+
+        &[x-placement^=bottom] {
+          & .popper__arrow {
+            border-bottom-color: @cf-ssf-dropdown-color;
+
+            &::after {
+              border-bottom-color: @cf-ssf-dropdown-color;
+            }
+          }
+        }
+
+        &[x-placement^=top] {
+          & .popper__arrow {
+            border-top-color: @cf-ssf-dropdown-color;
+
+            &::after {
+              border-top-color: @cf-ssf-dropdown-color;
+            }
+          }
+        }
+      }
+
+      // CATALOG FORM - RECURRING SETUP FORM
+      &-recurringSetupForm {
+        background-color: @cf-rsf-dropdown-color;
+        border-color: @cf-rsf-dropdown-color;
+
+        & .@{select}-dropdown {
+          &__item {
+            color: @cf-rsf-dropdown-text-color;
+
+            &:hover {
+              background-color: darken(@cf-rsf-dropdown-color, 15%);
+            }
+
+            &.selected {
+              color: @color-accent;
+            }
+          }
+        }
+
+        &[x-placement^=bottom] {
+          & .popper__arrow {
+            border-bottom-color: @cf-rsf-dropdown-color;
+
+            &::after {
+              border-bottom-color: @cf-rsf-dropdown-color;
+            }
+          }
+        }
+
+        &[x-placement^=top] {
+          & .popper__arrow {
+            border-top-color: @cf-rsf-dropdown-color;
+
+            &::after {
+              border-top-color: @cf-rsf-dropdown-color;
+            }
+          }
+        }
+      }
+
+      // CATALOG FORM - RECURRING DATES FORM
+      &-recurringDatesForm {
+        background-color: @cf-rdf-dropdown-color;
+        border-color: @cf-rdf-dropdown-color;
+
+        & .@{select}-dropdown {
+          &__item {
+            color: @cf-rdf-dropdown-text-color;
+
+            &:hover {
+              background-color: darken(@cf-rdf-dropdown-color, 15%);
+            }
+
+            &.selected {
+              color: @color-accent;
+            }
+          }
+        }
+
+        &[x-placement^=bottom] {
+          & .popper__arrow {
+            border-bottom-color: @cf-rdf-dropdown-color;
+
+            &::after {
+              border-bottom-color: @cf-rdf-dropdown-color;
+            }
+          }
+        }
+
+        &[x-placement^=top] {
+          & .popper__arrow {
+            border-top-color: @cf-rdf-dropdown-color;
+
+            &::after {
+              border-top-color: @cf-rdf-dropdown-color;
+            }
+          }
+        }
+      }
+
+      // CATALOG FORM - RECURRING SETUP FORM
+      &-packageSetupForm {
+        background-color: @cf-psf-dropdown-color;
+        border-color: @cf-psf-dropdown-color;
+
+        & .@{select}-dropdown {
+          &__item {
+            color: @cf-psf-dropdown-text-color;
+
+            &:hover {
+              background-color: darken(@cf-psf-dropdown-color, 15%);
+            }
+
+            &.selected {
+              color: @color-accent;
+            }
+          }
+        }
+
+        &[x-placement^=bottom] {
+          & .popper__arrow {
+            border-bottom-color: @cf-psf-dropdown-color;
+
+            &::after {
+              border-bottom-color: @cf-psf-dropdown-color;
+            }
+          }
+        }
+
+        &[x-placement^=top] {
+          & .popper__arrow {
+            border-top-color: @cf-psf-dropdown-color;
+
+            &::after {
+              border-top-color: @cf-psf-dropdown-color;
+            }
+          }
+        }
+      }
+
+      // CATALOG FORM - CONFIRM APPOINTMENT FORM
+      &-confirmBookingForm {
+        &-appointment {
+          background-color: @cf-caf-dropdown-color;
+          border-color: @cf-caf-dropdown-color;
+
+          & .@{select}-dropdown {
+            &__item {
+              color: @cf-caf-dropdown-text-color;
+
+              &:hover {
+                background-color: darken(@cf-caf-dropdown-color, 15%);
+              }
+
+              &.selected {
+                color: @color-accent;
+              }
+            }
+          }
+
+          &[x-placement^=bottom] {
+            & .popper__arrow {
+              border-bottom-color: @cf-caf-dropdown-color;
+
+              &::after {
+                border-bottom-color: @cf-caf-dropdown-color;
+              }
+            }
+          }
+
+          &[x-placement^=top] {
+            & .popper__arrow {
+              border-top-color: @cf-caf-dropdown-color;
+
+              &::after {
+                border-top-color: @cf-caf-dropdown-color;
+              }
+            }
+          }
+        }
+
+        &-package {
+          background-color: @cf-cpf-dropdown-color;
+          border-color: @cf-cpf-dropdown-color;
+
+          & .@{select}-dropdown {
+            &__item {
+              color: @cf-cpf-dropdown-text-color;
+
+              &:hover {
+                background-color: darken(@cf-cpf-dropdown-color, 15%);
+              }
+
+              &.selected {
+                color: @color-accent;
+              }
+            }
+          }
+
+          &[x-placement^=bottom] {
+            & .popper__arrow {
+              border-bottom-color: @cf-cpf-dropdown-color;
+
+              &::after {
+                border-bottom-color: @cf-cpf-dropdown-color;
+              }
+            }
+          }
+
+          &[x-placement^=top] {
+            & .popper__arrow {
+              border-top-color: @cf-cpf-dropdown-color;
+
+              &::after {
+                border-top-color: @cf-cpf-dropdown-color;
+              }
+            }
+          }
+        }
+      }
+
+      // CATALOG FORM - CONGRATULATIONS APPOINTMENT FORM
+      &-congratulationsForm {
+        &-appointment {
+          background-color: @cf-coa-dropdown-color;
+          border-color: @cf-coa-dropdown-color;
+
+          & .@{select}-dropdown {
+            &__item {
+              color: @cf-coa-dropdown-text-color;
+
+              &:hover {
+                background-color: darken(@cf-coa-dropdown-color, 15%);
+              }
+
+              &.selected {
+                color: @color-accent;
+              }
+
+              .am-phone-input-phonecode {
+                color: @cf-coa-dropdown-text-color;
+              }
+            }
+          }
+
+          &[x-placement^=bottom] {
+            & .popper__arrow {
+              border-bottom-color: @cf-coa-dropdown-color;
+
+              &::after {
+                border-bottom-color: @cf-coa-dropdown-color;
+              }
+            }
+          }
+
+          &[x-placement^=top] {
+            & .popper__arrow {
+              border-top-color: @cf-coa-dropdown-color;
+
+              &::after {
+                border-top-color: @cf-coa-dropdown-color;
+              }
+            }
+          }
+        }
+
+        &-package {
+          background-color: @cf-cop-dropdown-color;
+          border-color: @cf-cop-dropdown-color;
+
+          & .@{select}-dropdown {
+            &__item {
+              color: @cf-cop-dropdown-text-color;
+
+              &:hover {
+                background-color: darken(@cf-cop-dropdown-color, 15%);
+              }
+
+              &.selected {
+                color: @color-accent;
+              }
+
+              .am-phone-input-phonecode {
+                color: @cf-cop-dropdown-text-color;
+              }
+            }
+          }
+
+          &[x-placement^=bottom] {
+            & .popper__arrow {
+              border-bottom-color: @cf-cop-dropdown-color;
+
+              &::after {
+                border-bottom-color: @cf-cop-dropdown-color;
+              }
+            }
+          }
+
+          &[x-placement^=top] {
+            & .popper__arrow {
+              border-top-color: @cf-cop-dropdown-color;
+
+              &::after {
+                border-top-color: @cf-cop-dropdown-color;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // EVENT LIST FORM
+    &-eventListForm {
+      background-color: @elf-dropdown-color;
+      border-color: @elf-dropdown-color;
+
+      & .@{select}-dropdown {
+        &__item {
+          color: @elf-dropdown-text-color;
+
+          &:hover {
+            background-color: darken(@elf-dropdown-color, 15%);
+          }
+
+          &.selected {
+            color: @color-accent;
+          }
+        }
+      }
+
+      &[x-placement^=bottom] {
+        & .popper__arrow {
+          border-bottom-color: @elf-dropdown-color;
+
+          &::after {
+            border-bottom-color: @elf-dropdown-color;
+          }
+        }
+      }
+
+      &[x-placement^=top] {
+        & .popper__arrow {
+          border-top-color: @elf-dropdown-color;
+
+          &::after {
+            border-top-color: @elf-dropdown-color;
+          }
+        }
+      }
+
+      // EVENT LIST FORM - CONFIRM EVENT FORM
+      &-confirmBookingForm, &-congratulationsForm {
+        &-event {
+          background-color: @elf-dropdown-color;
+          border-color: @elf-dropdown-color;
+
+          & .@{select}-dropdown {
+            &__item {
+              color: @elf-dropdown-text-color;
+
+              &:hover {
+                background-color: darken(@elf-dropdown-color, 15%);
+              }
+
+              &.selected {
+                color: @color-accent;
+              }
+
+              .am-phone-input-phonecode {
+                color: @elf-dropdown-text-color;
+              }
+            }
+          }
+
+          &[x-placement^=bottom] {
+            & .popper__arrow {
+              border-bottom-color: @elf-dropdown-color;
+
+              &::after {
+                border-bottom-color: @elf-dropdown-color;
+              }
+            }
+          }
+
+          &[x-placement^=top] {
+            & .popper__arrow {
+              border-top-color: @elf-dropdown-color;
+
+              &::after {
+                border-top-color: @elf-dropdown-color;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // EVENT CALENDAR FORM
+    &-eventCalendarForm {
+      // EVENT CALENDAR FORM - CONFIRM EVENT FORM
+      &-confirmBookingForm {
+        &-event {
+          background-color: @ecf-cef-dropdown-color;
+          border-color: @ecf-cef-dropdown-color;
+
+          & .@{select}-dropdown {
+            &__item {
+              color: @ecf-cef-dropdown-text-color;
+
+              &:hover {
+                background-color: darken(@ecf-cef-dropdown-color, 15%);
+              }
+
+              &.selected {
+                color: @color-accent;
+              }
+
+              .am-phone-input-phonecode {
+                color: @ecf-cef-dropdown-text-color;
+              }
+            }
+          }
+
+          &[x-placement^=bottom] {
+            & .popper__arrow {
+              border-bottom-color: @ecf-cef-dropdown-color;
+
+              &::after {
+                border-bottom-color: @ecf-cef-dropdown-color;
+              }
+            }
+          }
+
+          &[x-placement^=top] {
+            & .popper__arrow {
+              border-top-color: @ecf-cef-dropdown-color;
+
+              &::after {
+                border-top-color: @ecf-cef-dropdown-color;
+              }
+            }
+          }
+        }
+      }
+
+      &-congratulationsForm {
+        &-event {
+          background-color: @ecf-coe-dropdown-color;
+          border-color: @ecf-coe-dropdown-color;
+
+          & .@{select}-dropdown {
+            &__item {
+              color: @ecf-coe-dropdown-text-color;
+
+              &:hover {
+                background-color: darken(@ecf-coe-dropdown-color, 15%);
+              }
+
+              &.selected {
+                color: @color-accent;
+              }
+
+              .am-phone-input-phonecode {
+                color: @ecf-coe-dropdown-text-color;
+              }
+            }
+          }
+
+          &[x-placement^=bottom] {
+            & .popper__arrow {
+              border-bottom-color: @ecf-coe-dropdown-color;
+
+              &::after {
+                border-bottom-color: @ecf-coe-dropdown-color;
+              }
+            }
+          }
+
+          &[x-placement^=top] {
+            & .popper__arrow {
+              border-top-color: @ecf-coe-dropdown-color;
+
+              &::after {
+                border-top-color: @ecf-coe-dropdown-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// DIALOG
+#am-modal.am-modal.am-in-body {
+  &.am-event-modal.event-dialog {
+    .am-event-modal {
+      &__confirm-booking {
+        p {
+          color: @ecf-cef-text-color;
+        }
+      }
+    }
+
+    // FORM
+    .am-form {
+      &-eventCalendarForm {
+        //EVENT CALENDAR - CONGRATULATIONS BOOKING FORM
+        &-congratulationsForm {
+          //EVENT CALENDAR - CONGRATULATIONS BOOKING FORM - APPOINTMENT
+          &-event {
+            &.am-success-payment {
+              h4, p {
+                color: @ecf-coe-text-color;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // FORM ITEMS
+    .@{formItem} {
+      // CUSTOMIZE - INPUT
+      &.am-input {
+        // CUSTOMIZE - INPUT - EVENT CALENDAR
+        &-eventCalendarForm {
+          // CUSTOMIZE - INPUT - EVENT CALENDAR - CONFIRM BOOKING
+          &-confirmBookingForm {
+            // CUSTOMIZE - INPUT - EVENT CALENDAR - CONFIRM BOOKING EVENT
+            &-event {
+              .@{formItem} {
+                &__label {
+                  color: @ecf-cef-text-color;
+                  font-weight: 700;
+                }
+              }
+
+              .@{input} {
+                &__inner {
+                  color: @ecf-cef-input-text-color;
+                  background-color: @ecf-cef-input-color;
+
+                  &::placeholder {
+                    color: fade(@ecf-cef-input-text-color, 60%);
+                  }
+                  &::-webkit-input-placeholder {
+                    color: fade(@ecf-cef-input-text-color, 60%);
+                  }
+                  &::-moz-placeholder {
+                    color: fade(@ecf-cef-input-text-color, 60%);
+                  }
+                  &:-ms-input-placeholder {
+                    color: fade(@ecf-cef-input-text-color, 60%);
+                  }
+                  &:-moz-placeholder {
+                    color: fade(@ecf-cef-input-text-color, 60%);
+                  }
+                }
+
+                &.is-disabled {
+                  .@{input}__inner {
+                    border-color: #e4e7ed;
+                    background-color: lighten(@ecf-cef-input-color, 15%);
+                  }
+                }
+
+                &-group {
+                  &__prepend {
+                    background-color: @ecf-cef-input-color;
+
+                    .@{input}__icon {
+                      color: @ecf-cef-input-text-color;
+                    }
+
+                    .am-selected-flag {
+                      .@{input}__inner {
+                        background-color: transparent;
+                      }
+                    }
+                  }
+
+                  .@{input} {
+                    &__suffix {
+                      i {
+                        color: @ecf-cef-input-text-color;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      //CUSTOMIZE - SELECT
+      &.am-select {
+        //CUSTOMIZE - SELECT - EVENT CALENDAR
+        &-eventCalendarForm {
+          //CUSTOMIZE - SELECT - EVENT CALENDAR - CONFIRM EVENT FORM
+          &-confirmBookingForm {
+            &-event {
+              .@{formItem} {
+                &__label {
+                  color: @ecf-cef-text-color;
+                  font-weight: 700;
+
+                  span {
+                    color: @ecf-cef-text-color;
+                    font-weight: 700;
+                  }
+                }
+              }
+
+              .@{input} {
+                &:hover {
+                  .@{select} {
+                    &__caret {
+                      color: @ecf-cef-input-text-color;
+                    }
+                  }
+                }
+
+                & .@{input}__inner {
+                  color: @ecf-cef-input-text-color;
+                  background-color: @ecf-cef-input-color;
+                }
+
+                &.is-disabled {
+                  .@{input}__inner {
+                    background-color: fade(@ecf-cef-input-color, 25%);
+                  }
+                }
+
+                & .@{select} {
+                  &__caret {
+                    color: fade(@ecf-cef-input-text-color, 75%);
+                  }
+                }
+              }
+
+              .am-payment-button {
+                svg {
+                  fill: @ecf-cef-text-color;
+                }
+
+                &-selected, &:hover {
+                  p {
+                    color: @color-accent;
+                  }
+                }
+              }
+            }
+          }
+
+          &-congratulationsForm {
+            &-event {
+              .@{input} {
+                &:hover {
+                  .@{select} {
+                    &__caret {
+                      color: @ecf-coe-input-text-color;
+                    }
+                  }
+                }
+
+                & .@{input}__inner {
+                  color: @ecf-coe-input-text-color;
+                  background-color: @ecf-coe-input-color;
+
+                  &::placeholder {
+                    color: fade(@ecf-coe-input-text-color, 60%);
+                  }
+
+                  &::-webkit-input-placeholder {
+                    color: fade(@ecf-coe-input-text-color, 60%);
+                  }
+
+                  &::-moz-placeholder {
+                    color: fade(@ecf-coe-input-text-color, 60%);
+                  }
+
+                  &:-ms-input-placeholder {
+                    color: fade(@ecf-coe-input-text-color, 60%);
+                  }
+
+                  &:-moz-placeholder {
+                    color: fade(@ecf-coe-input-text-color, 60%);
+                  }
+                }
+
+                &.is-disabled {
+                  .@{input}__inner {
+                    background-color: fade(@ecf-coe-input-color, 25%);
+                  }
+                }
+
+                & .@{select} {
+                  &__caret {
+                    color: fade(@ecf-coe-input-text-color, 75%);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      // CUSTOMIZE - BLOCK
+      &.am-block {
+        &-eventCalendarForm {
+          &-confirmBookingForm {
+            &-event {
+              .@{formItem} {
+                &__label {
+                  color: @ecf-cef-text-color;
+
+                  span {
+                    color: @ecf-cef-text-color;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      //CUSTOMIZE - CUSTOM FIELDS
+      &.am-custom {
+        //CUSTOMIZE - CUSTOM FIELDS - EVENT CALENDAR
+        &-eventCalendarForm {
+          //CUSTOMIZE - CUSTOM FIELDS - EVENT CALENDAR - CONFIRM BOOKING
+          &-confirmBookingForm {
+            //CUSTOMIZE - CUSTOM FIELDS - EVENT CALENDAR - CONFIRM BOOKING - EVENT
+            &-event {
+              .@{formItem} {
+                &__label {
+                  color: @ecf-cef-text-color;
+                  font-weight: 700;
+
+                  span {
+                    color: @ecf-cef-text-color;
+                    font-weight: 700;
+                  }
+                }
+              }
+
+              .@{input} {
+                &__inner {
+                  color: @ecf-cef-input-text-color;
+                  background-color: @ecf-cef-input-color;
+                }
+
+                &__suffix {
+                  i {
+                    color: @ecf-cef-input-text-color;
+                  }
+                }
+              }
+
+              .@{textarea} {
+                &__inner {
+                  color: @ecf-cef-input-text-color;
+                  background-color: @ecf-cef-input-color;
+                }
+              }
+
+              .@{radio} {
+                &__label {
+                  color: @ecf-cef-text-color;
+                  font-weight: 700;
+                }
+
+                &.is-checked {
+                  .@{radio}__label {
+                    color: @color-accent;
+                  }
+                }
+              }
+
+              .@{checkbox} {
+                &__label {
+                  color: @ecf-cef-text-color;
+                  font-weight: 700;
+                }
+
+                &.is-checked {
+                  .@{checkbox}__label {
+                    color: @color-accent;
+                  }
+                }
+              }
+
+              .@{upload} {
+                &-dragger {
+                  background-color: @ecf-cef-bgr-color;
+
+                  span {
+                    color: @color-accent;
+                  }
+                }
+              }
+
+              .am-calendar-picker.popover-container {
+                .popover-content-wrapper .popover-content {
+                  color: @ecf-cef-dropdown-text-color;
+                  background-color: @ecf-cef-dropdown-color;
+
+                  * {
+                    color: @ecf-cef-dropdown-text-color;
+                  }
+
+                  .c-title-popover.popover-container {
+                    .popover-origin {
+                      background-color: @ecf-cef-dropdown-color;
+
+                      * {
+                        background-color: @ecf-cef-dropdown-color;
+                      }
+                    }
+                  }
+
+                  .c-day-content:hover {
+                    & > div {
+                      color: @color-accent;
+                    }
+                  }
+
+                  :not(.c-day-backgrounds.c-day-layer:empty) ~ .c-day-content-wrapper .c-day-content > div {
+                    color: @color-white;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // CREDIT CARD - STRIPE
+  .am-stripe {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin: 0;
+    padding-left: @padding-small;
+    border-radius: 4px;
+    background-color: #ffffff;
+
+    > div {
+      width: 100%;
+    }
+  }
+}
